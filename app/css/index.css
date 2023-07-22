@@ -235,6 +235,9 @@ body {
 .categories-page .categories .category a:hover {
   color: gray;
 }
+.categories-page .categories .category__selected {
+  font-weight: bold;
+}
 
 .categories-results {
   display: flex;
