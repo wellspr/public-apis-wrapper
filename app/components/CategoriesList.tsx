@@ -23,7 +23,7 @@ const CategoriesList: FC = () => {
                                 to={`/${entry.toLowerCase().split(" ")[0]}`}
                                 state={{ category: entry }}
                             >
-                                <span className={ state.category === entry ? `category__selected` : "" }>
+                                <span className={ (state && state.category) === entry ? `category__selected` : "" }>
                                     {entry}
                                 </span>
                             </Link>
