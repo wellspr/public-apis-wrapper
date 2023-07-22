@@ -25,7 +25,7 @@ const CategoriesList: FC = () => {
     });
 
     return (
-        <ul className="categories hidden">
+        <ul className="categories">
             {renderCategoriesList}
         </ul>
     );

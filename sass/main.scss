@@ -39,10 +39,26 @@ body {
     max-width: 1200px;
 }
 
+@keyframes open_menu {
+    0% {
+        height: 0;
+        opacity: 0;
+    }
+
+    100% {
+        height: auto;
+        opacity: 1;
+    }
+}
+
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+    &__main-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
     margin: 1rem 3rem;
 
     @media (max-width: 768px) {
@@ -100,7 +116,7 @@ body {
             display: none;
         }
 
-        .button-menu {
+        &__button-menu {
             background-color: transparent;
             border: none;
 
@@ -121,9 +137,9 @@ body {
         }
 
         &__navigation {
-            display: none;
-            position: absolute;
-            right: 0;
+            height: 0;
+            opacity: 0;
+            transition: all .2s ease-in-out;
 
             ul {
                 margin-top: 1.6rem;
@@ -154,7 +170,7 @@ body {
         }
 
         .show {
-            display: block;
+            animation: open_menu both 0.2s;
         }
     }
 }
@@ -222,16 +238,20 @@ body {
     gap: 2rem;
 
     @media (max-width: 768px) {
-        //position: relative;
+        flex-direction: column;
     }
 
     .categories {
         font-size: 1.4rem;
 
         @media (max-width: 768px) {
+            order: 1;
+            /*
             position: absolute;
             top: 0;
             background-color: #999;
+
+            */
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -250,7 +270,7 @@ body {
                 color: #333;
 
                 @media (max-width: 768px) {
-                    color: #eee;
+                    //color: #eee;
                 }
 
                 &:hover {
@@ -258,10 +278,6 @@ body {
                 }
             }
         }
-    }
-
-    .hidden {
-        display: none;
     }
 }
 
@@ -375,8 +391,7 @@ body {
     }
 }
 
-.search {
-}
+/* .search {} */
 
 .search-bar {
     display: flex;
@@ -412,7 +427,7 @@ body {
             position: relative;
             z-index: 100;
             background-color: transparent;
-            box-shadow: 0 1px 8px 1px #999;
+            box-shadow: 0 1px 8px 1px #ccc;
 
             &::placeholder {
                 color: transparent;

@@ -27,11 +27,23 @@ body {
   max-width: 1200px;
 }
 
+@keyframes open_menu {
+  0% {
+    height: 0;
+    opacity: 0;
+  }
+  100% {
+    height: auto;
+    opacity: 1;
+  }
+}
 .header {
+  margin: 1rem 3rem;
+}
+.header__main-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem 3rem;
 }
 @media (max-width: 768px) {
   .header {
@@ -78,29 +90,29 @@ body {
     display: none;
   }
 }
-.header .menu-small .button-menu {
+.header .menu-small__button-menu {
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
-.header .menu-small .button-menu .icon {
+.header .menu-small__button-menu .icon {
   height: 4rem;
   width: 4rem;
 }
 @media (max-width: 768px) {
-  .header .menu-small .button-menu {
+  .header .menu-small__button-menu {
     display: block;
   }
 }
 @media (min-width: 769px) {
-  .header .menu-small .button-menu {
+  .header .menu-small__button-menu {
     display: none;
   }
 }
 .header .menu-small__navigation {
-  display: none;
-  position: absolute;
-  right: 0;
+  height: 0;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
 }
 .header .menu-small__navigation ul {
   margin-top: 1.6rem;
@@ -124,7 +136,7 @@ body {
   color: #6f6f6f;
 }
 .header .menu-small .show {
-  display: block;
+  animation: open_menu both 0.2s;
 }
 
 .main {
@@ -183,14 +195,23 @@ body {
   display: flex;
   gap: 2rem;
 }
+@media (max-width: 768px) {
+  .categories-page {
+    flex-direction: column;
+  }
+}
 .categories-page .categories {
   font-size: 1.4rem;
 }
 @media (max-width: 768px) {
   .categories-page .categories {
+    order: 1;
+    /*
     position: absolute;
     top: 0;
     background-color: #999;
+
+    */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -208,16 +229,8 @@ body {
   text-decoration: none;
   color: #333;
 }
-@media (max-width: 768px) {
-  .categories-page .categories .category a {
-    color: #eee;
-  }
-}
 .categories-page .categories .category a:hover {
   color: gray;
-}
-.categories-page .hidden {
-  display: none;
 }
 
 .categories-results {
@@ -306,6 +319,7 @@ body {
   box-shadow: 0 2px 8px 1px #aaa;
 }
 
+/* .search {} */
 .search-bar {
   display: flex;
   flex-direction: column;
@@ -339,7 +353,7 @@ body {
   position: relative;
   z-index: 100;
   background-color: transparent;
-  box-shadow: 0 1px 8px 1px #999;
+  box-shadow: 0 1px 8px 1px #ccc;
 }
 .search-bar .term-input input[name=term]::placeholder {
   color: transparent;
