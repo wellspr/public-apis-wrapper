@@ -90,24 +90,27 @@ body {
     display: none;
   }
 }
-.header .menu-small__button-menu {
+.header .menu-small__button-menu, .header .menu-small__button-close {
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
-.header .menu-small__button-menu .icon {
+.header .menu-small__button-menu .icon, .header .menu-small__button-close .icon {
   height: 4rem;
   width: 4rem;
 }
 @media (max-width: 768px) {
-  .header .menu-small__button-menu {
+  .header .menu-small__button-menu, .header .menu-small__button-close {
     display: block;
   }
 }
 @media (min-width: 769px) {
-  .header .menu-small__button-menu {
+  .header .menu-small__button-menu, .header .menu-small__button-close {
     display: none;
   }
+}
+.header .menu-small .hidden {
+  display: none;
 }
 .header .menu-small__navigation {
   height: 0;

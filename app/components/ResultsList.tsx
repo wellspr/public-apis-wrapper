@@ -1,13 +1,12 @@
-import { FC, ReactNode } from "react";
+import { FC } from "react";
 import Result from "./Result";
 import { Entry } from "~/routes/$category";
 
 interface ResultsListProps {
     results: Entry[];
-    children?: ReactNode;
 }
 
-const ResultsList: FC<ResultsListProps> = ({ results, children }) => {
+const ResultsList: FC<ResultsListProps> = ({ results }) => {
 
     if (!results) return null;
 

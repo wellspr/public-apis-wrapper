@@ -6,12 +6,14 @@ import Menu from "~/icons/menu/Menu";
 const Header = () => {
 
     const menuRef = useRef<HTMLElement>(null);
-
-    const [menuIsOpen, setMenuIsOpen] = useState(false);
+    const menuBtn = useRef<HTMLButtonElement>(null);
+    const closeBtn = useRef<HTMLButtonElement>(null);
 
     useEffect(() => {
         const hideMenu = () => {
             menuRef.current?.classList.remove("show");
+            menuBtn.current && menuBtn.current.classList.remove("hidden");
+            closeBtn.current && closeBtn.current.classList.add("hidden");
         };
 
         window.addEventListener("resize", hideMenu);
@@ -43,11 +45,19 @@ const Header = () => {
                     </nav>
                 </section>
                 <section className="menu-small">
-                    <button className="button menu-small__button-menu" onClick={() => {
-                        menuRef.current && menuRef.current.classList.toggle("show");
-                        setMenuIsOpen(!menuIsOpen);
+                    <button className="button menu-small__button-menu" ref={menuBtn} onClick={() => {
+                        menuRef.current && menuRef.current.classList.add("show");
+                        menuBtn.current && menuBtn.current.classList.add("hidden");
+                        closeBtn.current && closeBtn.current.classList.remove("hidden");
                     }}>
-                        { menuIsOpen ? <Close /> : <Menu /> }
+                        <Menu />
+                    </button>
+                    <button className="button menu-small__button-close hidden" ref={closeBtn} onClick={() => {
+                        menuRef.current && menuRef.current.classList.remove("show");
+                        menuBtn.current && menuBtn.current.classList.remove("hidden");
+                        closeBtn.current && closeBtn.current.classList.add("hidden");
+                    }}>
+                        <Close />
                     </button>
                 </section>
             </div>
