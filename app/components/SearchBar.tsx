@@ -1,13 +1,10 @@
 import { Form } from "@remix-run/react";
+import TextInput from "./TextInput";
 
 const SearchBar = () => {
-
     return (
         <Form method="post" action="/search" className="search-bar">
-            <div className="term-input">
-                <input id="term-input" type="text" name="term" placeholder="Search in APIs" />
-                <label htmlFor="term-input">Search in APIs</label>
-            </div>
+            <TextInput placeHolder="Search in APIs" label="Search in APIs" />
 
             <div className="options">
                 <span>Search in: </span>

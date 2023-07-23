@@ -1,0 +1,48 @@
+.homepage {
+    &__heading {
+        text-align: center;
+    }
+
+    .categories-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.4rem;
+        margin: 2rem 1rem;
+
+        .category {
+            list-style: none;
+            border: 1px solid #777;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.2s;
+
+            flex-grow: 1;
+            max-width: fit-content;
+
+            @media (max-width: 768px) {
+                max-width: 100%;
+            }
+
+            a {
+                padding: 1.4rem;
+                text-decoration: none;
+                color: #333;
+                font-size: 1.4rem;
+            }
+
+            &:hover {
+                background-color: #333;
+                transform: scale(1.1);
+
+                a {
+                    color: #eee;
+                }
+            }
+        }
+    }
+}

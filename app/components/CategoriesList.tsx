@@ -14,7 +14,7 @@ const CategoriesList: FC = () => {
     const { state } = useLocation();
 
     return (
-        <ul className="categories">
+        <ul className="categories-list">
             {
                 Object.values(list).map(entry => {
                     return (

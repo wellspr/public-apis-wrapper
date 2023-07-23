@@ -1,0 +1,9 @@
+$link-color: #555;
+$link-on-hover: lighten(
+    $color: #555,
+    $amount: 30%
+);
+$link-active: lighten(
+    $color: #555,
+    $amount: 10%
+);

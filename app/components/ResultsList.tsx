@@ -1,5 +1,5 @@
 import { FC } from "react";
-import Result from "./Result";
+import Card from "./Card";
 import { Entry } from "~/routes/$category";
 
 interface ResultsListProps {
@@ -8,7 +8,7 @@ interface ResultsListProps {
 
 const ResultsList: FC<ResultsListProps> = ({ results }) => {
 
-    if (!results) return null;
+    if (!results) return <div className="results"><span className="no-results">No results</span></div>;
 
     const categoriesList = [
         ...new Set(
@@ -18,7 +18,13 @@ const ResultsList: FC<ResultsListProps> = ({ results }) => {
         )];
 
     return (
-        <div className="categories-results">
+        <div className="results">
+            <span className="search-results-info">
+                {"Found "}
+                <b>{results.length}</b> {results.length > 1 ? " results " : " result "}
+                { "in " }
+                <b>{categoriesList.length}</b> {categoriesList.length > 1 ? " categories" : " category"}.
+            </span>
             <h2 className="results__heading">
                 <span className="results__label">
                     {
@@ -30,15 +36,16 @@ const ResultsList: FC<ResultsListProps> = ({ results }) => {
                         categoriesList.map(category => {
                             return <span key={category} className="item">{category}</span>;
                         })
+
                     }
                 </span>
             </h2>
-            <ul className="results">
+            <ul className="results-list">
                 {
                     Object.values(results).map((entry, index) => {
                         return (
-                            <li className="result" key={index}>
-                                <Result entry={entry} />
+                            <li className="result-item" key={index}>
+                                <Card entry={entry} />
                             </li>
                         );
                     })

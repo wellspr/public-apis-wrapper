@@ -9,12 +9,13 @@ const Header = () => {
     const menuBtn = useRef<HTMLButtonElement>(null);
     const closeBtn = useRef<HTMLButtonElement>(null);
 
+    const hideMenu = () => {
+        menuRef.current?.classList.remove("show");
+        menuBtn.current && menuBtn.current.classList.remove("hidden");
+        closeBtn.current && closeBtn.current.classList.add("hidden");
+    };
+
     useEffect(() => {
-        const hideMenu = () => {
-            menuRef.current?.classList.remove("show");
-            menuBtn.current && menuBtn.current.classList.remove("hidden");
-            closeBtn.current && closeBtn.current.classList.add("hidden");
-        };
 
         window.addEventListener("resize", hideMenu);
 
@@ -65,13 +66,13 @@ const Header = () => {
                 <nav className="menu-small__navigation" ref={menuRef}>
                     <ul>
                         <li>
-                            <NavLink to={"/"}>Home</NavLink>
+                            <NavLink to={"/"} onClick={hideMenu}>Home</NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/search"}>Search</NavLink>
+                            <NavLink to={"/search"} onClick={hideMenu}>Search</NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/about"}>About</NavLink>
+                            <NavLink to={"/about"} onClick={hideMenu}>About</NavLink>
                         </li>
                     </ul>
                 </nav>

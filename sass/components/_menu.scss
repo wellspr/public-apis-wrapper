@@ -1,0 +1,102 @@
+.menu {
+
+    &__navigation {
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 1.6rem;
+
+            a {
+                text-decoration: none;
+                color: $link-color;
+
+                &:hover {
+                    color: $link-on-hover;
+                }
+
+                &:active {
+                    color: $link-active;
+                }
+            }
+
+            a.active {
+                color: $link-active;
+                font-weight: bold;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.menu-small {
+    position: relative;
+
+    @media (min-width: 768px) {
+        display: none;
+    }
+
+    &__button-menu,
+    &__button-close {
+        background-color: transparent;
+        border: none;
+
+        cursor: pointer;
+
+        .icon {
+            height: 4rem;
+            width: 4rem;
+        }
+
+        @media (max-width: 768px) {
+            display: block;
+        }
+
+        @media (min-width: 769px) {
+            display: none;
+        }
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    &__navigation {
+        height: 0;
+        opacity: 0;
+        transition: all 0.2s ease-in-out;
+
+        ul {
+            margin-top: 1.6rem;
+            list-style: none;
+            font-size: 2.1rem;
+
+            a {
+                text-decoration: none;
+                color: $link-color;
+
+                &:hover {
+                    color: $link-on-hover;
+                }
+            }
+
+            a.active {
+                font-weight: bold;
+                color: $link-active;
+            }
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+
+            padding: 0 3rem;
+        }
+    }
+
+    .show {
+        animation: open_menu both 0.2s;
+    }
+}

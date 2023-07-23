@@ -1,0 +1,24 @@
+.button-search {
+    background-color: #777;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 3rem;
+    color: #eee;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 .5rem .5rem 0 #aaa;
+    
+    &:hover:not(:active) {
+        transform: scale(1.1);
+        box-shadow: 0 .5rem .5rem -.2rem #aaa;
+        backface-visibility: hidden;
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+
+    &:active {
+        transform: scale(1.05);
+        box-shadow: 0 .5rem .5rem -.1rem #aaa;
+        backface-visibility: hidden;
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+}

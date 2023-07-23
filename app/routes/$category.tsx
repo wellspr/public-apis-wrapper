@@ -2,6 +2,7 @@ import { LoaderArgs } from "@remix-run/node";
 import { json, useLoaderData } from "react-router";
 import CategoriesList from "~/components/CategoriesList";
 import ResultsList from "~/components/ResultsList";
+import CategoryPage from "~/pages/CategoryPage";
 
 export const loader = async ({ params }: LoaderArgs) => {
     const category = params.category;
@@ -32,10 +33,10 @@ const Category = () => {
     const apisList: Entry[] = entries as Entry[];
 
     return (
-        <div className="categories-page">
+        <CategoryPage>
             <CategoriesList />
             <ResultsList results={apisList} />
-        </div>
+        </CategoryPage>
     );
 };
 
