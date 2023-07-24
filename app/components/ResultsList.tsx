@@ -18,7 +18,7 @@ const ResultsList: FC<ResultsListProps> = ({ results }) => {
         )];
 
     return (
-        <div className="results">
+        <section id="results" className="results">
             <span className="search-results-info">
                 {"Found "}
                 <b>{results.length}</b> {results.length > 1 ? " results " : " result "}
@@ -51,7 +51,7 @@ const ResultsList: FC<ResultsListProps> = ({ results }) => {
                     })
                 }
             </ul>
-        </div>
+        </section>
     );
 };
 

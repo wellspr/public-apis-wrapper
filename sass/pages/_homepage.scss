@@ -1,6 +1,18 @@
 .homepage {
     &__heading {
         text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        &--main {
+            font-size: 2.4rem;
+            line-height: 2;
+        }
+
+        &--sub {
+            font-size: 1.4rem;
+            font-weight: normal;
+        }
     }
 
     .categories-list {

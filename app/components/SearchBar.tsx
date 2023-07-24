@@ -4,7 +4,7 @@ import TextInput from "./TextInput";
 const SearchBar = () => {
     return (
         <Form method="post" action="/search" className="search-bar">
-            <TextInput placeHolder="Search in APIs" label="Search in APIs" />
+            <TextInput placeHolder="Search APIs" label="Search APIs" />
 
             <div className="options">
                 <span>Search in: </span>
