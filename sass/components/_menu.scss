@@ -63,11 +63,14 @@
         display: none;
     }
 
-    &__navigation {
+    &__navigation, &__navigation * {
         height: 0;
         opacity: 0;
         transition: all 0.2s ease-in-out;
+    }
 
+    &__navigation {
+        
         ul {
             margin-top: 1.6rem;
             list-style: none;
@@ -96,7 +99,7 @@
         }
     }
 
-    .show {
+    .show, .show * {
         animation: open_menu both 0.2s;
     }
 }

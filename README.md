@@ -1,10 +1,13 @@
 # Public API's Wrapper Project
 
-https://api.publicapis.org/
+## Find free public APIs for your project
+
+### A frontend wrapper for the <a href="https://github.com/davemachado/public-api">public apis</a> api
 
 
-https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
+It's always fun to look up and find a new api. In this search I found the <a href="https://github.com/public-apis/public-apis">public apis</a>  project, which is a wonderful help in the task of finding great free public apis.
 
-https://stackoverflow.com/questions/14677490/blurry-text-after-using-css-transform-scale-in-chrome
+As the public apis project includes an <a href="https://github.com/davemachado/public-api">api</a> for itself, I happily went on to create my own frontend implementation, using <a href="https://remix.run/">Remix</a> and <a href="https://sass-lang.com/">Sass</a>.
 
---> https://stackoverflow.com/a/16878602
+
+<a href="https://github.com/public-apis/public-apis/issues/3104" target="_blank">Public Apis situation - Read this issue</a>

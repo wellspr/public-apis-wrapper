@@ -4,6 +4,26 @@
         opacity: 0;
     }
 
+    20% {
+        height: auto;
+        opacity: 0;
+    }
+
+    25% {
+        height: auto;
+        opacity: .25;
+    }
+
+    50% {
+        height: auto;
+        opacity: .5;
+    }
+
+    75% {
+        height: auto;
+        opacity: .75;
+    }
+
     100% {
         height: auto;
         opacity: 1;
