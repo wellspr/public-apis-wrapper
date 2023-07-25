@@ -21,7 +21,7 @@ const TextInput: FC<TextInputProps> = ({ className, placeHolder, label }) => {
     return (
         <div className={className ? `text-input ${className}` : `text-input`}>
             <input id="term-input" type="text" name="term" placeholder={placeHolder} ref={inputRef} />
-            <button className="input-icon input-icon__left"><Search /></button>
+            <button name="search button" aria-label="search button" className="input-icon input-icon__left"><Search /></button>
             <button className="input-icon input-icon__right" onClick={resetInputText}><Close /></button>
             <label htmlFor="term-input">{label}</label>
         </div>

@@ -14,12 +14,12 @@ const SearchBar = () => {
                 </div>
 
                 <div className="field-input">
-                    <input type="radio" name="field" id="field-decription" value="description" />
+                    <input type="radio" name="field" id="field-description" value="description" />
                     <label htmlFor="field-description">Description</label>
                 </div>
             </div>
 
-            <button type="submit" className="button button-search">Search</button>
+            <button name="submit" aria-label="submit" type="submit" className="button button-search">Search</button>
         </Form>
     );
 
