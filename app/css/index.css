@@ -115,6 +115,14 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.header__main-container .brand {
+  display: flex;
+  gap: 0.5rem;
+}
+.header__main-container .brand .logo {
+  width: 3.5rem;
+  height: 3.5rem;
+}
 @media (max-width: 768px) {
   .header {
     padding: 1rem;
@@ -486,6 +494,14 @@ body {
   margin-bottom: 2rem;
 }
 
+.homepage__logo {
+  display: flex;
+  justify-content: center;
+}
+.homepage__logo .logo {
+  width: 10rem;
+  height: 10rem;
+}
 .homepage__heading {
   text-align: center;
   display: flex;

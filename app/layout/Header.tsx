@@ -1,6 +1,7 @@
 import { NavLink } from "@remix-run/react";
 import { useEffect, useRef, useState } from "react";
 import Close from "~/icons/close/Close";
+import Logo from "~/icons/logo/Logo";
 import Menu from "~/icons/menu/Menu";
 
 const Header = () => {
@@ -28,6 +29,7 @@ const Header = () => {
         <header className="header">
             <div className="header__main-container">
                 <section className="brand">
+                    <Logo />
                     <span className="brand__text">Public APIs</span>
                 </section>
                 <section className="menu">

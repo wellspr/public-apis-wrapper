@@ -4,6 +4,17 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        .brand {
+
+            display: flex;
+            gap: .5rem;
+
+            .logo {
+                width: 3.5rem;
+                height: 3.5rem;
+            }
+        }
     }
 
     padding: 1rem 3rem;

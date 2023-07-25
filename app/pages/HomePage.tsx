@@ -1,11 +1,15 @@
 import { FC } from "react";
 import CategoriesList from "~/components/CategoriesList";
 import Search from "~/components/SearchBar";
+import Logo from "~/icons/logo/Logo";
 
 const HomePage: FC = () => {
     return (
         <div className="homepage">
 
+            <div className="homepage__logo">
+                <Logo />
+            </div>
             <h1 className="homepage__heading">
                 <span className="homepage__heading--main">Find free public APIs for your project</span>
                 <span className="homepage__heading--sub">A frontend wrapper for the <a href="https://github.com/davemachado/public-api">public apis</a> api</span>

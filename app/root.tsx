@@ -13,7 +13,11 @@ import Main from "./layout/Main";
 import { json } from "@remix-run/node";
 
 export const links = () => {
-    return [{ rel: "stylesheet", href: styles }];
+    return [
+        { rel: "icon", href: "/favicon.ico", sizes: "any" },
+        { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
+        { rel: "manifest", href: "/site.webmanifest" },
+        { rel: "stylesheet", href: styles }];
 };
 
 export const loader = async () => {

@@ -1,4 +1,16 @@
 .homepage {
+
+    &__logo {
+
+        display: flex;
+        justify-content: center;
+        
+        .logo {
+            width: 10rem;
+            height: 10rem;
+        }
+    }
+
     &__heading {
         text-align: center;
         display: flex;
