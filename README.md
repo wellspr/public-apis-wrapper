@@ -11,3 +11,7 @@ As the public apis project includes an <a href="https://github.com/davemachado/p
 
 
 <a href="https://github.com/public-apis/public-apis/issues/3104" target="_blank">Public Apis situation - Read this issue</a>
+
+#### Live
+
+[https://public-apis-wrapper.vercel.app/](https://public-apis-wrapper.vercel.app/)
