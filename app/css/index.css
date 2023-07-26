@@ -625,12 +625,11 @@ body {
 .homepage__logo {
   color: #0e1529;
 }
-
-.button {
+.homepage .category a:hover {
   background-color: #0e1529;
 }
 
-.category a:hover {
+.button {
   background-color: #0e1529;
 }
 

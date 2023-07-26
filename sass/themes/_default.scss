@@ -31,6 +31,15 @@ $color-font-light: #ddd;
     &__logo {
         color: $color-background;
     }
+
+    .category {
+        a {
+    
+            &:hover {
+                background-color: $color-background;
+            }
+        }
+    }
 }
 
 .button {
@@ -39,12 +48,7 @@ $color-font-light: #ddd;
 
 .category {
 
-    a {
-
-        &:hover {
-            background-color: $color-background;
-        }
-    }
+    
 }
 
 .footer {
