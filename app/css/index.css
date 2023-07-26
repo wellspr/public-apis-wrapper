@@ -134,6 +134,7 @@ body {
   flex-grow: 1;
   padding: 3rem;
   padding-bottom: 20rem;
+  margin-bottom: -1px;
   background-image: url(../../app/images/wave.svg);
   background-repeat: no-repeat;
   background-position: bottom;
@@ -561,6 +562,7 @@ body {
   color: #333;
   font-size: 1.4rem;
   flex-grow: 1;
+  border-radius: 5px;
 }
 .homepage .categories-list .category a span {
   display: flex;
