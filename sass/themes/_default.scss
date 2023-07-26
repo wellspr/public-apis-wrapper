@@ -6,7 +6,12 @@ $color-font-light: #ddd;
     color: $color-font-light;
 }
 
-.menu {
+.menu, .menu-small {
+
+    .button {
+        color: $color-font-light;
+    }
+
     &__navigation {
         ul {
             li {

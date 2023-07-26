@@ -72,7 +72,6 @@
     &__navigation {
         
         ul {
-            margin-top: 1.6rem;
             list-style: none;
             font-size: 2.1rem;
 
@@ -96,10 +95,15 @@
             gap: 1rem;
 
             padding: 0 3rem;
+
+            li {
+                margin: 1rem 0;
+            }
         }
     }
 
     .show, .show * {
         animation: open_menu both 0.2s;
     }
+
 }

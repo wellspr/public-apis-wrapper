@@ -117,6 +117,7 @@ body {
 }
 .header__main-container .brand {
   display: flex;
+  justify-content: center;
   gap: 0.5rem;
 }
 .header__main-container .brand .logo {
@@ -313,7 +314,6 @@ body {
   transition: all 0.2s ease-in-out;
 }
 .menu-small__navigation ul {
-  margin-top: 1.6rem;
   list-style: none;
   font-size: 2.1rem;
   display: flex;
@@ -332,6 +332,9 @@ body {
 .menu-small__navigation ul a.active {
   font-weight: bold;
   color: #6f6f6f;
+}
+.menu-small__navigation ul li {
+  margin: 1rem 0;
 }
 .menu-small .show, .menu-small .show * {
   animation: open_menu both 0.2s;
@@ -466,6 +469,12 @@ body {
   display: none;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .button-search {
   background-color: #333;
   border: none;
@@ -551,6 +560,12 @@ body {
   text-decoration: none;
   color: #333;
   font-size: 1.4rem;
+  flex-grow: 1;
+}
+.homepage .categories-list .category a span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .homepage .categories-list .category:hover {
   background-color: #333;
@@ -611,14 +626,17 @@ body {
   color: #ddd;
 }
 
-.menu__navigation ul li a {
+.menu .button, .menu-small .button {
   color: #ddd;
 }
-.menu__navigation ul li a:hover {
+.menu__navigation ul li a, .menu-small__navigation ul li a {
+  color: #ddd;
+}
+.menu__navigation ul li a:hover, .menu-small__navigation ul li a:hover {
   color: #f7f7f7;
   font-weight: bold;
 }
-.menu__navigation ul li .active {
+.menu__navigation ul li .active, .menu-small__navigation ul li .active {
   color: #f7f7f7;
 }
 
