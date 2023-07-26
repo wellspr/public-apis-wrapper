@@ -131,8 +131,8 @@ body {
 
 .main {
   flex-grow: 1;
-  margin: 0;
-  padding-bottom: 15rem;
+  padding: 3rem;
+  padding-bottom: 20rem;
   background-image: url(../../app/images/wave.svg);
   background-repeat: no-repeat;
   background-position: bottom;
