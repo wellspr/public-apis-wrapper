@@ -131,11 +131,17 @@ body {
 
 .main {
   flex-grow: 1;
-  margin: 3rem;
+  margin: 0;
+  padding-bottom: 15rem;
+  background-image: url(../../app/images/wave.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
 }
 @media (max-width: 768px) {
   .main {
-    margin: 1rem;
+    padding: 1rem;
+    padding-bottom: 10rem;
   }
 }
 
@@ -403,7 +409,7 @@ body {
   align-items: center;
   gap: 0.5rem;
   position: relative;
-  width: 80vw;
+  width: 80%;
 }
 @media (max-width: 768px) {
   .text-input {
@@ -554,20 +560,20 @@ body {
   color: #eee;
 }
 
-.category {
+.category-page {
   display: flex;
   gap: 2rem;
 }
 @media (max-width: 768px) {
-  .category {
+  .category-page {
     flex-direction: column;
   }
 }
-.category .categories-list {
+.category-page .categories-list {
   font-size: 1.4rem;
 }
 @media (max-width: 768px) {
-  .category .categories-list {
+  .category-page .categories-list {
     order: 1;
     /*
     position: absolute;
@@ -584,21 +590,60 @@ body {
     padding: 2rem 0;
   }
 }
-.category .categories-list .category {
+.category-page .categories-list .category {
   list-style: none;
   margin-bottom: 12px;
 }
-.category .categories-list .category a {
+.category-page .categories-list .category a {
   text-decoration: none;
   color: #333;
 }
-.category .categories-list .category a:hover {
+.category-page .categories-list .category a:hover {
   color: gray;
 }
-.category .categories-list .category__selected {
+.category-page .categories-list .category__selected {
   font-weight: bold;
 }
 
 /* Themes */
+.header {
+  background-color: #0e1529;
+  color: #ddd;
+}
+
+.menu__navigation ul li a {
+  color: #ddd;
+}
+.menu__navigation ul li a:hover {
+  color: #f7f7f7;
+  font-weight: bold;
+}
+.menu__navigation ul li .active {
+  color: #f7f7f7;
+}
+
+.homepage__logo {
+  color: #0e1529;
+}
+
+.button {
+  background-color: #0e1529;
+}
+
+.category a:hover {
+  background-color: #0e1529;
+}
+
+.footer {
+  background-color: #0e1529;
+  color: #ddd;
+}
+.footer a {
+  color: #ddd;
+}
+.footer .issue-link {
+  background-color: #ddd;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=index.css.map */

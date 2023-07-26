@@ -1,0 +1,62 @@
+$color-background: #0e1529;
+$color-font-light: #ddd;
+
+.header {
+    background-color: $color-background;
+    color: $color-font-light;
+}
+
+.menu {
+    &__navigation {
+        ul {
+            li {
+                a {
+                    color: $color-font-light;
+
+                    &:hover {
+                        color: lighten($color: $color-font-light, $amount: 10%);
+                        font-weight: bold;
+                    }
+                }
+
+                .active {
+                    color: lighten($color: $color-font-light, $amount: 10%);
+                }
+            }
+        }
+    }
+}
+
+.homepage {
+    &__logo {
+        color: $color-background;
+    }
+}
+
+.button {
+    background-color: $color-background;
+}
+
+.category {
+
+    a {
+
+        &:hover {
+            background-color: $color-background;
+        }
+    }
+}
+
+.footer {
+    background-color: $color-background;
+    color: $color-font-light;
+
+    a {
+        color: $color-font-light;
+    }
+
+    .issue-link {
+        background-color: #ddd;
+        font-weight: bold;
+    }
+}

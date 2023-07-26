@@ -5,7 +5,6 @@ import Tabler from "~/icons/tabler/Tabler";
 import Vercel from "~/icons/vercel/Vercel";
 
 const Footer = () => {
-
     return (
         <footer className="footer">
             <p className="dedicatory">Made with <Heart /></p>

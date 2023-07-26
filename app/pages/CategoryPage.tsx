@@ -6,7 +6,7 @@ interface CategoryPageProps {
 
 const CategoryPage:FC<CategoryPageProps> = ({ children }) => {
 
-    return <div className="category">
+    return <div className="category-page">
         { children }
     </div>
 };
