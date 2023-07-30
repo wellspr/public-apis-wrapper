@@ -4,33 +4,37 @@ import CategoriesList from "~/components/CategoriesList";
 import ResultsList from "~/components/ResultsList";
 import CategoryPage from "~/pages/CategoryPage";
 
-export const loader = async ({ params }: LoaderArgs) => {
+import baseURL from "~/config/baseURL";
+
+export const loader = async ({ params, request }: LoaderArgs) => {
     const category = params.category;
 
-    const response = await fetch(`https://api.publicapis.org/entries?category=${category}`);
+    console.log(category, request.url);
 
-    const { entries } = await response.json();
+    const response = await fetch(`${baseURL()}/api/${category}`);
 
-    return json(entries);
+    const { results } = await response.json();
+
+    return json(results);
 };
 
 export type Entry = {
-    API: string;
-    Auth: string;
-    Category: string;
-    Cors: string;
-    Description: string;
-    HTTPS: boolean;
-    Link: string;
+    title: string;
+    auth: string;
+    category: string;
+    cors: string;
+    description: string;
+    https: boolean;
+    url: string;
 }
 
 const Category = () => {
     
     /* https://bobbyhadz.com/blog/typescript-type-unknown-is-not-assignable-to-type */
 
-    const entries: unknown = useLoaderData();
+    const results: unknown = useLoaderData();
 
-    const apisList: Entry[] = entries as Entry[];
+    const apisList: Entry[] = results as Entry[];
 
     return (
         <CategoryPage>

@@ -6,11 +6,12 @@ interface LogoProps {
 
 const Logo:FC<LogoProps> = ({ theme }) => {
 
-    let fillColor = "currentColor";
-    let strokeColor = "#D9D9D9";
+    let fillColor = "#434656";
+    let strokeColor = "#f7f9ff";
 
     if (theme === "dark") {
-        strokeColor = "#1E1E1E";
+        fillColor = "#f7f9ff";
+        strokeColor = "#434656";
     }
 
     return (

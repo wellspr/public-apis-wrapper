@@ -4,6 +4,8 @@ import SearchBar from "~/components/SearchBar";
 import { Entry } from "./$category";
 import ResultsList from "~/components/ResultsList";
 
+import baseURL from "~/config/baseURL";
+
 export const action = async ({ request }: LoaderArgs) => {
 
     const body = await request.formData();
@@ -11,20 +13,22 @@ export const action = async ({ request }: LoaderArgs) => {
     const term = body.get("term");
     const field = body.get("field");
 
-    const apiURL = `https://api.publicapis.org/entries?${field}=${term}`;
+    const apiURL = `${baseURL()}/api?${field}=${term}`;
 
     const response = await fetch(apiURL);
 
-    const { entries } = await response.json(); 
+    const { results } = await response.json(); 
 
-    return json(entries);
+    console.log(results);
+
+    return json(results);
 };
 
 const Search = () => {
 
-    const entries: unknown = useActionData();
+    const r: unknown = useActionData();
 
-    const results: Entry[] = entries as Entry[];
+    const results: Entry[] = r as Entry[];
 
     return (
         <div className="search">

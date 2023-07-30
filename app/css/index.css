@@ -54,9 +54,13 @@ body {
 }
 
 body {
+  color: #332914;
+  background-color: #f1f1e6;
+}
+
+body {
   font-family: "Public Sans", sans-serif;
   letter-spacing: 1px;
-  color: #333;
 }
 
 .brand__text {
@@ -414,6 +418,7 @@ body {
   gap: 0.5rem;
   position: relative;
   width: 80%;
+  background-color: #f7f9ff;
 }
 @media (max-width: 768px) {
   .text-input {
@@ -548,6 +553,7 @@ body {
   cursor: pointer;
   font-weight: bold;
   transition: all 0.2s;
+  background-color: #f7f9ff;
   flex-grow: 1;
   max-width: fit-content;
 }
@@ -625,21 +631,21 @@ body {
 /* Themes */
 .header {
   background-color: #0e1529;
-  color: #ddd;
+  color: #f7f9ff;
 }
 
 .menu .button, .menu-small .button {
-  color: #ddd;
+  color: #f7f9ff;
 }
 .menu__navigation ul li a, .menu-small__navigation ul li a {
-  color: #ddd;
+  color: #f7f9ff;
 }
 .menu__navigation ul li a:hover, .menu-small__navigation ul li a:hover {
-  color: #f7f7f7;
+  color: white;
   font-weight: bold;
 }
 .menu__navigation ul li .active, .menu-small__navigation ul li .active {
-  color: #f7f7f7;
+  color: white;
 }
 
 .homepage__logo {
@@ -655,10 +661,10 @@ body {
 
 .footer {
   background-color: #0e1529;
-  color: #ddd;
+  color: #f7f9ff;
 }
 .footer a {
-  color: #ddd;
+  color: #f7f9ff;
 }
 .footer .issue-link {
   background-color: #ddd;

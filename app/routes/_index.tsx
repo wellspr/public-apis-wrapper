@@ -6,7 +6,7 @@ export const meta: V2_MetaFunction = () => {
         { title: "Public APIs App Project" },
         { name: "description", content: "A wrapper for the public apis project" },
     ];
-};
+};    
 
 export default function Index() {
 

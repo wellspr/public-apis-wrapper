@@ -13,7 +13,7 @@ const ResultsList: FC<ResultsListProps> = ({ results }) => {
     const categoriesList = [
         ...new Set(
             results.map(item => {
-                return item.Category;
+                return item.category;
             })
         )];
 

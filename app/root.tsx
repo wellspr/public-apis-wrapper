@@ -12,6 +12,10 @@ import Footer from "./layout/Footer";
 import Main from "./layout/Main";
 import { json } from "@remix-run/node";
 
+import baseURL from "./config/baseURL";
+
+console.log(baseURL());
+
 export const links = () => {
     return [
         { rel: "icon", href: "/favicon.ico", sizes: "any" },
@@ -22,7 +26,7 @@ export const links = () => {
 
 export const loader = async () => {
 
-    const response = await fetch("https://api.publicapis.org/categories");
+    const response = await fetch(`${baseURL()}/api/categories`);
 
     const { categories } = await response.json();
 
