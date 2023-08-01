@@ -26,6 +26,36 @@
     opacity: 1;
   }
 }
+@keyframes label-up {
+  0% {
+    font-size: 2rem;
+    color: #aaa;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  100% {
+    font-size: 1.2rem;
+    color: #777;
+    top: 1rem;
+    transform: translateY(-50%);
+    z-index: 200;
+  }
+}
+@keyframes label-down {
+  0% {
+    font-size: 1.2rem;
+    color: #777;
+    top: 1rem;
+    transform: translateY(-50%);
+    z-index: 200;
+  }
+  100% {
+    font-size: 2rem;
+    color: #aaa;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
 /* Vendor */
 /* Base */
 * {
@@ -56,6 +86,10 @@ body {
 body {
   color: #332914;
   background-color: #f1f1e6;
+}
+
+.text-input {
+  background-color: #fff;
 }
 
 body {
@@ -137,7 +171,7 @@ body {
 .main {
   flex-grow: 1;
   padding: 3rem;
-  padding-bottom: 20rem;
+  padding-bottom: 25rem;
   margin-bottom: -1px;
   background-image: url(../../app/images/wave.svg);
   background-repeat: no-repeat;
@@ -147,7 +181,7 @@ body {
 @media (max-width: 768px) {
   .main {
     padding: 1rem;
-    padding-bottom: 10rem;
+    padding-bottom: 12rem;
   }
 }
 
@@ -341,6 +375,9 @@ body {
 .menu-small__navigation ul li {
   margin: 1rem 0;
 }
+.menu-small__navigation.hidden {
+  display: none;
+}
 .menu-small .show, .menu-small .show * {
   animation: open_menu both 0.2s;
 }
@@ -398,8 +435,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  height: 50vh;
-  margin: 2rem;
+  margin: 5rem 2rem;
 }
 .search-bar .options {
   display: flex;
@@ -418,7 +454,6 @@ body {
   gap: 0.5rem;
   position: relative;
   width: 80%;
-  background-color: #f7f9ff;
 }
 @media (max-width: 768px) {
   .text-input {
@@ -428,8 +463,8 @@ body {
 .text-input input[type=text] {
   border: 1px solid #ccc;
   border-radius: 0.5rem;
-  padding: 1.2rem 4.2rem;
-  font-size: 2rem;
+  padding: 2rem 5.4rem;
+  font-size: 2.4rem;
   width: 100%;
   position: relative;
   z-index: 100;
@@ -441,18 +476,20 @@ body {
 }
 .text-input label {
   position: absolute;
-  left: 4.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 5.4rem;
   font-size: 2rem;
   color: #aaa;
-  transition: all 0.1s ease-out;
+  transition: all 0.3s ease-in-out;
 }
 .text-input input[type=text]:not(:placeholder-shown) ~ label {
-  color: #777;
-  top: -1rem;
-  font-size: 1.2rem;
-  background-color: white;
-  z-index: 200;
-  padding: 0 0.5rem;
+  animation: label-up 0.3s both;
+  backface-visibility: hidden;
+}
+.text-input input[type=text]:placeholder-shown ~ label {
+  animation: label-down 0.3s both;
+  backface-visibility: hidden;
 }
 .text-input .input-icon {
   position: absolute;
@@ -464,10 +501,10 @@ body {
   color: #777;
 }
 .text-input .input-icon__left {
-  left: 1.2rem;
+  left: 2rem;
 }
 .text-input .input-icon__right {
-  right: 1.2rem;
+  right: 2rem;
   z-index: 300;
   cursor: pointer;
 }

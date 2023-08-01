@@ -1,7 +1,7 @@
 .main {
     flex-grow: 1;
     padding: 3rem;
-    padding-bottom: 20rem;
+    padding-bottom: 25rem;
     margin-bottom: -1px;
     background-image: url(../../app/images/wave.svg);
     background-repeat: no-repeat;
@@ -10,6 +10,6 @@
     
     @media (max-width: 768px) {
         padding: 1rem;
-        padding-bottom: 10rem;
+        padding-bottom: 12rem;
     }
 }

@@ -48,18 +48,30 @@ const Header = () => {
                     </nav>
                 </section>
                 <section className="menu-small">
-                    <button name="menu button" aria-label="menu button" className="button menu-small__button-menu" ref={menuBtn} onClick={() => {
-                        menuRef.current && menuRef.current.classList.add("show");
-                        menuBtn.current && menuBtn.current.classList.add("hidden");
-                        closeBtn.current && closeBtn.current.classList.remove("hidden");
-                    }}>
+                    <button
+                        name="menu button"
+                        aria-label="menu button"
+                        className="button menu-small__button-menu"
+                        ref={menuBtn}
+                        onClick={() => {
+                            menuRef.current && menuRef.current.classList.remove("hidden");
+                            menuRef.current && menuRef.current.classList.add("show");
+                            menuBtn.current && menuBtn.current.classList.add("hidden");
+                            closeBtn.current && closeBtn.current.classList.remove("hidden");
+                        }}>
                         <Menu />
                     </button>
-                    <button name="close button" aria-label="close button" className="button menu-small__button-close hidden" ref={closeBtn} onClick={() => {
-                        menuRef.current && menuRef.current.classList.remove("show");
-                        menuBtn.current && menuBtn.current.classList.remove("hidden");
-                        closeBtn.current && closeBtn.current.classList.add("hidden");
-                    }}>
+                    <button
+                        name="close button"
+                        aria-label="close button"
+                        className="button menu-small__button-close hidden"
+                        ref={closeBtn}
+                        onClick={() => {
+                            menuRef.current && menuRef.current.classList.add("hidden");
+                            menuRef.current && menuRef.current.classList.remove("show");
+                            menuBtn.current && menuBtn.current.classList.remove("hidden");
+                            closeBtn.current && closeBtn.current.classList.add("hidden");
+                        }}>
                         <Close />
                     </button>
                 </section>

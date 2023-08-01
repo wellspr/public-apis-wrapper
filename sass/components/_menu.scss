@@ -102,8 +102,12 @@
         }
     }
 
+    &__navigation.hidden {
+        display: none;
+    
+    }
+    
     .show, .show * {
         animation: open_menu both 0.2s;
     }
-
 }

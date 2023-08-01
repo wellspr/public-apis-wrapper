@@ -1,4 +1,4 @@
-$horizontal-margins: 4.2rem;
+$horizontal-margins: 5.4rem;
 
 .text-input {
     display: flex;
@@ -8,7 +8,7 @@ $horizontal-margins: 4.2rem;
     gap: 0.5rem;
     position: relative;
     width: 80%;
-    background-color: #f7f9ff;
+    
 
     @media (max-width: 768px) {
         width: 100%;
@@ -17,8 +17,8 @@ $horizontal-margins: 4.2rem;
     input[type="text"] {
         border: 1px solid #ccc;
         border-radius: 0.5rem;
-        padding: 1.2rem $horizontal-margins;
-        font-size: 2rem;
+        padding: 2rem $horizontal-margins;
+        font-size: 2.4rem;
         width: 100%;
         position: relative;
         z-index: 100;
@@ -32,19 +32,22 @@ $horizontal-margins: 4.2rem;
 
     label {
         position: absolute;
+        top: calc(50%);
+        transform: translateY(-50%);
         left: $horizontal-margins;
         font-size: 2rem;
         color: #aaa;
-        transition: all 0.1s ease-out;
+        transition: all 0.3s ease-in-out;
     }
 
     input[type="text"]:not(:placeholder-shown) ~ label {
-        color: #777;
-        top: -1rem;
-        font-size: 1.2rem;
-        background-color: white;
-        z-index: 200;
-        padding: 0 0.5rem;
+        animation: label-up .3s both;
+        backface-visibility: hidden;
+    }
+
+    input[type="text"]:placeholder-shown ~ label {
+        animation: label-down .3s both;
+        backface-visibility: hidden;
     }
 
     .input-icon {
@@ -59,11 +62,11 @@ $horizontal-margins: 4.2rem;
         color: #777;
 
         &__left {
-            left: 1.2rem;
+            left: 2rem;
         }
 
         &__right {
-            right: 1.2rem;
+            right: 2rem;
             z-index: 300;
             cursor: pointer;
         }

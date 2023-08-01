@@ -9,7 +9,7 @@ const AboutPage = () => {
             </p>
 
             <p>
-                As the public apis project includes an <a href="https://github.com/davemachado/public-api">api</a> for itself, I happily went on to create my own frontend implementation, using <a href="https://remix.run/">Remix</a> and <a href="https://sass-lang.com/">Sass</a>.
+                Although the public apis project has an <a href="https://github.com/davemachado/public-api">api</a> for itself, I went on to create my own api and frontend implementation based on the public list of apis, using <a href="https://remix.run/">Remix</a> and <a href="https://sass-lang.com/">Sass</a>.
             </p>
         </div>
     );
