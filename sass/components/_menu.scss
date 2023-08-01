@@ -59,7 +59,8 @@
         }
     }
 
-    .hidden {
+    &__button-menu.hidden,
+    &__button-close.hidden {
         display: none;
     }
 

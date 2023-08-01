@@ -344,7 +344,7 @@ body {
     display: none;
   }
 }
-.menu-small .hidden {
+.menu-small__button-menu.hidden, .menu-small__button-close.hidden {
   display: none;
 }
 .menu-small__navigation, .menu-small__navigation * {
@@ -452,6 +452,7 @@ body {
   gap: 0.5rem;
   position: relative;
   width: 80%;
+  border-radius: 0.5rem;
 }
 @media (max-width: 768px) {
   .text-input {
