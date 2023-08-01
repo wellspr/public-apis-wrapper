@@ -77,7 +77,7 @@ const Header = () => {
                 </section>
             </div>
             <section className="menu-small">
-                <nav className="menu-small__navigation" ref={menuRef}>
+                <nav className="menu-small__navigation hidden" ref={menuRef}>
                     <ul>
                         <li>
                             <NavLink to={"/"} onClick={hideMenu}>Home</NavLink>
