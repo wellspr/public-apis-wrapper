@@ -1,4 +1,5 @@
 import styles from "./css/index.css";
+
 import {
     Links,
     LiveReload,
@@ -7,14 +8,14 @@ import {
     Scripts,
     ScrollRestoration,
 } from "@remix-run/react";
+
+import { json } from "@remix-run/node";
+
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
 import Main from "./layout/Main";
-import { json } from "@remix-run/node";
 
 import baseURL from "./config/baseURL";
-
-console.log(baseURL());
 
 export const links = () => {
     return [

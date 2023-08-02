@@ -6,10 +6,8 @@ import CategoryPage from "~/pages/CategoryPage";
 
 import baseURL from "~/config/baseURL";
 
-export const loader = async ({ params, request }: LoaderArgs) => {
+export const loader = async ({ params }: LoaderArgs) => {
     const category = params.category;
-
-    console.log(category, request.url);
 
     const response = await fetch(`${baseURL()}/api/${category}`);
 
