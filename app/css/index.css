@@ -387,6 +387,10 @@ body {
   gap: 2rem;
   width: 100%;
 }
+.results__name {
+  display: flex;
+  flex-wrap: wrap;
+}
 .results__name .item:not(:last-child) {
   margin-right: 1rem;
 }
