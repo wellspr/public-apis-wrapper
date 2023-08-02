@@ -11,9 +11,18 @@ export const action = async ({ request }: LoaderArgs) => {
     const body = await request.formData();
 
     const term = body.get("term");
-    const field = body.get("field");
+    const title = body.get("title");
+    const description = body.get("description");
 
-    const apiURL = `${baseURL()}/api?${field}=${term}`;
+    const field = 
+        title && description ? "search" :
+        title && "title" || 
+        description && "description";
+
+    const base = baseURL();
+    const url = new URL(`/api?${field}=${term}`, base);
+
+    const apiURL = url;
 
     const response = await fetch(apiURL);
 
