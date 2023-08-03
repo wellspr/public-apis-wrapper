@@ -15,6 +15,7 @@ const TextInput: FC<TextInputProps> = ({ className, placeHolder, label }) => {
     const resetInputText = () => {
         if (inputRef && inputRef.current) {
             inputRef.current.value = "";
+            inputRef.current.focus();
         }
     };
 
