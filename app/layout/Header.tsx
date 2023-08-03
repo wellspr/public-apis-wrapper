@@ -1,5 +1,6 @@
 import { NavLink } from "@remix-run/react";
 import { useEffect, useRef } from "react";
+import baseURL from "~/config/baseURL";
 import Close from "~/icons/close/Close";
 import Logo from "~/icons/logo/Logo";
 import Menu from "~/icons/menu/Menu";
@@ -29,8 +30,10 @@ const Header = () => {
         <header className="header">
             <div className="header__main-container">
                 <section className="brand">
-                    <Logo theme="dark" />
-                    <span className="brand__text">Public APIs</span>
+                    <a href={baseURL()}>
+                        <Logo theme="dark" />
+                        <span className="brand__text">Public APIs</span>
+                    </a>
                 </section>
                 <section className="menu">
                     <nav className="menu__navigation">

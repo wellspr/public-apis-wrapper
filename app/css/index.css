@@ -153,12 +153,14 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.header__main-container .brand {
+.header__main-container .brand a {
   display: flex;
   justify-content: center;
   gap: 0.5rem;
+  text-decoration: none;
+  color: #f7f9ff;
 }
-.header__main-container .brand .logo {
+.header__main-container .brand a .logo {
   width: 3.5rem;
   height: 3.5rem;
 }
