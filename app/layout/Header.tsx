@@ -52,7 +52,7 @@ const Header = () => {
                     </nav>
                 </section>
                 <section className="menu-small">
-                    <Button
+                    <button
                         name="menu-button"
                         aria-label="menu-button"
                         className="button menu-small__button-menu"
@@ -64,8 +64,8 @@ const Header = () => {
                             closeBtn.current && closeBtn.current.classList.remove("hidden");
                         }}>
                         <Menu />
-                    </Button>
-                    <Button
+                    </button>
+                    <button
                         name="close-button"
                         aria-label="close-button"
                         className="button menu-small__button-close hidden"
@@ -77,7 +77,7 @@ const Header = () => {
                             closeBtn.current && closeBtn.current.classList.add("hidden");
                         }}>
                         <Close />
-                    </Button>
+                    </button>
                 </section>
             </div>
             <section className="menu-small">

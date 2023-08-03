@@ -1,7 +1,6 @@
 import { FC } from "react";
 import Card from "./Card";
 import { Entry } from "~/routes/$category";
-import { useLocation } from "@remix-run/react";
 
 interface ResultsListProps {
     results: Entry[];
