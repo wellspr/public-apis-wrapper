@@ -3,8 +3,8 @@
     color: $color-font-light;
 }
 
-.menu, .menu-small {
-
+.menu,
+.menu-small {
     .button {
         color: $color-font-light;
     }
@@ -36,7 +36,6 @@
 
     .category {
         a {
-    
             &:hover {
                 background-color: $color-background;
             }
@@ -44,7 +43,7 @@
     }
 }
 
-.button {
+.search-button {
     background-color: $color-background;
 }
 

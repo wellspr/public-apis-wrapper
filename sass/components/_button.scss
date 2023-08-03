@@ -2,14 +2,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    padding: 1rem 2rem;
 }
 
 .button-search {
-    background-color: #333;
-    border: none;
-    border-radius: 0.5rem;
+    background-color: $color-background;
     padding: 1rem 3rem;
-    color: #eee;
+    color: $color-font-light;
     cursor: pointer;
     transition: all 0.2s;
     box-shadow: 0 .5rem .5rem 0 #aaa;

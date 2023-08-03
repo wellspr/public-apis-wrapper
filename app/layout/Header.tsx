@@ -1,5 +1,6 @@
 import { NavLink } from "@remix-run/react";
 import { useEffect, useRef } from "react";
+import Button from "~/components/Button";
 import baseURL from "~/config/baseURL";
 import Close from "~/icons/close/Close";
 import Logo from "~/icons/logo/Logo";
@@ -19,7 +20,6 @@ const Header = () => {
     };
 
     useEffect(() => {
-
         window.addEventListener("resize", hideMenu);
 
         return () => {
@@ -52,9 +52,9 @@ const Header = () => {
                     </nav>
                 </section>
                 <section className="menu-small">
-                    <button
-                        name="menu button"
-                        aria-label="menu button"
+                    <Button
+                        name="menu-button"
+                        aria-label="menu-button"
                         className="button menu-small__button-menu"
                         ref={menuBtn}
                         onClick={() => {
@@ -64,10 +64,10 @@ const Header = () => {
                             closeBtn.current && closeBtn.current.classList.remove("hidden");
                         }}>
                         <Menu />
-                    </button>
-                    <button
-                        name="close button"
-                        aria-label="close button"
+                    </Button>
+                    <Button
+                        name="close-button"
+                        aria-label="close-button"
                         className="button menu-small__button-close hidden"
                         ref={closeBtn}
                         onClick={() => {
@@ -77,7 +77,7 @@ const Header = () => {
                             closeBtn.current && closeBtn.current.classList.add("hidden");
                         }}>
                         <Close />
-                    </button>
+                    </Button>
                 </section>
             </div>
             <section className="menu-small">

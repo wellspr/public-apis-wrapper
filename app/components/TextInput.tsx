@@ -29,8 +29,8 @@ const TextInput: FC<TextInputProps> = ({ className, placeHolder, label }) => {
                 ref={inputRef}
             />
             <button
-                name="search button"
-                aria-label="search button"
+                name="search-button"
+                aria-label="search-button"
                 className="input-icon input-icon__left"
                 type="button"
                 >
