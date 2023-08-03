@@ -3,6 +3,7 @@ import TextInput from "./TextInput";
 import Check from "~/icons/check/Check";
 import Box from "~/icons/box/Box";
 import { useState } from "react";
+import CheckboxInput from "./CheckboxInput";
 
 const SearchBar = () => {
 
@@ -15,38 +16,8 @@ const SearchBar = () => {
 
             <div className="options">
                 <span>Search in: </span>
-
-                <div className="field-input">
-                    <label htmlFor="field-title">
-                        { titleChecked ? <Check /> : <Box /> }
-                        <input
-                            id="field-title"
-                            type="checkbox"
-                            name="title"
-                            value="title"
-                            checked={titleChecked}
-                            onChange={e => setTitleChecked(e.target.checked)}
-                            hidden
-                        />
-                        <span>Title</span>
-                    </label>
-                </div>
-                
-                <div className="field-input">
-                    <label htmlFor="field-description">
-                        { descriptionChecked ? <Check /> : <Box /> }
-                        <input
-                            id="field-description"
-                            type="checkbox"
-                            name="description"
-                            value="description"
-                            checked={descriptionChecked}
-                            onChange={e => setDescriptionChecked(e.target.checked)}
-                            hidden
-                        />
-                        <span>Description</span>
-                    </label>
-                </div>
+                <CheckboxInput name="title" initialState={true} label="Title" />
+                <CheckboxInput name="description" initialState={false} label="Description" />
             </div>
 
             <button

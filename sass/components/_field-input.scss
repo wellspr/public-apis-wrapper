@@ -1,0 +1,15 @@
+.field-input {
+    display: flex;
+    gap: 0.4rem;
+    
+    label {
+        display: flex;
+        align-items: center;
+        gap: .3rem;
+        cursor: pointer;
+
+        .icon {
+            color: $color-background;
+        }
+    }
+}

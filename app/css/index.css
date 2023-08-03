@@ -453,19 +453,6 @@ body {
   display: flex;
   gap: 3rem;
 }
-.search-bar .options .field-input {
-  display: flex;
-  gap: 0.4rem;
-}
-.search-bar .options .field-input label {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-  cursor: pointer;
-}
-.search-bar .options .field-input label .icon {
-  color: #0e1529;
-}
 
 .text-input {
   display: flex;
@@ -532,6 +519,20 @@ body {
 }
 .text-input input[type=text]:placeholder-shown ~ .input-icon__right {
   display: none;
+}
+
+.field-input {
+  display: flex;
+  gap: 0.4rem;
+}
+.field-input label {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+}
+.field-input label .icon {
+  color: #0e1529;
 }
 
 .button {
