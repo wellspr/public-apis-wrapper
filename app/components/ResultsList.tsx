@@ -1,6 +1,7 @@
 import { FC } from "react";
 import Card from "./Card";
 import { Entry } from "~/routes/$category";
+import { useLocation } from "@remix-run/react";
 
 interface ResultsListProps {
     results: Entry[];
@@ -8,7 +9,7 @@ interface ResultsListProps {
 
 const ResultsList: FC<ResultsListProps> = ({ results }) => {
 
-    if (!results) return <div className="results"><span className="no-results">No results</span></div>;
+    if (!results) return null;
 
     const categoriesList = [
         ...new Set(
@@ -22,14 +23,13 @@ const ResultsList: FC<ResultsListProps> = ({ results }) => {
             <span className="search-results-info">
                 {"Found "}
                 <b>{results.length}</b> {results.length > 1 ? " results " : " result "}
-                { "in " }
+                {"in "}
                 <b>{categoriesList.length}</b> {categoriesList.length > 1 ? " categories" : " category"}.
             </span>
             <h2 className="results__heading">
                 <span className="results__label">
-                    {
-                        categoriesList.length > 1 ? "Categories: " : "Category: "
-                    }
+                    { categoriesList.length > 1 && "Categories: " }
+                    { categoriesList.length === 1 && "Category: " }
                 </span>
                 <span className="results__name">
                     {

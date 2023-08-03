@@ -221,6 +221,7 @@ body {
 .footer .dedicatory .icon {
   width: 1.6rem;
   margin: 0 0.4rem;
+  color: red;
 }
 .footer .view-on-github {
   display: flex;
@@ -245,18 +246,22 @@ body {
 .footer .issue-link {
   display: flex;
   align-items: center;
-  color: #333;
   border: 1px solid #777;
   border-radius: 1rem;
   padding: 0.5rem 1.2rem;
   margin: 1rem 0;
+  color: #332914;
+  background-color: #fff;
 }
 .footer .issue-link a {
   text-decoration: none;
-  color: #333;
 }
 .footer .issue-link .icon {
   width: 1.5rem;
+}
+.footer .issue-link:hover {
+  color: #584622;
+  background-color: white;
 }
 
 /* Components */
@@ -454,6 +459,9 @@ body {
   align-items: center;
   gap: 0.3rem;
   cursor: pointer;
+}
+.search-bar .options .field-input label .icon {
+  color: #0e1529;
 }
 
 .text-input {
