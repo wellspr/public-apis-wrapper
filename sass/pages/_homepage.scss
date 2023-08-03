@@ -24,6 +24,18 @@
         &--sub {
             font-size: 1.4rem;
             font-weight: normal;
+
+            
+            a {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                color: $color-font-dark;
+
+                .icon {
+                    width: 1.8rem;
+                }
+            }
         }
     }
 
