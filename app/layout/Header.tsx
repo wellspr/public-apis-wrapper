@@ -13,6 +13,7 @@ const Header = () => {
 
     const hideMenu = () => {
         menuRef.current?.classList.remove("show");
+        menuRef.current?.classList.add("hidden");
         menuBtn.current && menuBtn.current.classList.remove("hidden");
         closeBtn.current && closeBtn.current.classList.add("hidden");
     };
