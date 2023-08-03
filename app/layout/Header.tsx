@@ -52,10 +52,10 @@ const Header = () => {
                     </nav>
                 </section>
                 <section className="menu-small">
-                    <button
+                    <Button
                         name="menu-button"
                         aria-label="menu-button"
-                        className="button menu-small__button-menu"
+                        className="menu-small__button-menu"
                         ref={menuBtn}
                         onClick={() => {
                             menuRef.current && menuRef.current.classList.remove("hidden");
@@ -64,11 +64,11 @@ const Header = () => {
                             closeBtn.current && closeBtn.current.classList.remove("hidden");
                         }}>
                         <Menu />
-                    </button>
-                    <button
+                    </Button>
+                    <Button
                         name="close-button"
                         aria-label="close-button"
-                        className="button menu-small__button-close hidden"
+                        className="menu-small__button-close hidden"
                         ref={closeBtn}
                         onClick={() => {
                             menuRef.current && menuRef.current.classList.add("hidden");
@@ -77,7 +77,7 @@ const Header = () => {
                             closeBtn.current && closeBtn.current.classList.add("hidden");
                         }}>
                         <Close />
-                    </button>
+                    </Button>
                 </section>
             </div>
             <section className="menu-small">
