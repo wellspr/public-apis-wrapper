@@ -1,13 +1,13 @@
 .homepage {
-
     &__logo {
-
         display: flex;
         justify-content: center;
-        
+
         .logo {
-            width: 10rem;
-            height: 10rem;
+            width: 15rem;
+            max-width: 15rem;
+            height: 15rem;
+            max-height: 15rem;
         }
     }
 
@@ -25,7 +25,6 @@
             font-size: 1.4rem;
             font-weight: normal;
 
-            
             a {
                 display: inline-flex;
                 align-items: center;
@@ -48,7 +47,7 @@
 
         .category {
             list-style: none;
-            border: 1px solid #777;
+            border: 1px solid $color-background;
             border-radius: 5px;
             display: flex;
             align-items: center;
@@ -56,10 +55,12 @@
             cursor: pointer;
             font-weight: bold;
             transition: all 0.2s;
-            background-color: #f7f9ff;
+            background-color: $color-background-light-3;
 
             flex-grow: 1;
             max-width: fit-content;
+
+            
 
             @media (max-width: 768px) {
                 max-width: 100%;
@@ -68,7 +69,7 @@
             a {
                 padding: 1.4rem;
                 text-decoration: none;
-                color: #333;
+                color: $color-font-dark;
                 font-size: 1.4rem;
                 flex-grow: 1;
                 border-radius: 5px;
@@ -81,11 +82,11 @@
             }
 
             &:hover {
-                background-color: #333;
-                transform: scale(1.1);
+                background-color: $color-background;
+                animation: button-scale-up 0.2s both;
 
                 a {
-                    color: #eee;
+                    color: $color-font-light;
                 }
             }
         }

@@ -8,26 +8,44 @@
     padding: 1rem 2rem;
 }
 
+@keyframes button-hover {
+    from {
+        scale: 1;
+        @include scale-helper;
+    }
+    to {
+        scale: 1.1;
+        @include scale-helper;
+    }
+}
+
+@keyframes button-normal {
+    from {
+        scale: 1.1;
+        @include scale-helper;
+    }
+    to {
+        scale: 1;
+        @include scale-helper;
+    }
+}
+
 .button-search {
     background-color: $color-background;
-    padding: 1rem 3rem;
     color: $color-font-light;
+    font-size: 2rem;
+    padding: 1.6rem 3.2rem;
     cursor: pointer;
-    transition: all 0.2s;
-    box-shadow: 0 .5rem .5rem 0 #aaa;
-    
+    box-shadow: 0 0.5rem 0.5rem 0 #aaa;
+    animation: button-normal .2s both;
+    transition: scale 0.2s;
+
     &:hover:not(:active) {
-        //background-color: lighten($color: #777, $amount: 10%);
-        transform: scale(1.1);
-        box-shadow: 0 .5rem .5rem -.2rem #aaa;
-        backface-visibility: hidden;
-        -webkit-font-smoothing: subpixel-antialiased;
+        box-shadow: 0 0.5rem 0.5rem -0.2rem #aaa;
+        animation: button-hover .2s both;
     }
 
     &:active {
-        transform: scale(1.05);
-        box-shadow: 0 .5rem .5rem -.1rem #aaa;
-        backface-visibility: hidden;
-        -webkit-font-smoothing: subpixel-antialiased;
+        box-shadow: 0 0.5rem 0.5rem -0.1rem #aaa;
     }
 }

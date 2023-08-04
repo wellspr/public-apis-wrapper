@@ -22,7 +22,9 @@ export const links = () => {
         { rel: "icon", href: "/favicon.ico", sizes: "any" },
         { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
         { rel: "manifest", href: "/site.webmanifest" },
-        { rel: "stylesheet", href: styles }];
+        { rel: "preload", as: "style", href: styles },
+        { rel: "stylesheet", href: styles }
+    ];
 };
 
 export const loader = async () => {

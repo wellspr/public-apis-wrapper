@@ -56,6 +56,41 @@
     transform: translateY(-50%);
   }
 }
+@keyframes card-scale-up {
+  from {
+    scale: 1;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+  to {
+    scale: 1.04;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+}
+@keyframes button-scale-up {
+  from {
+    scale: 1;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+  to {
+    scale: 1.1;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.25;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /* Vendor */
 /* Base */
 * {
@@ -80,16 +115,16 @@ body {
   justify-content: space-between;
   min-height: 100vh;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1440px;
 }
 
 body {
-  color: #332914;
-  background-color: #f1f1e6;
+  color: #262b41;
+  background-color: #dde1ff;
 }
 
 .text-input {
-  background-color: #fff;
+  background-color: #f6fbff;
 }
 
 body {
@@ -163,6 +198,8 @@ body {
 .header__main-container .brand a .logo {
   width: 3.5rem;
   height: 3.5rem;
+  max-width: 3.5rem;
+  max-height: 3.5rem;
 }
 @media (max-width: 768px) {
   .header {
@@ -182,7 +219,7 @@ body {
 }
 @media (max-width: 768px) {
   .main {
-    padding: 1rem;
+    padding: 2rem;
     padding-bottom: 12rem;
   }
 }
@@ -250,8 +287,8 @@ body {
   border-radius: 1rem;
   padding: 0.8rem 1.6rem;
   margin: 1rem 0;
-  color: #332914;
-  background-color: #fff;
+  color: #262b41;
+  background-color: #f6fbff;
   font-size: 1.4rem;
   text-decoration: none;
 }
@@ -261,7 +298,7 @@ body {
   width: 2.4rem;
 }
 .footer .issue-link:hover {
-  color: #584622;
+  color: #394061;
   background-color: #0e1529;
   border: 1px solid #f7f9ff;
   color: #f7f9ff;
@@ -273,23 +310,12 @@ body {
   border: 1px solid #aaa;
   border-radius: 5px;
   padding: 1.4rem;
-  color: #333;
+  color: #262b41;
+  background-color: #f6fbff;
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
   box-shadow: 0 1px 5px 1px #aaa;
-  transition: transform 0.2s;
-  backface-visibility: hidden;
-  -webkit-font-smoothing: subpixel-antialiased;
-  /*
-  &__title {}
-
-  &__description {}
-
-  &__link {}
-
-  &__category {}
-  */
 }
 .card__details {
   display: flex;
@@ -298,8 +324,8 @@ body {
   display: none;
 }
 .card:hover {
-  transform: scale(1.01) translateZ(0);
   box-shadow: 0 2px 8px 1px #aaa;
+  animation: card-scale-up 0.2s both;
 }
 
 .menu__navigation ul {
@@ -309,16 +335,16 @@ body {
 }
 .menu__navigation ul a {
   text-decoration: none;
-  color: #555;
+  color: #614200;
 }
 .menu__navigation ul a:hover {
-  color: #a2a2a2;
+  color: #faaa00;
 }
 .menu__navigation ul a:active {
-  color: #6f6f6f;
+  color: #946500;
 }
 .menu__navigation ul a.active {
-  color: #6f6f6f;
+  color: #946500;
   font-weight: bold;
 }
 @media (max-width: 768px) {
@@ -371,14 +397,14 @@ body {
 }
 .menu-small__navigation ul a {
   text-decoration: none;
-  color: #555;
+  color: #614200;
 }
 .menu-small__navigation ul a:hover {
-  color: #a2a2a2;
+  color: #faaa00;
 }
 .menu-small__navigation ul a.active {
   font-weight: bold;
-  color: #6f6f6f;
+  color: #946500;
 }
 .menu-small__navigation ul li {
   margin: 1rem 0;
@@ -440,7 +466,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin: 5rem 2rem;
+  margin: 5rem 1rem;
 }
 .search-bar .options {
   display: flex;
@@ -538,25 +564,46 @@ body {
   padding: 1rem 2rem;
 }
 
+@keyframes button-hover {
+  from {
+    scale: 1;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+  to {
+    scale: 1.1;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+}
+@keyframes button-normal {
+  from {
+    scale: 1.1;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+  to {
+    scale: 1;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+}
 .button-search {
   background-color: #0e1529;
-  padding: 1rem 3rem;
   color: #f7f9ff;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
   cursor: pointer;
-  transition: all 0.2s;
   box-shadow: 0 0.5rem 0.5rem 0 #aaa;
+  animation: button-normal 0.2s both;
+  transition: scale 0.2s;
 }
 .button-search:hover:not(:active) {
-  transform: scale(1.1);
   box-shadow: 0 0.5rem 0.5rem -0.2rem #aaa;
-  backface-visibility: hidden;
-  -webkit-font-smoothing: subpixel-antialiased;
+  animation: button-hover 0.2s both;
 }
 .button-search:active {
-  transform: scale(1.05);
   box-shadow: 0 0.5rem 0.5rem -0.1rem #aaa;
-  backface-visibility: hidden;
-  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 /* Pages */
@@ -575,8 +622,10 @@ body {
   justify-content: center;
 }
 .homepage__logo .logo {
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  max-width: 15rem;
+  height: 15rem;
+  max-height: 15rem;
 }
 .homepage__heading {
   text-align: center;
@@ -595,7 +644,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #332914;
+  color: #262b41;
 }
 .homepage__heading--sub a .icon {
   width: 1.8rem;
@@ -609,7 +658,7 @@ body {
 }
 .homepage .categories-list .category {
   list-style: none;
-  border: 1px solid #777;
+  border: 1px solid #0e1529;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -629,7 +678,7 @@ body {
 .homepage .categories-list .category a {
   padding: 1.4rem;
   text-decoration: none;
-  color: #333;
+  color: #262b41;
   font-size: 1.4rem;
   flex-grow: 1;
   border-radius: 5px;
@@ -640,11 +689,11 @@ body {
   align-items: center;
 }
 .homepage .categories-list .category:hover {
-  background-color: #333;
-  transform: scale(1.1);
+  background-color: #0e1529;
+  animation: button-scale-up 0.2s both;
 }
 .homepage .categories-list .category:hover a {
-  color: #eee;
+  color: #f7f9ff;
 }
 
 .category-page {
@@ -662,12 +711,6 @@ body {
 @media (max-width: 768px) {
   .category-page .categories-list {
     order: 1;
-    /*
-    position: absolute;
-    top: 0;
-    background-color: #999;
-
-    */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -683,10 +726,10 @@ body {
 }
 .category-page .categories-list .category a {
   text-decoration: none;
-  color: #333;
+  color: #262b41;
 }
 .category-page .categories-list .category a:hover {
-  color: gray;
+  color: #5f6ba1;
 }
 .category-page .categories-list .category__selected {
   font-weight: bold;

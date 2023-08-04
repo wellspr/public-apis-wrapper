@@ -1,18 +1,23 @@
-$color-background-body: #f1f1e6;
-$color-background: #0e1529;
-$color-background-light-1: #fff;
-$color-background-light-2: #e8efff;
-$color-font-light: #f7f9ff;
-$color-font-dark: #332914;
+$color-background-body: #dde1ff;
 
-$link-color: #555;
+$color-background: #0e1529;
+$color-background-2: #262b41;
+
+$color-background-light-1: #f6fbff;
+$color-background-light-2: #e8efff;
+$color-background-light-3: #f7f9ff;
+
+$color-font-light: #f7f9ff;
+$color-font-dark: #262b41;
+
+$link-color: #614200;
 
 $link-on-hover: lighten(
-    $color: #555,
+    $color: #614200,
     $amount: 30%
 );
 
 $link-active: lighten(
-    $color: #555,
+    $color: #614200,
     $amount: 10%
 );
