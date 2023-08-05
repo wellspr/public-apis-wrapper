@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: inherit;
+    outline: none;
+
+    &:focus {
+        outline: 2px solid $color-background;
+    }
 }
 
 html {

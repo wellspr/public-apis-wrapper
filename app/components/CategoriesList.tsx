@@ -1,4 +1,4 @@
-import { Link, useLocation, useRouteLoaderData } from "@remix-run/react";
+import { Link, useMatches, useRouteLoaderData } from "@remix-run/react";
 import { FC } from "react";
 
 export interface CategoriesProps {
@@ -11,22 +11,31 @@ const CategoriesList: FC = () => {
 
     const list: string[] = categories as string[];
 
-    const { state } = useLocation();
+    const matches = useMatches();
+
+    const category = matches[0].params.category;
+
+    console.log(matches);
 
     return (
         <ul className="categories-list">
             {
                 Object.values(list).map(entry => {
                     return (
-                        <li key={entry} className="category">
-                            <Link
-                                to={`/${entry.toLowerCase().split(" ")[0]}`}
-                                state={{ category: entry }}
-                            >
-                                <span className={ (state && state.category) === entry ? `category__selected` : "" }>
-                                    {entry}
-                                </span>
-                            </Link>
+                        <li
+                            key={entry}
+                            className={category?.toLowerCase() === entry.toLowerCase() ? `category category--selected` : "category"}
+                        >
+                            {
+                                category?.toLowerCase() === entry.toLowerCase()
+                                    ?
+                                    <span>{entry}</span>
+                                    :
+                                    <Link className="category__link"
+                                        to={`/${entry.toLowerCase().split(" ")[0]}`}>
+                                        {entry}
+                                    </Link>
+                            }
                         </li>
                     );
                 })

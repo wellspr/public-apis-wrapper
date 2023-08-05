@@ -1,0 +1,42 @@
+$scale: 1.04;
+$color-shadow: #777;
+
+@keyframes button-hover {
+    from {
+        scale: 1;
+        @include scale-helper;
+    }
+    to {
+        scale: $scale;
+        @include scale-helper;
+    }
+}
+
+@mixin button-shadow-normal {
+    box-shadow: 0 .4rem .2rem -.4rem $color-shadow;
+}
+
+@mixin button-shadow-hover {
+    box-shadow: 0 .4rem .4rem -.2rem $color-shadow;
+}
+
+@mixin button-animation {
+    @include button-shadow-normal;
+    transition: all 0.2s;
+    transform: scale(1);
+
+    &:hover:not(:active) {
+        @include button-shadow-hover;
+        animation: button-hover .2s both;
+    }
+}
+
+.button-search {
+    background-color: $color-background;
+    color: $color-font-light;
+    font-size: 2rem;
+    padding: 1.6rem 3.2rem;
+    cursor: pointer;
+
+    @include button-animation();
+}

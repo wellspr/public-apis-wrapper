@@ -19,26 +19,27 @@ const ResultsList: FC<ResultsListProps> = ({ results }) => {
 
     return (
         <section id="results" className="results">
+
             <span className="search-results-info">
                 {"Found "}
                 <b>{results.length}</b> {results.length > 1 ? " results " : " result "}
                 {"in "}
                 <b>{categoriesList.length}</b> {categoriesList.length > 1 ? " categories" : " category"}.
             </span>
+
             <h2 className="results__heading">
                 <span className="results__label">
-                    { categoriesList.length > 1 && "Categories: " }
-                    { categoriesList.length === 1 && "Category: " }
+                    {categoriesList.length > 1 && "Categories: "}
+                    {categoriesList.length === 1 && "Category: "}
                 </span>
-                <span className="results__name">
-                    {
-                        categoriesList.map(category => {
-                            return <span key={category} className="item">{category}</span>;
-                        })
+                {
+                    categoriesList.map(category => {
+                        return <span key={category} className="item">{category}</span>;
+                    })
 
-                    }
-                </span>
+                }
             </h2>
+            
             <ul className="results-list">
                 {
                     Object.values(results).map((entry, index) => {

@@ -1,3 +1,22 @@
+@keyframes category-scale-up {
+    from {
+        scale: 1;
+        @include scale-helper;
+    }
+    to {
+        scale: 1.1;
+        @include scale-helper;
+    }
+}
+
+@mixin category-animation {
+    transition: all 0.2s;
+
+    &:hover {
+        animation: category-scale-up 0.2s both;
+    }
+}
+
 .homepage {
     &__logo {
         display: flex;
@@ -54,13 +73,12 @@
             justify-content: center;
             cursor: pointer;
             font-weight: bold;
-            transition: all 0.2s;
             background-color: $color-background-light-3;
 
             flex-grow: 1;
             max-width: fit-content;
 
-            
+            @include category-animation();
 
             @media (max-width: 768px) {
                 max-width: 100%;
@@ -74,16 +92,13 @@
                 flex-grow: 1;
                 border-radius: 5px;
 
-                span {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                }
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
 
             &:hover {
                 background-color: $color-background;
-                animation: button-scale-up 0.2s both;
 
                 a {
                     color: $color-font-light;

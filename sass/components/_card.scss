@@ -1,3 +1,26 @@
+$color-card-shadow: #aaa;
+
+@keyframes card-scale-up {
+    from {
+        scale: 1;
+        @include scale-helper;
+    }
+    to {
+        scale: 1.04;
+        @include scale-helper;
+    }
+}
+
+@mixin card-animation {
+    box-shadow: 0 .1rem .8rem 0 $color-card-shadow;
+    transition: all .2s;
+
+    &:hover {
+        box-shadow: 0 .1rem .8rem -.2rem $color-card-shadow;
+        animation: card-scale-up .2s both;
+    }
+}
+
 .card {
     padding: 0.5rem;
     border: 1px solid #aaa;
@@ -10,8 +33,6 @@
     flex-direction: column;
     gap: 0.8rem;
 
-    box-shadow: 0 1px 5px 1px #aaa;
-
     &__details {
         display: flex;
         flex-wrap: wrap;
@@ -19,8 +40,5 @@
         display: none;
     }
 
-    &:hover {
-        box-shadow: 0 2px 8px 1px #aaa;
-        animation: card-scale-up .2s both;
-    }
+    @include card-animation();
 }

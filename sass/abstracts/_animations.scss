@@ -63,39 +63,3 @@
         transform: translateY(-50%);
     }
 }
-
-@keyframes card-scale-up {
-    from {
-        scale: 1;
-        @include scale-helper;
-    }
-    to {
-        scale: 1.04;
-        @include scale-helper;
-    }
-}
-
-@keyframes button-scale-up {
-    from {
-        scale: 1;
-        @include scale-helper;
-    }
-    to {
-        scale: 1.1;
-        @include scale-helper;
-    }
-}
-
-@keyframes appear {
-    from {
-        opacity: 0;
-    }
-
-    75% {
-        opacity: .25;
-    }
-
-    to {
-        opacity: 1;
-    }
-}

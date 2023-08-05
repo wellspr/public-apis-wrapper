@@ -29,6 +29,14 @@ $horizontal-margins: 5.4rem;
         &::placeholder {
             color: transparent;
         }
+
+        border: none;
+        outline: none;
+
+        &:focus {
+            box-shadow: 0 .5rem .8rem -.1rem #ccc;
+            outline: 2px solid $color-background;
+        }
     }
 
     label {
@@ -38,16 +46,16 @@ $horizontal-margins: 5.4rem;
         left: $horizontal-margins;
         font-size: 2rem;
         color: #aaa;
-        transition: all 0.3s ease-in-out;
+        transition: all .1s ease-in-out;
     }
 
     input[type="text"]:not(:placeholder-shown) ~ label {
-        animation: label-up .3s both;
+        animation: label-up .1s both;
         backface-visibility: hidden;
     }
 
     input[type="text"]:placeholder-shown ~ label {
-        animation: label-down .3s both;
+        //animation: label-down .3s both;
         backface-visibility: hidden;
     }
 
