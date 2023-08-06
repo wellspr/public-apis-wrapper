@@ -6,22 +6,9 @@
             display: flex;
             gap: 1.6rem;
 
-            a {
-                text-decoration: none;
-                color: $link-color;
-
-                &:hover {
-                    color: $link-on-hover;
-                }
-
-                &:active {
-                    color: $link-active;
-                }
-            }
-
-            a.active {
-                color: $link-active;
-                font-weight: bold;
+            li {
+                width: 8rem;
+                text-align: center;
             }
         }
     }
@@ -42,7 +29,6 @@
     &__button-close {
         background-color: transparent;
         border: none;
-
         cursor: pointer;
 
         .icon {
@@ -72,27 +58,10 @@
         
         ul {
             list-style: none;
-            font-size: 2.1rem;
-
-            a {
-                text-decoration: none;
-                color: $link-color;
-
-                &:hover {
-                    color: $link-on-hover;
-                }
-            }
-
-            a.active {
-                font-weight: bold;
-                color: $link-active;
-            }
-
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 1rem;
-
             padding: 0 3rem;
 
             li {

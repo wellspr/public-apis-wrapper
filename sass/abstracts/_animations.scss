@@ -29,37 +29,3 @@
         opacity: 1;
     }
 }
-
-@keyframes label-up {
-    0% {
-        font-size: 2rem;
-        color: #aaa;
-        top: calc(50%);
-        transform: translateY(-50%);
-    }
-
-    100% {
-        font-size: 1.2rem;
-        color: #777;
-        top: 1rem;
-        transform: translateY(-50%);
-        z-index: 200;
-    }
-}
-
-@keyframes label-down {
-    0% {
-        font-size: 1.2rem;
-        color: #777;
-        top: 1rem;
-        transform: translateY(-50%);
-        z-index: 200;
-    }
-
-    100% {
-        font-size: 2rem;
-        color: #aaa;
-        top: calc(50%);
-        transform: translateY(-50%);
-    }
-}

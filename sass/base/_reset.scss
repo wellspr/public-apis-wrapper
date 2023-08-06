@@ -1,12 +1,19 @@
-* {
+*,
+::before,
+::after
+{
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    outline: none;
+}
 
-    &:focus {
-        outline: 2px solid $color-background;
-    }
+:focus {
+    outline: none;
+}
+
+:focus-visible {
+    //https://css-tricks.com/almanac/selectors/f/focus-visible/
+    outline: 2px solid $color-highlight
 }
 
 html {

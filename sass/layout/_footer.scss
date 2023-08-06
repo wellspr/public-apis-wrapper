@@ -4,10 +4,9 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    gap: 1rem;
+    gap: 2rem;
 
     a {
-        color: #333;
         text-decoration: none;
     }
 
@@ -16,6 +15,7 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        margin-bottom: 3rem;
 
         &:nth-child(2) {
             align-self: center;
@@ -23,7 +23,7 @@
 
         @media (max-width: 768px) {
             flex-direction: column;
-            gap: 1rem;
+            gap: 3rem;
         }
     }
 
@@ -34,7 +34,12 @@
         .icon {
             width: 1.6rem;
             margin: 0 0.4rem;
-            color: red;
+        }
+    }
+
+    .attribution {
+        @media (max-width: 768px) {
+            order: 2;
         }
     }
 
@@ -72,8 +77,6 @@
         border-radius: 1rem;
         padding: 0.8rem 1.6rem;
         margin: 1rem 0;
-        color: $color-font-dark;
-        background-color: $color-background-light-1;
         font-size: 1.4rem;
         text-decoration: none;
 
@@ -84,12 +87,7 @@
         }
 
         &:hover {
-            color: lighten($color: $color-font-dark, $amount: 10%);
-            //background-color: lighten($color: $color-background-light-1, $amount: 30%);
-            background-color: $color-background;
             border: 1px solid $color-font-light;
-            color: $color-font-light;
-
         }
     }
 }

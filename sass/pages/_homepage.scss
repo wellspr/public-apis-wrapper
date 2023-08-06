@@ -35,20 +35,11 @@
         display: flex;
         flex-direction: column;
 
-        &--main {
-            font-size: 2.4rem;
-            line-height: 2;
-        }
-
         &--sub {
-            font-size: 1.4rem;
-            font-weight: normal;
-
             a {
                 display: inline-flex;
                 align-items: center;
                 justify-content: center;
-                color: $color-font-dark;
 
                 .icon {
                     width: 1.8rem;
@@ -72,9 +63,6 @@
             align-items: center;
             justify-content: center;
             cursor: pointer;
-            font-weight: bold;
-            background-color: $color-background-light-3;
-
             flex-grow: 1;
             max-width: fit-content;
 
@@ -87,22 +75,11 @@
             a {
                 padding: 1.4rem;
                 text-decoration: none;
-                color: $color-font-dark;
-                font-size: 1.4rem;
                 flex-grow: 1;
                 border-radius: 5px;
-
                 display: flex;
                 justify-content: center;
                 align-items: center;
-            }
-
-            &:hover {
-                background-color: $color-background;
-
-                a {
-                    color: $color-font-light;
-                }
             }
         }
     }

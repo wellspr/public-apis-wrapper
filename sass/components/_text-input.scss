@@ -1,4 +1,24 @@
-$horizontal-margins: 5.4rem;
+@keyframes label-up {
+    0% {
+        transform: translateY(-50%);
+    }
+    100% {
+        transform: translateY(-50%);
+        z-index: 200;
+    }
+}
+
+@keyframes label-down {
+    0% {
+        transform: translateY(-50%);
+        z-index: 200;
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+$horizontal-margins: 6.2rem;
 
 .text-input {
     display: flex;
@@ -8,8 +28,14 @@ $horizontal-margins: 5.4rem;
     gap: 0.5rem;
     position: relative;
     width: 80%;
-    border-radius: .5rem;
-    
+    border-radius: 0.5rem;
+    box-shadow: 0 .2rem .4rem 0 $color-shadow-1;
+    transition: all .2s ease-in-out;
+
+    &:focus-within {
+        /* the focusable element is the input, which is a child */
+        box-shadow: 0 .5rem 1.5rem -0.1rem rgba($color-shadow-1, .75);
+    }
 
     @media (max-width: 768px) {
         width: 100%;
@@ -17,25 +43,16 @@ $horizontal-margins: 5.4rem;
 
     input[type="text"] {
         border: 1px solid #ccc;
-        border-radius: .5rem;
+        border-radius: 0.5rem;
         padding: 2rem $horizontal-margins;
         font-size: 2.4rem;
         width: 100%;
         position: relative;
         z-index: 100;
         background-color: transparent;
-        box-shadow: 0 .5rem .5rem -.2rem #ccc;
 
         &::placeholder {
             color: transparent;
-        }
-
-        border: none;
-        outline: none;
-
-        &:focus {
-            box-shadow: 0 .5rem .8rem -.1rem #ccc;
-            outline: 2px solid $color-background;
         }
     }
 
@@ -45,32 +62,36 @@ $horizontal-margins: 5.4rem;
         transform: translateY(-50%);
         left: $horizontal-margins;
         font-size: 2rem;
-        color: #aaa;
-        transition: all .1s ease-in-out;
+        transition: all 0.1s ease-in-out;
     }
 
     input[type="text"]:not(:placeholder-shown) ~ label {
-        animation: label-up .1s both;
+        animation: label-up 0.1s both;
         backface-visibility: hidden;
+        font-size: 1.2rem;
+        top: 1.2rem;
     }
 
     input[type="text"]:placeholder-shown ~ label {
-        //animation: label-down .3s both;
+        animation: label-down 0.1s both;
         backface-visibility: hidden;
     }
 
     .input-icon {
         position: absolute;
-        
         background-color: transparent;
         border: none;
         display: flex;
         justify-content: center;
         align-items: center;
-        
-        color: #777;
+
+        svg {
+            width: 3rem;
+            height: 3rem;
+        }
 
         &__left {
+            transform: translateY(0.2rem);
             left: 2rem;
         }
 
@@ -80,7 +101,7 @@ $horizontal-margins: 5.4rem;
             cursor: pointer;
         }
     }
-    
+
     input[type="text"]:placeholder-shown ~ .input-icon__right {
         display: none;
     }

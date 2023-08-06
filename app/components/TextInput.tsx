@@ -31,6 +31,8 @@ const TextInput: FC<TextInputProps> = ({ className, placeHolder, label }) => {
             <button
                 name="search-button"
                 aria-label="search-button"
+                aria-disabled="true"
+                disabled
                 className="input-icon input-icon__left"
                 type="button"
                 >

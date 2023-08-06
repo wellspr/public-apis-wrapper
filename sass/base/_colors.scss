@@ -3,6 +3,150 @@ body {
     background-color: $color-background-body;
 }
 
+.homepage {
+    &__logo {
+        color: $color-background;
+    }
+
+    &__heading {
+        a {
+            color: $color-font-dark;
+        }
+    }
+
+    .categories-list {
+        .category {
+            background-color: $color-background-light-3;
+
+            a {
+                color: $color-font-dark;
+
+                &:hover {
+                    background-color: $color-background;
+                }
+            }
+
+            &:hover {
+                background-color: $color-background;
+
+                a {
+                    color: $color-font-light;
+                }
+            }
+        }
+    }
+}
+
+.category-page {
+    .categories-list {
+        .category {
+            &:hover:not(&--selected) a {
+                color: lighten($color: $color-font-dark, $amount: 30%);
+            }
+
+            a {
+                text-decoration: none;
+                color: $color-font-dark;
+            }
+        }
+    }
+}
+
+.header {
+    background-color: $color-background;
+    color: $color-font-light;
+
+    .brand {
+        a {
+            color: $color-font-light;
+        }
+    }
+}
+
+.menu,
+.menu-small {
+    .button {
+        color: $color-font-light;
+    }
+
+    &__navigation {
+        ul {
+            li {
+                a {
+                    color: $color-font-light;
+
+                    &:hover {
+                        color: lighten($color: $color-font-light, $amount: 70%);
+                    }
+                }
+
+                a.active {
+                    color: lighten($color: $color-font-light, $amount: 10%);
+                }
+            }
+        }
+    }
+}
+
 .text-input {
     background-color: $color-background-light-1;
+
+    label {
+        color: rgba($color-font-dark, 0.75);
+    }
+
+    input[type="text"]:not(:placeholder-shown) ~ label {
+        color: rgba($color-font-dark, 0.75);
+    }
+
+    input[type="text"]:placeholder-shown ~ label {
+        color: rgba($color-font-dark, 0.75);
+    }
+
+    .input-icon {
+        color: rgba($color-font-dark, 0.75);
+    }
+}
+
+.field-input {
+    .icon {
+        color: $color-background;
+        fill: $color-background-light-1;
+    }
+}
+
+.button.button-search {
+    background-color: $color-background;
+    color: $color-font-light;
+}
+
+.card {
+    color: $color-font-dark;
+    background-color: $color-background-light-1;
+}
+
+.footer {
+    background-color: $color-background;
+    color: $color-font-light;
+
+    a {
+        color: $color-font-light;
+    }
+
+    .issue-link {
+        color: $color-font-dark;
+        background-color: $color-background-light-1;
+        font-weight: bold;
+
+        &:hover {
+            background-color: $color-background;
+            color: $color-font-light;
+        }
+    }
+
+    .dedicatory {
+        .icon {
+            color: red;
+        }
+    }
 }

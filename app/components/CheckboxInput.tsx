@@ -12,9 +12,19 @@ const CheckboxInput: FC<CheckboxInputProps> = ({ name, initialState, label }) =>
 
     const [fieldChecked, setFieldChecked] = useState(initialState);
 
+    const handleKeyDown = (event: React.KeyboardEvent<HTMLLabelElement>) => {
+        const key = event.code;
+
+        console.log(key);
+    }
+
     return (
         <div className="field-input">
-            <label htmlFor={`field-${name}`}>
+            <label 
+                htmlFor={`field-${name}`} 
+                tabIndex={0}
+                onKeyDown={e => handleKeyDown(e)}
+                >
                 {fieldChecked ? <Check /> : <Box />}
                 <input
                     id={`field-${name}`}
