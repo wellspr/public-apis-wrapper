@@ -15,8 +15,6 @@ const CategoriesList: FC = () => {
 
     const category = matches[0].params.category;
 
-    console.log(matches);
-
     return (
         <ul className="categories-list">
             {
