@@ -36,9 +36,10 @@ const Footer = () => {
                         </a>
                     </div>
                 </div>
-
+                <div className="background">
+                    Background image by <a href="https://www.freepik.com/free-vector/gradient-white-monochrome-background_15628854.htm#query=background%20abstract&position=15&from_view=search&track=ais">Freepik</a>
+                </div>
             </div>
-
         </footer>
     );
 };

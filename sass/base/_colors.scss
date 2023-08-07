@@ -1,6 +1,5 @@
 body {
     color: $color-font-dark;
-    background-color: $color-background-body;
 }
 
 .homepage {
@@ -53,12 +52,11 @@ body {
 }
 
 .header {
-    background-color: $color-background;
-    color: $color-font-light;
-
+    color: $color-font-dark;
+    
     .brand {
         a {
-            color: $color-font-light;
+            color: $color-font-dark;
         }
     }
 }
@@ -66,22 +64,22 @@ body {
 .menu,
 .menu-small {
     .button {
-        color: $color-font-light;
+        color: $color-font-dark;
     }
 
     &__navigation {
         ul {
             li {
                 a {
-                    color: $color-font-light;
+                    color: $color-font-dark;
 
                     &:hover {
-                        color: lighten($color: $color-font-light, $amount: 70%);
+                        color: lighten($color: $color-font-dark, $amount: 30%);
                     }
                 }
 
                 a.active {
-                    color: lighten($color: $color-font-light, $amount: 10%);
+                    color: lighten($color: $color-font-dark, $amount: 10%);
                 }
             }
         }

@@ -8,9 +8,11 @@ const HomePage: FC = () => {
     return (
         <div className="homepage">
 
+{/*
             <div className="homepage__logo">
                 <Logo />
             </div>
+*/}
             <h1 className="homepage__heading">
                 <span className="homepage__heading--main">Find free public APIs for your project</span>
                 <span className="homepage__heading--sub">
@@ -19,6 +21,7 @@ const HomePage: FC = () => {
             </h1>
 
             <Search />
+
 
             <h2 className="homepage__heading">APIs categories</h2>
             <CategoriesList />

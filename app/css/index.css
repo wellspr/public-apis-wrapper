@@ -52,6 +52,11 @@ body {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(to right bottom, #f6fbff, #e8efff), url(../../app/images/background-abstract.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 
 .app {
@@ -60,12 +65,10 @@ body {
   justify-content: space-between;
   min-height: 100vh;
   width: 100%;
-  max-width: 1440px;
 }
 
 body {
   color: #262b41;
-  background-color: #dde1ff;
 }
 
 .homepage__logo {
@@ -99,28 +102,27 @@ body {
 }
 
 .header {
-  background-color: #0e1529;
-  color: #f7f9ff;
+  color: #262b41;
 }
 .header .brand a {
-  color: #f7f9ff;
+  color: #262b41;
 }
 
 .menu .button,
 .menu-small .button {
-  color: #f7f9ff;
+  color: #262b41;
 }
 .menu__navigation ul li a,
 .menu-small__navigation ul li a {
-  color: #f7f9ff;
+  color: #262b41;
 }
 .menu__navigation ul li a:hover,
 .menu-small__navigation ul li a:hover {
-  color: white;
+  color: #5f6ba1;
 }
 .menu__navigation ul li a.active,
 .menu-small__navigation ul li a.active {
-  color: white;
+  color: #394061;
 }
 
 .text-input {
@@ -215,7 +217,7 @@ body {
 }
 
 .brand__text {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   font-family: "Prompt", sans-serif;
   letter-spacing: normal;
 }
@@ -285,19 +287,22 @@ body {
 .header__main-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 .header__main-container .brand a {
   display: flex;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 1.5rem;
   text-decoration: none;
 }
 .header__main-container .brand a .logo {
-  width: 3.5rem;
-  height: 3.5rem;
-  max-width: 3.5rem;
-  max-height: 3.5rem;
+  width: 10.5rem;
+  height: 10.5rem;
+  max-width: 10.5rem;
+  max-height: 10.5rem;
+}
+.header__main-container .brand__text {
+  margin-top: 2rem;
 }
 @media (max-width: 768px) {
   .header {
@@ -436,6 +441,9 @@ body {
   animation: card-scale-up 0.2s both;
 }
 
+.menu {
+  margin-top: 2rem;
+}
 .menu__navigation ul {
   list-style: none;
   display: flex;

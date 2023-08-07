@@ -2,6 +2,13 @@ body {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
+    background-image: 
+        linear-gradient(to right bottom, $color-background-light-1, $color-background-light-2),
+        url(../../app/images/background-abstract.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
 .app {
@@ -10,5 +17,5 @@ body {
     justify-content: space-between;
     min-height: 100vh;
     width: 100%;
-    max-width: 1440px;
+    //max-width: 1440px;
 }

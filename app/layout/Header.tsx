@@ -32,7 +32,7 @@ const Header = () => {
             <div className="header__main-container">
                 <section className="brand">
                     <a href={baseURL()}>
-                        <Logo theme="dark" />
+                        <Logo />
                         <span className="brand__text">Public APIs</span>
                     </a>
                 </section>
