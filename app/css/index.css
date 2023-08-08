@@ -293,6 +293,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
+  padding: 1rem 2rem;
   text-decoration: none;
 }
 .header__main-container .brand a .logo {
@@ -300,9 +301,6 @@ body {
   height: 10.5rem;
   max-width: 10.5rem;
   max-height: 10.5rem;
-}
-.header__main-container .brand__text {
-  margin-top: 2rem;
 }
 @media (max-width: 768px) {
   .header {
@@ -393,7 +391,7 @@ body {
   border: 1px solid #777;
   border-radius: 1rem;
   padding: 0.8rem 1.6rem;
-  margin: 1rem 0;
+  margin: 5rem 0;
   font-size: 1.4rem;
   text-decoration: none;
 }

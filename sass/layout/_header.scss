@@ -10,6 +10,8 @@
                 justify-content: center;
                 gap: 1.5rem;
 
+                padding: 1rem 2rem;
+
                 .logo {
                     width: 10.5rem;
                     height: 10.5rem;
@@ -18,12 +20,9 @@
                 }
 
                 text-decoration: none;
-
             }
 
-            &__text {
-                margin-top: 2rem;
-            }
+            // &__text {}
         }
     }
 
