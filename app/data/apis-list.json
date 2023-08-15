@@ -1324,6 +1324,15 @@
     },
     {
         "category": "Calendar",
+        "title": "Checkiday - National Holiday API",
+        "url": "https://apilayer.com/marketplace/checkiday-api",
+        "description": "Industry-leading Holiday API. Over 5,000 holidays and thousands of descriptions. Trusted by the World’s leading companies",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Calendar",
         "title": "Church Calendar",
         "url": "http://calapi.inadiutorium.cz/",
         "description": "Catholic liturgical calendar",
@@ -1490,6 +1499,15 @@
         "url": "https://www.file.io",
         "description": "Super simple file sharing, convenient, anonymous and secure",
         "auth": "No",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Cloud",
+        "title": "Filestack",
+        "url": "https://www.filestack.com",
+        "description": "Filestack File Uploader & File Upload API",
+        "auth": "apiKey",
         "https": "Yes",
         "cors": "Unknown"
     },
@@ -3862,6 +3880,15 @@
     },
     {
         "category": "Documents",
+        "title": "Smart Image Enhancement API",
+        "url": "https://apilayer.com/marketplace/image_enhancement-api",
+        "description": "Performs image upscaling by adding detail to images through multiple super-resolution algorithms",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Documents",
         "title": "Vector Express v2.0",
         "url": "https://vector.express",
         "description": "Free vector file converting API",
@@ -4366,6 +4393,15 @@
     },
     {
         "category": "Finance",
+        "title": "Bank Data API",
+        "url": "https://apilayer.com/marketplace/bank_data-api",
+        "description": "Instant IBAN and SWIFT number validation across the globe",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Finance",
         "title": "Billplz",
         "url": "https://www.billplz.com/api",
         "description": "Payment platform",
@@ -4642,6 +4678,15 @@
         "auth": "apiKey",
         "https": "Yes",
         "cors": "Unknown"
+    },
+    {
+        "category": "Finance",
+        "title": "Tax Data API",
+        "url": "https://apilayer.com/marketplace/tax_data-api",
+        "description": "Instant VAT number and tax validation across the globe",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Unkown"
     },
     {
         "category": "Finance",

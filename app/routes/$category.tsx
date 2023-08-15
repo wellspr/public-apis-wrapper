@@ -1,4 +1,4 @@
-import { LoaderArgs } from "@remix-run/node";
+import { LoaderArgs, V2_MetaFunction } from "@remix-run/node";
 import { json, useLoaderData } from "react-router";
 import CategoriesList from "~/components/CategoriesList";
 import ResultsList from "~/components/ResultsList";
@@ -15,6 +15,13 @@ export const loader = async ({ params }: LoaderArgs) => {
 
     return json(results);
 };
+
+export const meta: V2_MetaFunction<typeof loader> = ({ params }) => {
+    return [
+        { title: params.category },
+        { name: "description", content: `Results for category '${params.category}'` },
+    ];
+};  
 
 export type Entry = {
     title: string;

@@ -1,8 +1,15 @@
-import { LoaderArgs, json } from "@remix-run/node";
+import { LoaderArgs, V2_MetaFunction, json } from "@remix-run/node";
 import { useActionData } from "@remix-run/react";
 import SearchBar from "~/components/SearchBar";
 import ResultsList from "~/components/ResultsList";
 import { Entry } from "./$category";
+
+export const meta: V2_MetaFunction = () => {
+    return [
+        { title: "Search APIs" },
+        { name: "description", content: "Search the public apis" },
+    ];
+};  
 
 import baseURL from "~/config/baseURL";
 

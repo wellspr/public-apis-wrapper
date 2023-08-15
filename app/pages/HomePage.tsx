@@ -2,7 +2,7 @@ import { FC } from "react";
 import CategoriesList from "~/components/CategoriesList";
 import Search from "~/components/SearchBar";
 import ExternalLink from "~/icons/external/ExternalLink";
-import Logo from "~/icons/logo/Logo";
+//import Logo from "~/icons/logo/Logo";
 
 const HomePage: FC = () => {
     return (
