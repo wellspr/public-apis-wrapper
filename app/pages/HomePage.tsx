@@ -16,7 +16,7 @@ const HomePage: FC = () => {
             <h1 className="homepage__heading">
                 <span className="homepage__heading--main">Find free public APIs for your project</span>
                 <span className="homepage__heading--sub">
-                    A frontend wrapper for the <a href="https://github.com/public-apis/public-apis">public apis <ExternalLink /></a> project.
+                    A frontend wrapper for the <a href="https://github.com/public-apis-dev/public-apis" target="_blank">public apis <ExternalLink /></a> project.
                 </span>
             </h1>
 

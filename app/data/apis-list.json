@@ -10,15 +10,6 @@
     },
     {
         "category": "Animals",
-        "title": "Axolotl",
-        "url": "https://theaxolotlapi.netlify.app/",
-        "description": "Collection of axolotl pictures and facts",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "No"
-    },
-    {
-        "category": "Animals",
         "title": "Cat Facts",
         "url": "https://alexwohlbruck.github.io/cat-facts/",
         "description": "Daily cat facts",
@@ -38,20 +29,11 @@
     {
         "category": "Animals",
         "title": "Cats",
-        "url": "https://docs.thecatapi.com/",
+        "url": "https://developers.thecatapi.com/",
         "description": "Pictures of cats from Tumblr",
         "auth": "apiKey",
         "https": "Yes",
         "cors": "No"
-    },
-    {
-        "category": "Animals",
-        "title": "Dog Facts",
-        "url": "https://dukengn.github.io/Dog-facts-API/",
-        "description": "Random dog facts",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Yes"
     },
     {
         "category": "Animals",
@@ -85,6 +67,15 @@
         "title": "FishWatch",
         "url": "https://www.fishwatch.gov/developers",
         "description": "Information and pictures about individual fish species",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Animals",
+        "title": "Foxes",
+        "url": "https://foxes.cool",
+        "description": "Random fox images with multiple different tags",
         "auth": "No",
         "https": "Yes",
         "cors": "Yes"
@@ -172,6 +163,24 @@
     },
     {
         "category": "Animals",
+        "title": "Quokkas",
+        "url": "https://quokka.pics/",
+        "description": "Random pictures of quokkas",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Animals",
+        "title": "RandomBigCat",
+        "url": "https://randombig.cat/roar.json",
+        "description": "Random pictures of big cats",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Animals",
         "title": "RandomDog",
         "url": "https://random.dog/woof.json",
         "description": "Random pictures of dogs",
@@ -234,31 +243,13 @@
         "cors": "Unknown"
     },
     {
-        "category": "Animals",
-        "title": "Zoo Animals",
-        "url": "https://zoo-animal-api.herokuapp.com/",
-        "description": "Facts and pictures of zoo animals",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Yes"
-    },
-    {
-        "category": "Anime",
-        "title": "AniAPI",
-        "url": "https://aniapi.com/docs/",
-        "description": "Anime discovery, streaming & syncing with trackers",
-        "auth": "OAuth",
-        "https": "Yes",
-        "cors": "Yes"
-    },
-    {
         "category": "Anime",
         "title": "AniDB",
         "url": "https://wiki.anidb.net/HTTP_API_Definition",
         "description": "Anime Database",
         "auth": "apiKey",
         "https": "No",
-        "cors": "Unknown"
+        "cors": "Yes"
     },
     {
         "category": "Anime",
@@ -335,7 +326,7 @@
     {
         "category": "Anime",
         "title": "MangaDex",
-        "url": "https://api.mangadex.org/docs.html",
+        "url": "https://api.mangadex.org/docs/",
         "description": "Manga Database and Community",
         "auth": "apiKey",
         "https": "Yes",
@@ -379,15 +370,6 @@
     },
     {
         "category": "Anime",
-        "title": "Studio Ghibli",
-        "url": "https://ghibliapi.herokuapp.com",
-        "description": "Resources from Studio Ghibli films",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Yes"
-    },
-    {
-        "category": "Anime",
         "title": "Trace Moe",
         "url": "https://soruly.github.io/trace.moe-api/#/",
         "description": "A useful tool to get the exact scene of an anime from a screenshot",
@@ -412,6 +394,15 @@
         "auth": "No",
         "https": "Yes",
         "cors": "No"
+    },
+    {
+        "category": "Anime",
+        "title": "Wibu API",
+        "url": "https://wibu-api.eu.org",
+        "description": "Anime, Donghua, Manga, Manhua, Manhwa, J-Drama, Genshin Impact. All-in-one weebs related stuff api.",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Yes"
     },
     {
         "category": "Anti-Malware",
@@ -549,7 +540,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "Améthyste",
         "url": "https://api.amethyste.moe/",
         "description": "Generate images for Discord users",
@@ -558,7 +549,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "Art Institute of Chicago",
         "url": "https://api.artic.edu/docs/",
         "description": "Art",
@@ -567,7 +558,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "Colormind",
         "url": "http://colormind.io/api-access/",
         "description": "Color scheme generator",
@@ -576,7 +567,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "ColourLovers",
         "url": "http://www.colourlovers.com/api",
         "description": "Get various patterns, palettes and images",
@@ -585,7 +576,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "Cooper Hewitt",
         "url": "https://collection.cooperhewitt.org/api",
         "description": "Smithsonian Design Museum",
@@ -594,7 +585,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "Dribbble",
         "url": "https://developer.dribbble.com",
         "description": "Discover the world’s top designers & creatives",
@@ -603,7 +594,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "EmojiHub",
         "url": "https://github.com/cheatsnake/emojihub",
         "description": "Get emojis by categories and groups",
@@ -612,7 +603,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "Europeana",
         "url": "https://pro.europeana.eu/resources/apis/search",
         "description": "European Museum and Galleries content",
@@ -621,7 +612,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "Harvard Art Museums",
         "url": "https://github.com/harvardartmuseums/api-docs",
         "description": "Art",
@@ -630,16 +621,16 @@
         "cors": "Unknown"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "Icon Horse",
-        "url": "https://icon.horse",
+        "url": "https://icon.horse/usage",
         "description": "Favicons for any website, with fallbacks",
         "auth": "No",
         "https": "Yes",
         "cors": "Yes"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "Iconfinder",
         "url": "https://developer.iconfinder.com",
         "description": "Icons",
@@ -648,7 +639,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "Icons8",
         "url": "https://img.icons8.com/",
         "description": "Icons (find \"search icon\" hyperlink in page)",
@@ -657,7 +648,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "Lordicon",
         "url": "https://lordicon.com/",
         "description": "Icons with predone Animations",
@@ -666,7 +657,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "Metropolitan Museum of Art",
         "url": "https://metmuseum.github.io/",
         "description": "Met Museum of Art",
@@ -675,7 +666,7 @@
         "cors": "No"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "Noun Project",
         "url": "http://api.thenounproject.com/index.html",
         "description": "Icons",
@@ -684,7 +675,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "PHP-Noise",
         "url": "https://php-noise.com/",
         "description": "Noise Background Image Generator",
@@ -693,7 +684,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "Pixel Encounter",
         "url": "https://pixelencounter.com/api",
         "description": "SVG Icon Generator",
@@ -702,7 +693,7 @@
         "cors": "No"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "Rijksmuseum",
         "url": "https://data.rijksmuseum.nl/object-metadata/api/",
         "description": "RijksMuseum Data",
@@ -711,7 +702,16 @@
         "cors": "Unknown"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
+        "title": "The Color",
+        "url": "https://www.thecolorapi.com/",
+        "description": "Swiss army knife for color",
+        "auth": "No",
+        "https": "No",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Art & Design",
         "title": "Word Cloud",
         "url": "https://wordcloudapi.com/",
         "description": "Easily create word clouds",
@@ -720,16 +720,16 @@
         "cors": "Unknown"
     },
     {
-        "category": "Art",
+        "category": "Art & Design",
         "title": "xColors",
-        "url": "https://x-colors.herokuapp.com/",
+        "url": "https://github.com/cheatsnake/xColors-api",
         "description": "Generate & convert colors",
         "auth": "No",
         "https": "Yes",
         "cors": "Yes"
     },
     {
-        "category": "Authentication",
+        "category": "Authentication & Authorization",
         "title": "Auth0",
         "url": "https://auth0.com",
         "description": "Easy to implement, adaptable authentication and authorization platform",
@@ -738,7 +738,25 @@
         "cors": "Yes"
     },
     {
-        "category": "Authentication",
+        "category": "Authentication & Authorization",
+        "title": "Clerk",
+        "url": "https://clerk.com",
+        "description": "Drop-in React components for authentication and authorization",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Authentication & Authorization",
+        "title": "Corbado",
+        "url": "https://corbado.com",
+        "description": "Passkey-first authentication",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Authentication & Authorization",
         "title": "GetOTP",
         "url": "https://otp.dev/en/docs/",
         "description": "Implement OTP flow quickly",
@@ -747,7 +765,7 @@
         "cors": "No"
     },
     {
-        "category": "Authentication",
+        "category": "Authentication & Authorization",
         "title": "Micro User Service",
         "url": "https://m3o.com/user",
         "description": "User management and authentication",
@@ -756,7 +774,7 @@
         "cors": "No"
     },
     {
-        "category": "Authentication",
+        "category": "Authentication & Authorization",
         "title": "MojoAuth",
         "url": "https://mojoauth.com",
         "description": "Secure and modern passwordless authentication platform",
@@ -765,16 +783,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Authentication",
-        "title": "SAWO Labs",
-        "url": "https://sawolabs.com",
-        "description": "Simplify login and improve user experience by integrating passwordless authentication in your app",
-        "auth": "apiKey",
-        "https": "Yes",
-        "cors": "Yes"
-    },
-    {
-        "category": "Authentication",
+        "category": "Authentication & Authorization",
         "title": "Stytch",
         "url": "https://stytch.com/",
         "description": "User infrastructure for modern applications",
@@ -783,9 +792,9 @@
         "cors": "No"
     },
     {
-        "category": "Authentication",
+        "category": "Authentication & Authorization",
         "title": "Warrant",
-        "url": "https://warrant.dev/",
+        "url": "https://docs.warrant.dev/",
         "description": "APIs for authorization and access control",
         "auth": "apiKey",
         "https": "Yes",
@@ -874,15 +883,6 @@
     },
     {
         "category": "Blockchain",
-        "title": "Walltime",
-        "url": "https://walltime.info/api.html",
-        "description": "To retrieve Walltime's market info",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Blockchain",
         "title": "Watchdata",
         "url": "https://docs.watchdata.io",
         "description": "Provide simple and reliable API access to Ethereum blockchain",
@@ -902,7 +902,7 @@
     {
         "category": "Books",
         "title": "Bhagavad Gita",
-        "url": "https://docs.bhagavadgitaapi.in",
+        "url": "https://bhagavadgitaapi.in",
         "description": "Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi",
         "auth": "apiKey",
         "https": "Yes",
@@ -973,15 +973,6 @@
     },
     {
         "category": "Books",
-        "title": "GurbaniNow",
-        "url": "https://github.com/GurbaniNow/api",
-        "description": "Fast and Accurate Gurbani RESTful API",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Books",
         "title": "Gutendex",
         "url": "https://gutendex.com/",
         "description": "Web-API for fetching data from Project Gutenberg Books Library",
@@ -1045,15 +1036,6 @@
     },
     {
         "category": "Books",
-        "title": "Rig Veda",
-        "url": "https://aninditabasu.github.io/indica/html/rv.html",
-        "description": "Gods and poets, their categories, and the verse meters, with the mandal and sukta number",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Books",
         "title": "The Bible",
         "url": "https://docs.api.bible",
         "description": "Everything you need from the Bible in one discoverable place",
@@ -1069,15 +1051,6 @@
         "auth": "No",
         "https": "Yes",
         "cors": "Yes"
-    },
-    {
-        "category": "Books",
-        "title": "Vedic Society",
-        "url": "https://aninditabasu.github.io/indica/html/vs.html",
-        "description": "Descriptions of all nouns (names, places, animals, things) from vedic literature",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Unknown"
     },
     {
         "category": "Books",
@@ -1105,6 +1078,15 @@
         "auth": "apiKey",
         "https": "Yes",
         "cors": "Yes"
+    },
+    {
+        "category": "Business",
+        "title": "ArvanCloud",
+        "url": "https://www.arvancloud.ir/en/dev/sdk",
+        "description": "Enables you to use ArvanCloud services",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "No"
     },
     {
         "category": "Business",
@@ -1324,15 +1306,6 @@
     },
     {
         "category": "Calendar",
-        "title": "Checkiday - National Holiday API",
-        "url": "https://apilayer.com/marketplace/checkiday-api",
-        "description": "Industry-leading Holiday API. Over 5,000 holidays and thousands of descriptions. Trusted by the World’s leading companies",
-        "auth": "apiKey",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Calendar",
         "title": "Church Calendar",
         "url": "http://calapi.inadiutorium.cz/",
         "description": "Catholic liturgical calendar",
@@ -1348,6 +1321,15 @@
         "auth": "No",
         "https": "No",
         "cors": "Unknown"
+    },
+    {
+        "category": "Calendar",
+        "title": "DigiDates",
+        "url": "https://digidates.de/en/",
+        "description": "Various date and time calculations",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Yes"
     },
     {
         "category": "Calendar",
@@ -1449,7 +1431,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Cloud",
+        "category": "Cloud Storage & File Sharing",
         "title": "AnonFiles",
         "url": "https://anonfiles.com/docs/api",
         "description": "Upload and share your files anonymously",
@@ -1458,7 +1440,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Cloud",
+        "category": "Cloud Storage & File Sharing",
         "title": "BayFiles",
         "url": "https://bayfiles.com/docs/api",
         "description": "Upload and share your files",
@@ -1467,7 +1449,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Cloud",
+        "category": "Cloud Storage & File Sharing",
         "title": "Box",
         "url": "https://developer.box.com/",
         "description": "File Sharing and Storage",
@@ -1476,7 +1458,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Cloud",
+        "category": "Cloud Storage & File Sharing",
         "title": "ddownload",
         "url": "https://ddownload.com/api",
         "description": "File Sharing and Storage",
@@ -1485,7 +1467,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Cloud",
+        "category": "Cloud Storage & File Sharing",
         "title": "Dropbox",
         "url": "https://www.dropbox.com/developers",
         "description": "File Sharing and Storage",
@@ -1494,7 +1476,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Cloud",
+        "category": "Cloud Storage & File Sharing",
         "title": "File.io",
         "url": "https://www.file.io",
         "description": "Super simple file sharing, convenient, anonymous and secure",
@@ -1503,16 +1485,16 @@
         "cors": "Unknown"
     },
     {
-        "category": "Cloud",
-        "title": "Filestack",
-        "url": "https://www.filestack.com",
-        "description": "Filestack File Uploader & File Upload API",
+        "category": "Cloud Storage & File Sharing",
+        "title": "Gcore Storage",
+        "url": "https://docs.gcore.com/storage",
+        "description": "S3-Compatible Object Storage is a fast and scalable cloud storage system by Gcore that gives you an opportunity to store and retrieve any amount of data at any time. High-performance storage for use as a CDN origin.",
         "auth": "apiKey",
         "https": "Yes",
-        "cors": "Unknown"
+        "cors": "Yes"
     },
     {
-        "category": "Cloud",
+        "category": "Cloud Storage & File Sharing",
         "title": "GoFile",
         "url": "https://gofile.io/api",
         "description": "Unlimited size file uploads for free",
@@ -1521,7 +1503,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Cloud",
+        "category": "Cloud Storage & File Sharing",
         "title": "Google Drive",
         "url": "https://developers.google.com/drive/",
         "description": "File Sharing and Storage",
@@ -1530,7 +1512,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Cloud",
+        "category": "Cloud Storage & File Sharing",
         "title": "Gyazo",
         "url": "https://gyazo.com/api/docs",
         "description": "Save & Share screen captures instantly",
@@ -1539,7 +1521,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Cloud",
+        "category": "Cloud Storage & File Sharing",
         "title": "Imgbb",
         "url": "https://api.imgbb.com/",
         "description": "Simple and quick private image sharing",
@@ -1548,7 +1530,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Cloud",
+        "category": "Cloud Storage & File Sharing",
         "title": "OneDrive",
         "url": "https://developer.microsoft.com/onedrive",
         "description": "File Sharing and Storage",
@@ -1557,7 +1539,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Cloud",
+        "category": "Cloud Storage & File Sharing",
         "title": "Pantry",
         "url": "https://getpantry.cloud/",
         "description": "Free JSON storage for small projects",
@@ -1566,7 +1548,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Cloud",
+        "category": "Cloud Storage & File Sharing",
         "title": "Pastebin",
         "url": "https://pastebin.com/doc_api",
         "description": "Plain Text Storage",
@@ -1575,7 +1557,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Cloud",
+        "category": "Cloud Storage & File Sharing",
         "title": "Pinata",
         "url": "https://docs.pinata.cloud/",
         "description": "IPFS Pinning Services API",
@@ -1584,7 +1566,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Cloud",
+        "category": "Cloud Storage & File Sharing",
         "title": "Quip",
         "url": "https://quip.com/dev/automation/documentation",
         "description": "File Sharing and Storage for groups",
@@ -1593,7 +1575,16 @@
         "cors": "Yes"
     },
     {
-        "category": "Cloud",
+        "category": "Cloud Storage & File Sharing",
+        "title": "Smash",
+        "url": "https://api.fromsmash.com/",
+        "description": "Upload large files on websites, mobile apps, SaaS solutions and custom workflows",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Cloud Storage & File Sharing",
         "title": "Storj",
         "url": "https://docs.storj.io/dcs/",
         "description": "Decentralized Open-Source Cloud Storage",
@@ -1602,7 +1593,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Cloud",
+        "category": "Cloud Storage & File Sharing",
         "title": "The Null Pointer",
         "url": "https://0x0.st",
         "description": "No-bullshit file hosting and URL shortening service",
@@ -1611,7 +1602,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Cloud",
+        "category": "Cloud Storage & File Sharing",
         "title": "Web3 Storage",
         "url": "https://web3.storage/",
         "description": "File Sharing and Storage for Free with 1TB Space",
@@ -1620,7 +1611,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Continuous",
+        "category": "Continuous Integration",
         "title": "Azure DevOps Health",
         "url": "https://docs.microsoft.com/en-us/rest/api/resourcehealth",
         "description": "Resource health helps you diagnose and get support when an Azure issue impacts your resources",
@@ -1629,7 +1620,7 @@
         "cors": "No"
     },
     {
-        "category": "Continuous",
+        "category": "Continuous Integration",
         "title": "Bitrise",
         "url": "https://api-docs.bitrise.io/",
         "description": "Build tool and processes integrations to create efficient development pipelines",
@@ -1638,7 +1629,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Continuous",
+        "category": "Continuous Integration",
         "title": "Buddy",
         "url": "https://buddy.works/docs/api/getting-started/overview",
         "description": "The fastest continuous integration and continuous delivery platform",
@@ -1647,7 +1638,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Continuous",
+        "category": "Continuous Integration",
         "title": "CircleCI",
         "url": "https://circleci.com/docs/api/v1-reference/",
         "description": "Automate the software development process using continuous integration and continuous delivery",
@@ -1656,7 +1647,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Continuous",
+        "category": "Continuous Integration",
         "title": "Codeship",
         "url": "https://docs.cloudbees.com/docs/cloudbees-codeship/latest/api-overview/",
         "description": "Codeship is a Continuous Integration Platform in the cloud",
@@ -1665,22 +1656,13 @@
         "cors": "Unknown"
     },
     {
-        "category": "Continuous",
+        "category": "Continuous Integration",
         "title": "Travis CI",
         "url": "https://docs.travis-ci.com/api/",
         "description": "Sync your GitHub projects with Travis CI to test your code in minutes",
         "auth": "apiKey",
         "https": "Yes",
         "cors": "Unknown"
-    },
-    {
-        "category": "Cryptocurrency",
-        "title": "0x",
-        "url": "https://0x.org/api",
-        "description": "API for querying token and pool stats across various liquidity pools",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Yes"
     },
     {
         "category": "Cryptocurrency",
@@ -1777,6 +1759,15 @@
         "title": "Block",
         "url": "https://block.io/docs/basic",
         "description": "Bitcoin Payment, Wallet & Transaction Data",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Cryptocurrency",
+        "title": "BlockBee",
+        "url": "https://docs.blockbee.io/",
+        "description": "Cryptocurrency Payment Processor",
         "auth": "apiKey",
         "https": "Yes",
         "cors": "Unknown"
@@ -2062,15 +2053,6 @@
     },
     {
         "category": "Cryptocurrency",
-        "title": "Hirak Exchange Rates",
-        "url": "https://rates.hirak.site/",
-        "description": "Exchange rates between 162 currency & 300 crypto currency update each 5 min, accurate, no limits",
-        "auth": "apiKey",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Cryptocurrency",
         "title": "Huobi",
         "url": "https://huobiapi.github.io/docs/spot/v1/en/",
         "description": "Seychelles based cryptocurrency exchange",
@@ -2224,6 +2206,24 @@
     },
     {
         "category": "Cryptocurrency",
+        "title": "Trading View",
+        "url": "https://www.tradingview.com/rest-api-spec/",
+        "description": "Market price, data, graph for brokers and traders",
+        "auth": "OAuth",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Cryptocurrency",
+        "title": "Tron Network",
+        "url": "https://developers.tron.network/reference/api-key",
+        "description": "Provides various endpoints to interact with the Tron Blockchain",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Cryptocurrency",
         "title": "VALR",
         "url": "https://docs.valr.com/",
         "description": "Cryptocurrency Exchange based in South Africa",
@@ -2243,14 +2243,14 @@
     {
         "category": "Cryptocurrency",
         "title": "ZMOK",
-        "url": "https://zmok.io",
+        "url": "https://docs.zmok.io",
         "description": "Ethereum JSON RPC API and Web3 provider",
         "auth": "No",
         "https": "Yes",
         "cors": "Unknown"
     },
     {
-        "category": "Currency",
+        "category": "Currency Exchange",
         "title": "1Forge",
         "url": "https://1forge.com/forex-data-api/api-documentation",
         "description": "Forex currency market data",
@@ -2259,7 +2259,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Currency",
+        "category": "Currency Exchange",
         "title": "Amdoren",
         "url": "https://www.amdoren.com/currency-api/",
         "description": "Free currency API with over 150 currencies",
@@ -2268,7 +2268,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Currency",
+        "category": "Currency Exchange",
         "title": "apilayer fixer.io",
         "url": "https://fixer.io",
         "description": "Exchange rates and currency conversion",
@@ -2277,7 +2277,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Currency",
+        "category": "Currency Exchange",
         "title": "Bank of Russia",
         "url": "https://www.cbr.ru/development/SXML/",
         "description": "Exchange rates and currency conversion",
@@ -2286,7 +2286,16 @@
         "cors": "Unknown"
     },
     {
-        "category": "Currency",
+        "category": "Currency Exchange",
+        "title": "Currencyapi",
+        "url": "https://currencyapi.com",
+        "description": "Currency Conversion API and crpyto currency prices, updated minutely",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Currency Exchange",
         "title": "Currency-api",
         "url": "https://github.com/fawazahmed0/currency-api#readme",
         "description": "Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits",
@@ -2295,7 +2304,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Currency",
+        "category": "Currency Exchange",
         "title": "CurrencyFreaks",
         "url": "https://currencyfreaks.com/",
         "description": "Provides current and historical currency exchange rates with free plan 1K requests/month",
@@ -2304,7 +2313,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Currency",
+        "category": "Currency Exchange",
         "title": "Currencylayer",
         "url": "https://currencylayer.com/documentation",
         "description": "Exchange rates and currency conversion",
@@ -2313,7 +2322,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Currency",
+        "category": "Currency Exchange",
         "title": "CurrencyScoop",
         "url": "https://currencyscoop.com/api-documentation",
         "description": "Real-time and historical currency rates JSON API",
@@ -2322,7 +2331,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Currency",
+        "category": "Currency Exchange",
         "title": "Czech National Bank",
         "url": "https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml",
         "description": "A collection of exchange rates",
@@ -2331,7 +2340,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Currency",
+        "category": "Currency Exchange",
         "title": "Economia.Awesome",
         "url": "https://docs.awesomeapi.com.br/api-de-moedas",
         "description": "Portuguese free currency prices and conversion with no rate limits",
@@ -2340,7 +2349,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Currency",
+        "category": "Currency Exchange",
         "title": "ExchangeRate-API",
         "url": "https://www.exchangerate-api.com",
         "description": "Free currency conversion",
@@ -2349,7 +2358,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Currency",
+        "category": "Currency Exchange",
         "title": "Exchangerate.host",
         "url": "https://exchangerate.host",
         "description": "Free foreign exchange & crypto rates API",
@@ -2358,7 +2367,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Currency",
+        "category": "Currency Exchange",
         "title": "Exchangeratesapi.io",
         "url": "https://exchangeratesapi.io",
         "description": "Exchange rates with currency conversion",
@@ -2367,7 +2376,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Currency",
+        "category": "Currency Exchange",
         "title": "Frankfurter",
         "url": "https://www.frankfurter.app/docs",
         "description": "Exchange rates, currency conversion and time series",
@@ -2376,7 +2385,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Currency",
+        "category": "Currency Exchange",
         "title": "FreeForexAPI",
         "url": "https://freeforexapi.com/Home/Api",
         "description": "Real-time foreign exchange rates for major currency pairs",
@@ -2385,7 +2394,16 @@
         "cors": "No"
     },
     {
-        "category": "Currency",
+        "category": "Currency Exchange",
+        "title": "MetalpriceAPI",
+        "url": "https://metalpriceapi.com",
+        "description": "Real-time and historical exchange rates and currency conversion API",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Currency Exchange",
         "title": "National Bank of Poland",
         "url": "http://api.nbp.pl/en.html",
         "description": "A collection of currency exchange rates (data in XML and JSON)",
@@ -2394,7 +2412,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Currency",
+        "category": "Currency Exchange",
         "title": "VATComply.com",
         "url": "https://www.vatcomply.com/documentation",
         "description": "Exchange rates, geolocation and VAT number validation",
@@ -2403,7 +2421,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Data",
+        "category": "Data Validation",
         "title": "Lob.com",
         "url": "https://lob.com/",
         "description": "US Address Verification",
@@ -2412,7 +2430,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Data",
+        "category": "Data Validation",
         "title": "Postman Echo",
         "url": "https://www.postman-echo.com",
         "description": "Test api server to receive and return value from HTTP method",
@@ -2421,7 +2439,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Data",
+        "category": "Data Validation",
         "title": "PurgoMalum",
         "url": "http://www.purgomalum.com",
         "description": "Content validator against profanity & obscenity",
@@ -2430,7 +2448,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Data",
+        "category": "Data Validation",
         "title": "US Autocomplete",
         "url": "https://www.smarty.com/docs/cloud/us-autocomplete-pro-api",
         "description": "Enter address data quickly with real-time address suggestions",
@@ -2439,7 +2457,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Data",
+        "category": "Data Validation",
         "title": "US Extract",
         "url": "https://www.smarty.com/products/apis/us-extract-api",
         "description": "Extract postal addresses from any text including emails",
@@ -2448,7 +2466,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Data",
+        "category": "Data Validation",
         "title": "US Street Address",
         "url": "https://www.smarty.com/docs/cloud/us-street-api",
         "description": "Validate and append data for any US postal address",
@@ -2457,13 +2475,22 @@
         "cors": "Yes"
     },
     {
-        "category": "Data",
+        "category": "Data Validation",
         "title": "vatlayer",
         "url": "https://vatlayer.com/documentation",
         "description": "VAT number validation",
         "auth": "apiKey",
         "https": "Yes",
         "cors": "Unknown"
+    },
+    {
+        "category": "Data Validation",
+        "title": "VatcheckAPI",
+        "url": "https://vatcheckapi.com",
+        "description": "VAT Number Validation & Lookup REST API",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
     },
     {
         "category": "Development",
@@ -2545,15 +2572,6 @@
         "auth": "apiKey",
         "https": "Yes",
         "cors": "Unknown"
-    },
-    {
-        "category": "Development",
-        "title": "Base",
-        "url": "https://www.base-api.io/",
-        "description": "Building quick backends",
-        "auth": "apiKey",
-        "https": "Yes",
-        "cors": "Yes"
     },
     {
         "category": "Development",
@@ -2746,6 +2764,33 @@
     },
     {
         "category": "Development",
+        "title": "Gcore CDN",
+        "url": "https://docs.gcore.com/cdn",
+        "description": "Make your app fast and responsive for a global audience with Gcore CDN.",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Development",
+        "title": "Gcore Cloud",
+        "url": "https://docs.gcore.com/cloud",
+        "description": "Scalable, secure, and reliable hybrid cloud services anywhere in the world.",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Development",
+        "title": "Gcore DNS",
+        "url": "https://docs.gcore.com/dns",
+        "description": "Fast and resilient DNS hosting service by Gcore. Improve the performance and availability of your online business.",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Development",
         "title": "GeekFlare",
         "url": "https://apidocs.geekflare.com/docs/geekflare-api",
         "description": "Provide numerous capabilities for important testing and monitoring methods for websites",
@@ -2899,15 +2944,6 @@
     },
     {
         "category": "Development",
-        "title": "host-t.com",
-        "url": "https://host-t.com",
-        "description": "Basic DNS query via HTTP GET request",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "No"
-    },
-    {
-        "category": "Development",
         "title": "Host.io",
         "url": "https://host.io",
         "description": "Domains Data API for Developers",
@@ -2962,24 +2998,6 @@
     },
     {
         "category": "Development",
-        "title": "Icanhazepoch",
-        "url": "https://icanhazepoch.com",
-        "description": "Get Epoch time",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Yes"
-    },
-    {
-        "category": "Development",
-        "title": "Icanhazip",
-        "url": "https://major.io/icanhazip-com-faq/",
-        "description": "IP Address API",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Yes"
-    },
-    {
-        "category": "Development",
         "title": "IFTTT",
         "url": "https://platform.ifttt.com/docs/connect_api",
         "description": "IFTTT Connect API",
@@ -3004,15 +3022,6 @@
         "auth": "apiKey",
         "https": "Yes",
         "cors": "Unknown"
-    },
-    {
-        "category": "Development",
-        "title": "ip-fast.com",
-        "url": "https://ip-fast.com/docs/",
-        "description": "IP address, country and city",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Yes"
     },
     {
         "category": "Development",
@@ -3094,15 +3103,6 @@
         "auth": "No",
         "https": "Yes",
         "cors": "No"
-    },
-    {
-        "category": "Development",
-        "title": "Logs.to",
-        "url": "https://logs.to/",
-        "description": "Generate logs",
-        "auth": "apiKey",
-        "https": "Yes",
-        "cors": "Unknown"
     },
     {
         "category": "Development",
@@ -3286,6 +3286,15 @@
     },
     {
         "category": "Development",
+        "title": "Pusher Channels",
+        "url": "https://pusher.com/channels",
+        "description": "Realtime features",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Development",
         "title": "QR code",
         "url": "https://www.qrtag.net/api/",
         "description": "Create an easy to read QR code and URL shortener",
@@ -3341,7 +3350,7 @@
     {
         "category": "Development",
         "title": "ReqRes",
-        "url": "https://reqres.in/ ",
+        "url": "https://reqres.in/",
         "description": "A hosted REST-API ready to respond to your AJAX requests",
         "auth": "No",
         "https": "Yes",
@@ -3351,6 +3360,15 @@
         "category": "Development",
         "title": "RSS feed to JSON",
         "url": "https://rss-to-json-serverless-api.vercel.app",
+        "description": "Returns RSS feed in JSON format using feed URL",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Development",
+        "title": "RSS to JSON",
+        "url": "https://github.com/ayusharma/RSS-to-JSON",
         "description": "Returns RSS feed in JSON format using feed URL",
         "auth": "No",
         "https": "Yes",
@@ -3430,6 +3448,24 @@
     },
     {
         "category": "Development",
+        "title": "ScreenshotOne.com",
+        "url": "https://screenshotone.com/",
+        "description": "Convert URLs, HTML, or Markdown into PNG, JPEG, WebP, or PDF with a simple screenshot API",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Development",
+        "title": "SearchApi",
+        "url": "https://www.searchapi.io/",
+        "description": "Real-Time Google SERP API",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "No"
+    },
+    {
+        "category": "Development",
         "title": "Serialif Color",
         "url": "https://color.serialif.com/",
         "description": "Color conversion, complementary, grayscale and contrasted text",
@@ -3448,20 +3484,20 @@
     },
     {
         "category": "Development",
+        "title": "Shadify",
+        "url": "https://github.com/cheatsnake/shadify",
+        "description": "Service for generating data and executing logic to create various games and puzzles",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Development",
         "title": "Sheetsu",
         "url": "https://sheetsu.com/",
         "description": "Easy google sheets integration",
         "auth": "apiKey",
         "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Development",
-        "title": "SHOUTCLOUD",
-        "url": "http://shoutcloud.io/",
-        "description": "ALL-CAPS AS A SERVICE",
-        "auth": "No",
-        "https": "No",
         "cors": "Unknown"
     },
     {
@@ -3511,6 +3547,15 @@
     },
     {
         "category": "Development",
+        "title": "Tolgee",
+        "url": "https://tolgee.io",
+        "description": "Open-source localization (i18n) platform enabling you to translate you app fast",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "No"
+    },
+    {
+        "category": "Development",
         "title": "Tyk",
         "url": "https://tyk.io/open-source/",
         "description": "Api and service management platform",
@@ -3521,7 +3566,7 @@
     {
         "category": "Development",
         "title": "Wandbox",
-        "url": "https://github.com/melpon/wandbox/blob/master/kennel2/API.rst",
+        "url": "https://github.com/melpon/wandbox/blob/master/kennel/API.md",
         "description": "Code compiler supporting 35+ languages mentioned at wandbox.org",
         "auth": "No",
         "https": "Yes",
@@ -3577,15 +3622,6 @@
         "title": "Free Dictionary",
         "url": "https://dictionaryapi.dev/",
         "description": "Definitions, phonetics, pronounciations, parts of speech, examples, synonyms",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Dictionaries",
-        "title": "Indonesia Dictionary",
-        "url": "https://new-kbbi-api.herokuapp.com/",
-        "description": "Indonesia dictionary many words",
         "auth": "No",
         "https": "Yes",
         "cors": "Unknown"
@@ -3663,7 +3699,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "Airtable",
         "url": "https://airtable.com/api",
         "description": "Integrate with Airtable",
@@ -3672,7 +3708,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "Api2Convert",
         "url": "https://www.api2convert.com/",
         "description": "Online File Conversion API",
@@ -3681,7 +3717,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "apilayer pdflayer",
         "url": "https://pdflayer.com",
         "description": "HTML/URL to PDF",
@@ -3690,7 +3726,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "Asana",
         "url": "https://developers.asana.com/docs",
         "description": "Programmatic access to all data in your asana system",
@@ -3699,7 +3735,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "ClickUp",
         "url": "https://clickup.com/api",
         "description": "ClickUp is a robust, cloud-based project management tool for boosting productivity",
@@ -3708,16 +3744,16 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "Clockify",
-        "url": "https://clockify.me/developers-api ",
+        "url": "https://clockify.me/developers-api",
         "description": "Clockify's REST-based API can be used to push/pull data to/from it & integrate it with other systems",
         "auth": "apiKey",
         "https": "Yes",
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "CloudConvert",
         "url": "https://cloudconvert.com/api/v2",
         "description": "Online file converter for audio, video, document, ebook, archive, image, spreadsheet, presentation",
@@ -3726,7 +3762,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "Cloudmersive Document and Data Conversion",
         "url": "https://cloudmersive.com/convert-api",
         "description": "HTML/URL to PDF/PNG, Office documents to PDF, image conversion",
@@ -3735,7 +3771,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "Code::Stats",
         "url": "https://codestats.net/api-docs",
         "description": "Automatic time tracking for programmers",
@@ -3744,7 +3780,7 @@
         "cors": "No"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "CraftMyPDF",
         "url": "https://craftmypdf.com",
         "description": "Generate PDF documents from templates with a drop-and-drop editor and a simple API",
@@ -3753,7 +3789,7 @@
         "cors": "No"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "Flowdash",
         "url": "https://docs.flowdash.com/docs/api-introduction",
         "description": "Automate business workflows",
@@ -3762,7 +3798,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "Html2PDF",
         "url": "https://html2pdf.app/",
         "description": "HTML/URL to PDF",
@@ -3771,7 +3807,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "iLovePDF",
         "url": "https://developer.ilovepdf.com/",
         "description": "Convert, merge, split, extract text and add page numbers for PDFs. Free for 250 documents/month",
@@ -3780,7 +3816,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "JIRA",
         "url": "https://developer.atlassian.com/server/jira/platform/rest-apis/",
         "description": "JIRA is a proprietary issue tracking product that allows bug tracking and agile project management",
@@ -3789,7 +3825,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "Mattermost",
         "url": "https://api.mattermost.com/",
         "description": "An open source platform for developer collaboration",
@@ -3798,7 +3834,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "Mercury",
         "url": "https://mercury.postlight.com/web-parser/",
         "description": "Web parser",
@@ -3807,7 +3843,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "Monday",
         "url": "https://api.developer.monday.com/docs",
         "description": "Programmatically access and update data inside a monday.com account",
@@ -3816,7 +3852,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "Notion",
         "url": "https://developers.notion.com/docs/getting-started",
         "description": "Integrate with Notion",
@@ -3825,7 +3861,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "PandaDoc",
         "url": "https://developers.pandadoc.com",
         "description": "DocGen and eSignatures API",
@@ -3834,7 +3870,7 @@
         "cors": "No"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "Pocket",
         "url": "https://getpocket.com/developer/",
         "description": "Bookmarking service",
@@ -3843,7 +3879,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "Podio",
         "url": "https://developers.podio.com",
         "description": "File sharing and productivity",
@@ -3852,7 +3888,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "PrexView",
         "url": "https://prexview.com",
         "description": "Data from XML or JSON to PDF, HTML or Image",
@@ -3861,7 +3897,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "Restpack",
         "url": "https://restpack.io/",
         "description": "Provides screenshot, HTML to PDF and content extraction APIs",
@@ -3870,7 +3906,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "Todoist",
         "url": "https://developer.todoist.com",
         "description": "Todo Lists",
@@ -3879,16 +3915,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
-        "title": "Smart Image Enhancement API",
-        "url": "https://apilayer.com/marketplace/image_enhancement-api",
-        "description": "Performs image upscaling by adding detail to images through multiple super-resolution algorithms",
-        "auth": "apiKey",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "Vector Express v2.0",
         "url": "https://vector.express",
         "description": "Free vector file converting API",
@@ -3897,7 +3924,16 @@
         "cors": "No"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
+        "title": "Vertopal",
+        "url": "https://www.vertopal.com/en/developer/api/introduction",
+        "description": "Convert your files to a variety of formats using Vertopal API",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "No"
+    },
+    {
+        "category": "Documents & Productivity",
         "title": "WakaTime",
         "url": "https://wakatime.com/developers",
         "description": "Automated time tracking leaderboards for programmers",
@@ -3906,7 +3942,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Documents",
+        "category": "Documents & Productivity",
         "title": "Zube",
         "url": "https://zube.io/docs/api",
         "description": "Full stack project management",
@@ -3958,6 +3994,15 @@
         "auth": "No",
         "https": "Yes",
         "cors": "Unknown"
+    },
+    {
+        "category": "Email",
+        "title": "Emailvalidation",
+        "url": "https://emailvalidation.io/email-validation-api/",
+        "description": "E-Mail address validation",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
     },
     {
         "category": "Email",
@@ -4087,21 +4132,12 @@
     },
     {
         "category": "Entertainment",
-        "title": "Excuser",
-        "url": "https://excuser.herokuapp.com/",
-        "description": "Get random excuses for various situations",
+        "title": "elonmu.sh",
+        "url": "https://elonmu.sh/",
+        "description": "Get random news article featuring Elon Musk",
         "auth": "No",
         "https": "Yes",
         "cors": "Unknown"
-    },
-    {
-        "category": "Entertainment",
-        "title": "Fun Fact",
-        "url": "https://api.aakhilv.me",
-        "description": "A simple HTTPS api that can randomly select and return a fact from the FFA database",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Yes"
     },
     {
         "category": "Entertainment",
@@ -4117,15 +4153,6 @@
         "title": "Meme Maker",
         "url": "https://mememaker.github.io/API/",
         "description": "REST API for create your own meme",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Entertainment",
-        "title": "NaMoMemes",
-        "url": "https://github.com/theIYD/NaMoMemes",
-        "description": "Memes on Narendra Modi",
         "auth": "No",
         "https": "Yes",
         "cors": "Unknown"
@@ -4294,12 +4321,30 @@
     },
     {
         "category": "Environment",
+        "title": "Thames Water Open Data",
+        "url": "https://data.thameswater.co.uk",
+        "description": "Open Data from the UK's largest water and wastewater services company",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Environment",
         "title": "UK Carbon Intensity",
         "url": "https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0",
         "description": "The Official Carbon Intensity API for Great Britain developed by National Grid",
         "auth": "No",
         "https": "Yes",
         "cors": "Unknown"
+    },
+    {
+        "category": "Environment",
+        "title": "WattBuy",
+        "url": "https://wattbuy.readme.io/reference/getting-started-with-your-api",
+        "description": "Electricity usage estimations, carbon footprint estimations, and utility data",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
     },
     {
         "category": "Environment",
@@ -4384,21 +4429,21 @@
     },
     {
         "category": "Finance",
+        "title": "Atom Finance",
+        "url": "https://atom.finance/",
+        "description": "Atom Finance provides access to market, earnings and news data",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Finance",
         "title": "Banco do Brasil",
         "url": "https://developers.bb.com.br/home",
         "description": "All Banco do Brasil financial transaction APIs",
         "auth": "OAuth",
         "https": "Yes",
         "cors": "Yes"
-    },
-    {
-        "category": "Finance",
-        "title": "Bank Data API",
-        "url": "https://apilayer.com/marketplace/bank_data-api",
-        "description": "Instant IBAN and SWIFT number validation across the globe",
-        "auth": "apiKey",
-        "https": "Yes",
-        "cors": "Unknown"
     },
     {
         "category": "Finance",
@@ -4501,15 +4546,6 @@
     },
     {
         "category": "Finance",
-        "title": "Hotstoks",
-        "url": "https://hotstoks.com?utm_source=public-apis",
-        "description": "Stock market data powered by SQL",
-        "auth": "apiKey",
-        "https": "Yes",
-        "cors": "Yes"
-    },
-    {
-        "category": "Finance",
         "title": "IEX Cloud",
         "url": "https://iexcloud.io/docs/api/",
         "description": "Realtime & Historical Stock and Market Data",
@@ -4552,6 +4588,15 @@
         "auth": "apiKey",
         "https": "Yes",
         "cors": "Unknown"
+    },
+    {
+        "category": "Finance",
+        "title": "Kite Connect",
+        "url": "https://kite.trade/docs/connect/v3/",
+        "description": "Stock market investment and trading platform",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "No"
     },
     {
         "category": "Finance",
@@ -4645,6 +4690,15 @@
     },
     {
         "category": "Finance",
+        "title": "Repetiti",
+        "url": "https://developers.repetiti.com/",
+        "description": "Repetiti 3d Printer Management Service",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Finance",
         "title": "SEC EDGAR Data",
         "url": "https://www.sec.gov/edgar/sec-api-documentation",
         "description": "API to access annual reports of public US companies",
@@ -4681,15 +4735,6 @@
     },
     {
         "category": "Finance",
-        "title": "Tax Data API",
-        "url": "https://apilayer.com/marketplace/tax_data-api",
-        "description": "Instant VAT number and tax validation across the globe",
-        "auth": "apiKey",
-        "https": "Yes",
-        "cors": "Unkown"
-    },
-    {
-        "category": "Finance",
         "title": "Tradier",
         "url": "https://developer.tradier.com",
         "description": "US equity/option market data (delayed, intraday, historical)",
@@ -4717,15 +4762,6 @@
     },
     {
         "category": "Finance",
-        "title": "Yahoo Finance",
-        "url": "https://www.yahoofinanceapi.com/",
-        "description": "Real time low latency Yahoo Finance API for stock market, crypto currencies, and currency exchange",
-        "auth": "apiKey",
-        "https": "Yes",
-        "cors": "Yes"
-    },
-    {
-        "category": "Finance",
         "title": "YNAB",
         "url": "https://api.youneedabudget.com/",
         "description": "Budgeting & Planning",
@@ -4743,7 +4779,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "BaconMockup",
         "url": "https://baconmockup.com/",
         "description": "Resizable bacon placeholder images",
@@ -4752,7 +4788,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "Chomp",
         "url": "https://chompthis.com/api/",
         "description": "Data about various grocery products and foods",
@@ -4761,7 +4797,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "Coffee",
         "url": "https://coffee.alexflipnote.dev/",
         "description": "Random pictures of coffee",
@@ -4770,7 +4806,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "Edamam nutrition",
         "url": "https://developer.edamam.com/edamam-docs-nutrition-api",
         "description": "Nutrition Analysis",
@@ -4779,7 +4815,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "Edamam recipes",
         "url": "https://developer.edamam.com/edamam-docs-recipe-api",
         "description": "Recipe Search",
@@ -4788,7 +4824,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "Foodish",
         "url": "https://github.com/surhud004/Foodish#readme",
         "description": "Random pictures of food dishes",
@@ -4797,7 +4833,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "Fruityvice",
         "url": "https://www.fruityvice.com",
         "description": "Data about all kinds of fruit",
@@ -4806,7 +4842,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "Kroger",
         "url": "https://developer.kroger.com/reference",
         "description": "Supermarket Data",
@@ -4815,7 +4851,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "LCBO",
         "url": "https://lcboapi.com/",
         "description": "Alcohol",
@@ -4824,7 +4860,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "Open Brewery DB",
         "url": "https://www.openbrewerydb.org",
         "description": "Breweries, Cideries and Craft Beer Bottle Shops",
@@ -4833,7 +4869,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "Open Food Facts",
         "url": "https://world.openfoodfacts.org/data",
         "description": "Food Products Database",
@@ -4842,7 +4878,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "PunkAPI",
         "url": "https://punkapi.com/",
         "description": "Brewdog Beer Recipes",
@@ -4851,16 +4887,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Food",
-        "title": "Rustybeer",
-        "url": "https://rustybeer.herokuapp.com/",
-        "description": "Beer brewing tools",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "No"
-    },
-    {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "Spoonacular",
         "url": "https://spoonacular.com/food-api",
         "description": "Recipes, Food Products, and Meal Planning",
@@ -4869,7 +4896,16 @@
         "cors": "Unknown"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
+        "title": "Status Pizza",
+        "url": "https://status.pizza",
+        "description": "Pizza for every HTTP Status",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Food & Drink",
         "title": "Systembolaget",
         "url": "https://api-portal.systembolaget.se",
         "description": "Govornment owned liqour store in Sweden",
@@ -4878,7 +4914,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "TacoFancy",
         "url": "https://github.com/evz/tacofancy-api",
         "description": "Community-driven taco database",
@@ -4887,7 +4923,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "Tasty",
         "url": "https://rapidapi.com/apidojo/api/tasty/",
         "description": "API to query data about recipe, plan, ingredients",
@@ -4896,7 +4932,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "The Report of the Week",
         "url": "https://github.com/andyklimczak/TheReportOfTheWeek-API",
         "description": "Food & Drink Reviews",
@@ -4905,7 +4941,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "TheCocktailDB",
         "url": "https://www.thecocktaildb.com/api.php",
         "description": "Cocktail Recipes",
@@ -4914,7 +4950,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "TheMealDB",
         "url": "https://www.themealdb.com/api.php",
         "description": "Meal Recipes",
@@ -4923,7 +4959,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "Untappd",
         "url": "https://untappd.com/api/docs",
         "description": "Social beer sharing",
@@ -4932,7 +4968,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "What's on the menu?",
         "url": "http://nypl.github.io/menus-api/",
         "description": "NYPL human-transcribed historical menu collection",
@@ -4941,7 +4977,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "WhiskyHunter",
         "url": "https://whiskyhunter.net/api/",
         "description": "Past online whisky auctions statistical data",
@@ -4950,7 +4986,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Food",
+        "category": "Food & Drink",
         "title": "Zestful",
         "url": "https://zestfuldata.com/",
         "description": "Parse recipe ingredients",
@@ -4959,16 +4995,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
-        "title": "Age of Empires II",
-        "url": "https://age-of-empires-2-api.herokuapp.com",
-        "description": "Get information about Age of Empires II resources",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "No"
-    },
-    {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "AmiiboAPI",
         "url": "https://amiiboapi.com/",
         "description": "Nintendo Amiibo Information",
@@ -4977,7 +5004,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Animal Crossing: New Horizons",
         "url": "http://acnhapi.com/",
         "description": "API for critters, fossils, art, music, furniture and villagers",
@@ -4986,7 +5013,16 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
+        "title": "Atlas Academy",
+        "url": "https://api.atlasacademy.io/docs",
+        "description": "API for Fate/Grand Order game data",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Games & Comics",
         "title": "Autochess VNG",
         "url": "https://github.com/didadadida93/autochess-vng-api",
         "description": "Rest Api for Autochess VNG",
@@ -4995,7 +5031,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Barter.VG",
         "url": "https://github.com/bartervg/barter.vg/wiki",
         "description": "Provides information about Game, DLC, Bundles, Giveaways, Trading",
@@ -5004,7 +5040,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Battle.net",
         "url": "https://develop.battle.net/documentation/guides/getting-started",
         "description": "Diablo III, Hearthstone, StarCraft II and World of Warcraft game data APIs",
@@ -5013,7 +5049,16 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
+        "title": "Blue Archive",
+        "url": "https://github.com/arufars/api-blue-archive",
+        "description": "Provides Blue Archive characters information",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Games & Comics",
         "title": "Board Game Geek",
         "url": "https://boardgamegeek.com/wiki/page/BGG_XML_API2",
         "description": "Board games, RPG and videogames",
@@ -5022,7 +5067,7 @@
         "cors": "No"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Brawl Stars",
         "url": "https://developer.brawlstars.com",
         "description": "Brawl Stars Game Information",
@@ -5031,7 +5076,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Bugsnax",
         "url": "https://www.bugsnaxapi.com/",
         "description": "Get information about Bugsnax",
@@ -5040,7 +5085,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "CheapShark",
         "url": "https://www.cheapshark.com/api",
         "description": "Steam/PC Game Prices and Deals",
@@ -5049,7 +5094,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Chess.com",
         "url": "https://www.chess.com/news/view/published-data-api",
         "description": "Chess.com read-only REST API",
@@ -5058,7 +5103,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Chuck Norris Database",
         "url": "http://www.icndb.com/api/",
         "description": "Jokes",
@@ -5067,7 +5112,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Clash of Clans",
         "url": "https://developer.clashofclans.com",
         "description": "Clash of Clans Game Information",
@@ -5076,7 +5121,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Clash Royale",
         "url": "https://developer.clashroyale.com",
         "description": "Clash Royale Game Information",
@@ -5085,7 +5130,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Comic Vine",
         "url": "https://comicvine.gamespot.com/api/documentation",
         "description": "Comics",
@@ -5094,7 +5139,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Crafatar",
         "url": "https://crafatar.com",
         "description": "API for Minecraft skins and faces",
@@ -5103,7 +5148,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Cross Universe",
         "url": "https://crossuniverse.psychpsyo.com/apiDocs.html",
         "description": "Cross Universe Card Data",
@@ -5112,7 +5157,16 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
+        "title": "CSGO",
+        "url": "https://bymykel.github.io/CSGO-API/",
+        "description": "An unofficial JSON API for Counter-Strike: Global Offensive",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "No"
+    },
+    {
+        "category": "Games & Comics",
         "title": "Deck of Cards",
         "url": "http://deckofcardsapi.com/",
         "description": "Deck of Cards",
@@ -5121,7 +5175,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Destiny The Game",
         "url": "https://bungie-net.github.io/multi/index.html",
         "description": "Bungie Platform API",
@@ -5130,7 +5184,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Digimon Information",
         "url": "https://digimon-api.vercel.app/",
         "description": "Provides information about digimon creatures",
@@ -5139,7 +5193,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Digimon TCG",
         "url": "https://documenter.getpostman.com/view/14059948/TzecB4fH",
         "description": "Search for Digimon cards in digimoncard.io",
@@ -5148,7 +5202,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Disney",
         "url": "https://disneyapi.dev",
         "description": "Information of Disney characters",
@@ -5157,7 +5211,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Dota 2",
         "url": "https://docs.opendota.com/",
         "description": "Provides information about Player stats , Match stats, Rankings for Dota 2",
@@ -5166,7 +5220,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Dungeons and Dragons",
         "url": "https://www.dnd5eapi.co/docs/",
         "description": "Reference for 5th edition spells, classes, monsters, and more",
@@ -5175,7 +5229,7 @@
         "cors": "No"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Dungeons and Dragons (Alternate)",
         "url": "Alternate",
         "description": "Includes all monsters and spells from the SRD (System Reference Document) as well as a search API",
@@ -5184,7 +5238,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Eve Online",
         "url": "https://esi.evetech.net/ui",
         "description": "Third-Party Developer Documentation",
@@ -5193,7 +5247,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "FFXIV Collect",
         "url": "https://ffxivcollect.com/",
         "description": "Final Fantasy XIV data on collectables",
@@ -5202,7 +5256,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "FIFA Ultimate Team",
         "url": "https://www.easports.com/fifa/ultimate-team/api/fut/item",
         "description": "FIFA Ultimate Team items API",
@@ -5211,7 +5265,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Final Fantasy XIV",
         "url": "https://xivapi.com/",
         "description": "Final Fantasy XIV Game data API",
@@ -5220,7 +5274,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Fortnite",
         "url": "https://fortnitetracker.com/site-api",
         "description": "Fortnite Stats",
@@ -5229,16 +5283,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
-        "title": "Forza",
-        "url": "https://docs.forza-api.tk",
-        "description": "Show random image of car from Forza",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "FreeToGame",
         "url": "https://www.freetogame.com/api-doc",
         "description": "Free-To-Play Games Database",
@@ -5247,16 +5292,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
-        "title": "Fun Facts",
-        "url": "https://asli-fun-fact-api.herokuapp.com/",
-        "description": "Random Fun Facts",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Yes"
-    },
-    {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "FunTranslations",
         "url": "https://api.funtranslations.com/",
         "description": "Translate Text into funny languages",
@@ -5265,7 +5301,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "GamerPower",
         "url": "https://www.gamerpower.com/api-read",
         "description": "Game Giveaways Tracker",
@@ -5274,16 +5310,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
-        "title": "GDBrowser",
-        "url": "https://gdbrowser.com/api",
-        "description": "Easy way to use the Geometry Dash Servers",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Geek-Jokes",
         "url": "https://github.com/sameerkumar18/geek-joke-api",
         "description": "Fetch a random geeky/programming related joke for use in all sorts of applications",
@@ -5292,7 +5319,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Genshin Impact",
         "url": "https://genshin.dev",
         "description": "Genshin Impact game data",
@@ -5301,7 +5328,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Giant Bomb",
         "url": "https://www.giantbomb.com/api/documentation",
         "description": "Video Games",
@@ -5310,7 +5337,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "GraphQL Pokemon",
         "url": "https://github.com/favware/graphql-pokemon",
         "description": "GraphQL powered Pokemon API. Supports generations 1 through 8",
@@ -5319,7 +5346,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Guild Wars 2",
         "url": "https://wiki.guildwars2.com/wiki/API:Main",
         "description": "Guild Wars 2 Game Information",
@@ -5328,7 +5355,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "GW2Spidy",
         "url": "https://github.com/rubensayshi/gw2spidy/wiki",
         "description": "GW2Spidy API, Items data on the Guild Wars 2 Trade Market",
@@ -5337,7 +5364,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Halo",
         "url": "https://developer.haloapi.com/",
         "description": "Halo 5 and Halo Wars 2 Information",
@@ -5346,7 +5373,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Hearthstone",
         "url": "http://hearthstoneapi.com/",
         "description": "Hearthstone Cards Information",
@@ -5355,7 +5382,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Humble Bundle",
         "url": "https://rapidapi.com/Ziggoto/api/humble-bundle",
         "description": "Humble Bundle's current bundles",
@@ -5364,7 +5391,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Humor",
         "url": "https://humorapi.com",
         "description": "Humor, Jokes, and Memes",
@@ -5373,7 +5400,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Hypixel",
         "url": "https://api.hypixel.net/",
         "description": "Hypixel player stats",
@@ -5382,7 +5409,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Hyrule Compendium",
         "url": "https://github.com/gadhagod/Hyrule-Compendium-API",
         "description": "Data on all interactive items from The Legend of Zelda: BOTW",
@@ -5391,7 +5418,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Hytale",
         "url": "https://hytale-api.com/",
         "description": "Hytale blog posts and jobs",
@@ -5400,7 +5427,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "IGDB.com",
         "url": "https://api-docs.igdb.com",
         "description": "Video Game Database",
@@ -5409,7 +5436,16 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
+        "title": "Italian Jokes",
+        "url": "https://italian-jokes.vercel.app/",
+        "description": "JSON API for getting jokes about Italians",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Games & Comics",
         "title": "JokeAPI",
         "url": "https://sv443.net/jokeapi/v2/",
         "description": "Programming, Miscellaneous and Dark Jokes",
@@ -5418,7 +5454,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Jokes One",
         "url": "https://jokes.one/api/joke/",
         "description": "Joke of the day and large category of jokes accessible via REST API",
@@ -5427,7 +5463,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Jservice",
         "url": "http://jservice.io",
         "description": "Jeopardy Question Database",
@@ -5436,7 +5472,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Lichess",
         "url": "https://lichess.org/api",
         "description": "Access to all data of users, games, puzzles and etc on Lichess",
@@ -5445,7 +5481,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Magic The Gathering",
         "url": "http://magicthegathering.io/",
         "description": "Magic The Gathering Game Information",
@@ -5454,16 +5490,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
-        "title": "Mario Kart Tour",
-        "url": "https://mario-kart-tour-api.herokuapp.com/",
-        "description": "API for Drivers, Karts, Gliders and Courses",
-        "auth": "OAuth",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Marvel",
         "url": "https://developer.marvel.com",
         "description": "Marvel Comics",
@@ -5472,7 +5499,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Minecraft Server Status",
         "url": "https://api.mcsrvstat.us",
         "description": "API to get Information about a Minecraft Server",
@@ -5481,7 +5508,7 @@
         "cors": "No"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "MMO Games",
         "url": "https://www.mmobomb.com/api",
         "description": "MMO Games Database, News and Giveaways",
@@ -5490,7 +5517,7 @@
         "cors": "No"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "mod.io",
         "url": "https://docs.mod.io",
         "description": "Cross Platform Mod API",
@@ -5499,7 +5526,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Mojang",
         "url": "https://wiki.vg/Mojang_API",
         "description": "Mojang / Minecraft API",
@@ -5508,7 +5535,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Monster Hunter World",
         "url": "https://docs.mhw-db.com/",
         "description": "Monster Hunter World data",
@@ -5517,7 +5544,16 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
+        "title": "moogleAPI",
+        "url": "https://www.moogleapi.com/",
+        "description": "Final Fantasy franchise data",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Games & Comics",
         "title": "Open Trivia",
         "url": "https://opentdb.com/api_config.php",
         "description": "Trivia Questions",
@@ -5526,7 +5562,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "PandaScore",
         "url": "https://developers.pandascore.co/",
         "description": "E-sports games and results",
@@ -5535,7 +5571,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Path of Exile",
         "url": "https://www.pathofexile.com/developer/docs",
         "description": "Path of Exile Game Information",
@@ -5544,7 +5580,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "PlayerDB",
         "url": "https://playerdb.co/",
         "description": "Query Minecraft, Steam and XBox Accounts",
@@ -5553,7 +5589,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Pokéapi",
         "url": "https://pokeapi.co",
         "description": "Pokémon Information",
@@ -5562,7 +5598,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "PokéAPI (GraphQL)",
         "url": "GraphQL",
         "description": "The Unofficial GraphQL for PokeAPI",
@@ -5571,7 +5607,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Pokémon TCG",
         "url": "https://pokemontcg.io",
         "description": "Pokémon TCG Information",
@@ -5580,7 +5616,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Psychonauts",
         "url": "https://psychonauts-api.netlify.app/",
         "description": "Psychonauts World Characters Information and PSI Powers",
@@ -5589,7 +5625,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "PUBG",
         "url": "https://developer.pubg.com/",
         "description": "Access in-game PUBG data",
@@ -5598,7 +5634,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Puyo Nexus",
         "url": "https://github.com/deltadex7/puyodb-api-deno",
         "description": "Puyo Puyo information from Puyo Nexus Wiki",
@@ -5607,7 +5643,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "quizapi.io",
         "url": "https://quizapi.io/",
         "description": "Access to various kind of quiz questions",
@@ -5616,7 +5652,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Raider",
         "url": "https://raider.io/api",
         "description": "Provides detailed character and guild rankings for Raiding and Mythic+ content in World of Warcraft",
@@ -5625,7 +5661,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "RAWG.io",
         "url": "https://rawg.io/apidocs",
         "description": "500,000+ games for 50 platforms including mobiles",
@@ -5634,7 +5670,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Rick and Morty",
         "url": "https://rickandmortyapi.com",
         "description": "All the Rick and Morty information, including images",
@@ -5643,16 +5679,16 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Riot Games",
         "url": "https://developer.riotgames.com/",
-        "description": "League of Legends Game Information",
+        "description": "League of Legends, Teamfight Tactics, Legends of Runetera and Valorant information",
         "auth": "apiKey",
         "https": "Yes",
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "RPS 101",
         "url": "https://rps101.pythonanywhere.com/api",
         "description": "Rock, Paper, Scissors with 101 objects",
@@ -5661,7 +5697,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "RuneScape",
         "url": "https://runescape.wiki/w/Application_programming_interface",
         "description": "RuneScape and OSRS RPGs information",
@@ -5670,7 +5706,7 @@
         "cors": "No"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Sakura CardCaptor",
         "url": "https://github.com/JessVel/sakura-card-captor-api",
         "description": "Sakura CardCaptor Cards Information",
@@ -5679,7 +5715,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Scryfall",
         "url": "https://scryfall.com/docs/api",
         "description": "Magic: The Gathering database",
@@ -5688,7 +5724,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "SpaceTradersAPI",
         "url": "https://spacetraders.io?rel=pub-apis",
         "description": "A playable inter-galactic space trading MMOAPI",
@@ -5697,7 +5733,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Steam",
         "url": "https://steamapi.xpaw.me/",
         "description": "Steam Web API documentation",
@@ -5706,7 +5742,7 @@
         "cors": "No"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Steam",
         "url": "https://github.com/Revadike/InternalSteamWebAPI/wiki",
         "description": "Internal Steam Web API documentation",
@@ -5715,16 +5751,7 @@
         "cors": "No"
     },
     {
-        "category": "Games",
-        "title": "SuperHeroes",
-        "url": "https://superheroapi.com",
-        "description": "All SuperHeroes and Villains data from all universes under a single API",
-        "auth": "apiKey",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "TCGdex",
         "url": "https://www.tcgdex.net/docs",
         "description": "Multi languages Pokémon TCG Information",
@@ -5733,7 +5760,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Tebex",
         "url": "https://docs.tebex.io/plugin/",
         "description": "Tebex API for information about game purchases",
@@ -5742,7 +5769,7 @@
         "cors": "No"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "TETR.IO",
         "url": "https://tetr.io/about/api/",
         "description": "TETR.IO Tetra Channel API",
@@ -5751,7 +5778,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Tronald Dump",
         "url": "https://www.tronalddump.io/",
         "description": "The dumbest things Donald Trump has ever said",
@@ -5760,7 +5787,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Universalis",
         "url": "https://universalis.app/docs/index.html",
         "description": "Final Fantasy XIV market board data",
@@ -5769,7 +5796,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Valorant (non-official)",
         "url": "non-official",
         "description": "An extensive API containing data of most Valorant in-game items, assets and more",
@@ -5778,7 +5805,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Warface (non-official)",
         "url": "non-official",
         "description": "Official API proxy with better data structure and more features",
@@ -5787,7 +5814,7 @@
         "cors": "No"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Wargaming.net",
         "url": "https://developers.wargaming.net/",
         "description": "Wargaming.net info and stats",
@@ -5796,7 +5823,7 @@
         "cors": "No"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "When is next MCU film",
         "url": "https://github.com/DiljotSG/MCU-Countdown/blob/develop/docs/API.md",
         "description": "Upcoming MCU film information",
@@ -5805,7 +5832,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "xkcd",
         "url": "https://xkcd.com/json.html",
         "description": "Retrieve xkcd comics as JSON",
@@ -5814,10 +5841,19 @@
         "cors": "No"
     },
     {
-        "category": "Games",
+        "category": "Games & Comics",
         "title": "Yu-Gi-Oh!",
         "url": "https://db.ygoprodeck.com/api-guide/",
         "description": "Yu-Gi-Oh! TCG Information",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Games & Comics",
+        "title": "Zelda",
+        "url": "https://docs.zelda.fanapis.com/docs",
+        "description": "The Legend of Zelda franchise data",
         "auth": "No",
         "https": "Yes",
         "cors": "Unknown"
@@ -5887,6 +5923,15 @@
     },
     {
         "category": "Geocoding",
+        "title": "APlace.io",
+        "url": "https://aplace.io/en",
+        "description": "Address autocomplete and reverse geocoding API",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Geocoding",
         "title": "Battuta",
         "url": "http://battuta.medunes.net",
         "description": "A (country/region/city) in-cascade location API",
@@ -5896,12 +5941,48 @@
     },
     {
         "category": "Geocoding",
-        "title": "BigDataCloud",
-        "url": "https://www.bigdatacloud.com/ip-geolocation-apis",
-        "description": "Provides fast and accurate IP geolocation APIs along with security checks and confidence area",
+        "title": "BigDataCloud's IP Geolocation API",
+        "url": "https://www.bigdatacloud.com/packages/ip-geolocation",
+        "description": "Provides fast and accurate IP geolocation APIs along with security checks and confidence area.",
         "auth": "apiKey",
         "https": "Yes",
-        "cors": "Unknown"
+        "cors": "Yes"
+    },
+    {
+        "category": "Geocoding",
+        "title": "BigDataCloud's Reverse Geocoding API",
+        "url": "https://www.bigdatacloud.com/packages/reverse-geocoding",
+        "description": "Get rich locality information from the geographical coordinates.",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Geocoding",
+        "title": "BigDataCloud's Phone and Email Verification API",
+        "url": "https://www.bigdatacloud.com/packages/phone-email-verification",
+        "description": "Syntax and Format Validation of Phone Number and Email address.",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Geocoding",
+        "title": "BigDataCloud's Network Engineering API",
+        "url": "https://www.bigdatacloud.com/packages/network-engineering",
+        "description": "Get detailed ASN and Network looup of an IP address.",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Geocoding",
+        "title": "BigDataCloud's Free API",
+        "url": "https://www.bigdatacloud.com/packages/free-api",
+        "description": "Get free client-side reverse geocoding API and Client Info API. No account creation and API key required.",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Yes"
     },
     {
         "category": "Geocoding",
@@ -6142,15 +6223,6 @@
         "title": "HERE Maps",
         "url": "https://developer.here.com",
         "description": "Create/customize digital maps based on HERE Maps data",
-        "auth": "apiKey",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Geocoding",
-        "title": "Hirak IP to Country",
-        "url": "https://iplocation.hirak.site/",
-        "description": "Ip to location with country code, currency code & currency name, fast response, unlimited requests",
         "auth": "apiKey",
         "https": "Yes",
         "cors": "Unknown"
@@ -6593,6 +6665,15 @@
         "url": "https://ziptasticapi.com/",
         "description": "Get the country, state, and city of any US zip-code",
         "auth": "No",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Geocoding",
+        "title": "Zipcodestack",
+        "url": "https://zipcodestack.com/",
+        "description": "Zip Code API - Free Postal Code Validation",
+        "auth": "apiKey",
         "https": "Yes",
         "cors": "Unknown"
     },
@@ -7168,7 +7249,7 @@
         "title": "Open Government, Portugal",
         "url": "https://dados.gov.pt/en/docapi/",
         "description": "Portugal Government Open Data",
-        "auth": "No",
+        "auth": "apiKey",
         "https": "Yes",
         "cors": "Yes"
     },
@@ -7401,7 +7482,7 @@
         "category": "Health",
         "title": "Covid Tracking Project",
         "url": "https://covidtracking.com/data/api/version-2",
-        "description": "Covid-19  data for the US",
+        "description": "Covid-19 data for the US",
         "auth": "No",
         "https": "Yes",
         "cors": "No"
@@ -7794,16 +7875,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Jobs",
-        "title": "ZipRecruiter",
-        "url": "https://www.ziprecruiter.com/publishers",
-        "description": "Job search app and website",
-        "auth": "apiKey",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "AI For Thai",
         "url": "https://aiforthai.in.th/index.php",
         "description": "Free Various Thai AI API",
@@ -7812,7 +7884,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "Clarifai",
         "url": "https://docs.clarifai.com/api-guide/api-overview",
         "description": "Computer Vision",
@@ -7821,7 +7893,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "Cloudmersive",
         "url": "https://www.cloudmersive.com/image-recognition-and-processing-api",
         "description": "Image captioning, face recognition, NSFW classification",
@@ -7830,16 +7902,16 @@
         "cors": "Yes"
     },
     {
-        "category": "Machine",
-        "title": "Deepcode",
-        "url": "https://www.deepcode.ai",
-        "description": "AI for code review",
-        "auth": "No",
+        "category": "Machine Learning",
+        "title": "Cohere",
+        "url": "https://docs.cohere.ai/",
+        "description": "Harness the power of language understanding. Join the developers and businesses who are using Cohere to generate, categorize and organize text at a scale that was previously unimaginable.",
+        "auth": "apiKey",
         "https": "Yes",
-        "cors": "Unknown"
+        "cors": "Yes"
     },
     {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "Dialogflow",
         "url": "https://cloud.google.com/dialogflow/docs/",
         "description": "Natural Language Processing",
@@ -7848,7 +7920,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "EXUDE-API",
         "url": "http://uttesh.com/exude-api/",
         "description": "Used for the primary ways for filtering the stopping, stemming words from the text data",
@@ -7857,16 +7929,16 @@
         "cors": "Yes"
     },
     {
-        "category": "Machine",
-        "title": "Hirak FaceAPI",
-        "url": "https://faceapi.hirak.site/",
-        "description": "Face detection, face recognition with age estimation/gender estimation, accurate, no quota limits",
+        "category": "Machine Learning",
+        "title": "Gladia",
+        "url": "https://api.gladia.io/docs",
+        "description": "Artificial intelligence API's",
         "auth": "apiKey",
         "https": "Yes",
-        "cors": "Unknown"
+        "cors": "No"
     },
     {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "Imagga",
         "url": "https://imagga.com/",
         "description": "Image Recognition Solutions like Tagging, Visual Search, NSFW moderation",
@@ -7875,7 +7947,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "Inferdo",
         "url": "https://rapidapi.com/user/inferdo",
         "description": "Computer Vision services like Facial detection, Image labeling, NSFW classification",
@@ -7884,7 +7956,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "IPS Online",
         "url": "https://docs.identity.ps/docs",
         "description": "Face and License Plate Anonymization",
@@ -7893,7 +7965,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "Irisnet",
         "url": "https://irisnet.de/api/",
         "description": "Realtime content moderation API that blocks or blurs unwanted images in real-time",
@@ -7902,7 +7974,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "Keen IO",
         "url": "https://keen.io/",
         "description": "Data Analytics",
@@ -7911,7 +7983,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "Machinetutors",
         "url": "https://www.machinetutors.com/portfolio/MT_api.html",
         "description": "AI Solutions: Video/Image Classification & Tagging, NSFW, Icon/Image/Audio Search, NLP",
@@ -7920,7 +7992,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "MessengerX.io",
         "url": "https://messengerx.rtfd.io",
         "description": "A FREE API for developers to build and monetize personalized ML based chat apps",
@@ -7929,7 +8001,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "NLP Cloud",
         "url": "https://nlpcloud.io",
         "description": "NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more",
@@ -7938,7 +8010,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "OpenVisionAPI",
         "url": "https://openvisionapi.com",
         "description": "Open source computer vision API based on open source models",
@@ -7947,7 +8019,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "Perspective",
         "url": "https://perspectiveapi.com",
         "description": "NLP API to return probability that if text is toxic, obscene, insulting or threatening",
@@ -7956,7 +8028,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "Roboflow Universe",
         "url": "https://universe.roboflow.com",
         "description": "Pre-trained computer vision models",
@@ -7965,7 +8037,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "SkyBiometry",
         "url": "https://skybiometry.com/documentation/",
         "description": "Face Detection, Face Recognition and Face Grouping",
@@ -7974,16 +8046,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Machine",
-        "title": "Time Door",
-        "url": "https://timedoor.io",
-        "description": "A time series analysis API",
-        "auth": "apiKey",
-        "https": "Yes",
-        "cors": "Yes"
-    },
-    {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "Unplugg",
         "url": "https://unplu.gg/test_api.html",
         "description": "Forecasting API for timeseries data",
@@ -7992,7 +8055,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Machine",
+        "category": "Machine Learning",
         "title": "WolframAlpha",
         "url": "https://products.wolframalpha.com/api/",
         "description": "Provides specific answers to questions using data and algorithms",
@@ -8155,15 +8218,6 @@
     },
     {
         "category": "Music",
-        "title": "Lyrics.ovh",
-        "url": "https://lyricsovh.docs.apiary.io",
-        "description": "Simple API to retrieve the lyrics of a song",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Music",
         "title": "Mixcloud",
         "url": "https://www.mixcloud.com/developers/",
         "description": "Music",
@@ -8242,15 +8296,6 @@
         "auth": "apiKey",
         "https": "Yes",
         "cors": "Yes"
-    },
-    {
-        "category": "Music",
-        "title": "Songsterr",
-        "url": "https://www.songsterr.com/a/wa/api/",
-        "description": "Provides guitar, bass and drums tabs and chords",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Unknown"
     },
     {
         "category": "Music",
@@ -8362,6 +8407,15 @@
     },
     {
         "category": "News",
+        "title": "HackerNews Node",
+        "url": "https://github.com/EdixonAlberto/api-hackernews-node",
+        "description": "Api to get related articles about Node.js in Hacker News",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "No"
+    },
+    {
+        "category": "News",
         "title": "Inshorts News",
         "url": "https://github.com/cyberboysumanjay/Inshorts-News-API",
         "description": "Provides news from inshorts",
@@ -8400,7 +8454,7 @@
         "category": "News",
         "title": "NewsData",
         "url": "https://newsdata.io/docs",
-        "description": "News data API for live-breaking news and headlines from reputed  news sources",
+        "description": "News data API for live-breaking news and headlines from reputed news sources",
         "auth": "apiKey",
         "https": "Yes",
         "cors": "Unknown"
@@ -8469,7 +8523,16 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "News",
+        "title": "World News",
+        "url": "https://worldnewsapi.com",
+        "description": "Search through millions of semantically tagged worldwide news",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Open Data",
         "title": "18F",
         "url": "http://18f.github.io/API-All-the-X/",
         "description": "Unofficial US Federal Government API Development",
@@ -8478,7 +8541,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "API Setu",
         "url": "https://www.apisetu.gov.in/",
         "description": "An Indian Government platform that provides a lot of APIS for KYC, business, education & employment",
@@ -8487,7 +8550,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Archive.org",
         "url": "https://archive.readme.io/docs",
         "description": "The Internet Archive",
@@ -8496,7 +8559,7 @@
         "cors": "No"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Black History Facts",
         "url": "https://www.blackhistoryapi.io/docs",
         "description": "Contribute or search one of the largest black history fact databases on the web",
@@ -8505,7 +8568,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "BotsArchive",
         "url": "https://botsarchive.com/docs.html",
         "description": "JSON formatted details about Telegram Bots available in database",
@@ -8514,7 +8577,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Callook.info",
         "url": "https://callook.info",
         "description": "United States ham radio callsigns",
@@ -8523,7 +8586,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "CARTO",
         "url": "https://carto.com/",
         "description": "Location Information Prediction",
@@ -8532,7 +8595,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "CollegeScoreCard.ed.gov",
         "url": "https://collegescorecard.ed.gov/data/",
         "description": "Data on higher education institutions in the United States",
@@ -8541,7 +8604,16 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
+        "title": "DataStream",
+        "url": "https://github.com/datastreamapp/api-docs",
+        "description": "An open access platform for sharing Canadian water quality data",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Open Data",
         "title": "Enigma Public",
         "url": "https://developers.enigma.com/docs",
         "description": "Broadest collection of public data",
@@ -8550,7 +8622,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "French Address Search",
         "url": "https://geo.api.gouv.fr/adresse",
         "description": "Address search via the French Government",
@@ -8559,7 +8631,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "GENESIS",
         "url": "https://www.destatis.de/EN/Service/OpenData/api-webservice.html",
         "description": "Federal Statistical Office Germany",
@@ -8568,7 +8640,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Joshua Project",
         "url": "https://api.joshuaproject.net/",
         "description": "People groups of the world with the fewest followers of Christ",
@@ -8577,7 +8649,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Kaggle",
         "url": "https://www.kaggle.com/docs/api",
         "description": "Create and interact with Datasets, Notebooks, and connect with Kaggle",
@@ -8586,7 +8658,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "LinkPreview",
         "url": "https://www.linkpreview.net",
         "description": "Get JSON formatted summary with title, description and preview image for any requested URL",
@@ -8595,7 +8667,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Lowy Asia Power Index",
         "url": "https://github.com/0x0is1/lowy-index-api-docs",
         "description": "Get measure resources and influence to rank the relative power of states in Asia",
@@ -8604,7 +8676,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Microlink.io",
         "url": "https://microlink.io",
         "description": "Extract structured data from any website",
@@ -8613,7 +8685,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Nasdaq Data Link",
         "url": "https://docs.data.nasdaq.com/",
         "description": "Stock market data",
@@ -8622,7 +8694,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Nobel Prize",
         "url": "https://www.nobelprize.org/about/developer-zone-2/",
         "description": "Open data about nobel prizes and events",
@@ -8631,7 +8703,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Open Data Minneapolis",
         "url": "https://opendata.minneapolismn.gov/",
         "description": "Spatial (GIS) and non-spatial city data for Minneapolis",
@@ -8640,7 +8712,7 @@
         "cors": "No"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "openAFRICA",
         "url": "https://africaopendata.org/",
         "description": "Large datasets repository of African open data",
@@ -8649,7 +8721,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "OpenCorporates",
         "url": "http://api.opencorporates.com/documentation/API-Reference",
         "description": "Data on corporate entities and directors in many countries",
@@ -8658,7 +8730,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "OpenSanctions",
         "url": "https://www.opensanctions.org/docs/api/",
         "description": "Data on international sanctions, crime and politically exposed persons",
@@ -8667,7 +8739,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "PeakMetrics",
         "url": "https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news",
         "description": "News articles and public datasets",
@@ -8676,7 +8748,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Recreation Information Database",
         "url": "https://ridb.recreation.gov/",
         "description": "Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US)",
@@ -8685,7 +8757,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Scoop.it",
         "url": "http://www.scoop.it/dev",
         "description": "Content Curation Service",
@@ -8694,7 +8766,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Socrata",
         "url": "https://dev.socrata.com/",
         "description": "Access to Open Data from Governments, Non-profits and NGOs around the world",
@@ -8703,7 +8775,16 @@
         "cors": "Yes"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
+        "title": "Sofiaplan",
+        "url": "https://sofiaplan.bg/api/",
+        "description": "Access to urban research data for the Bulgarian capital Sofia",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Open Data",
         "title": "Teleport",
         "url": "https://developers.teleport.org/",
         "description": "Quality of Life Data",
@@ -8712,7 +8793,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Umeå Open Data",
         "url": "https://opendata.umea.se/api/",
         "description": "Open data of the city Umeå in northen Sweden",
@@ -8721,7 +8802,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Universities List",
         "url": "https://github.com/Hipo/university-domains-list",
         "description": "University names, countries and domains",
@@ -8730,7 +8811,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "University of Oslo",
         "url": "https://data.uio.no/",
         "description": "Courses, lecture videos, detailed information for courses etc. for the University of Oslo (Norway)",
@@ -8739,7 +8820,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "UPC database",
         "url": "https://upcdatabase.org/api",
         "description": "More than 1.5 million barcode numbers from all around the world",
@@ -8748,7 +8829,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Urban Observatory",
         "url": "https://urbanobservatory.ac.uk",
         "description": "The largest set of publicly available real time urban data in the UK",
@@ -8757,7 +8838,7 @@
         "cors": "No"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Wikidata",
         "url": "https://www.wikidata.org/w/api.php?action=help",
         "description": "Collaboratively edited knowledge base operated by the Wikimedia Foundation",
@@ -8766,7 +8847,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Wikipedia",
         "url": "https://www.mediawiki.org/wiki/API:Main_page",
         "description": "Mediawiki Encyclopedia",
@@ -8775,7 +8856,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Data",
         "title": "Yelp",
         "url": "https://www.yelp.com/developers/documentation/v3",
         "description": "Find Local Business",
@@ -8784,7 +8865,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Source Projects",
         "title": "Countly",
         "url": "https://api.count.ly/reference",
         "description": "Countly web analytics",
@@ -8793,7 +8874,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Source Projects",
         "title": "Creative Commons Catalog",
         "url": "https://api.creativecommons.engineering/",
         "description": "Search among openly licensed and public domain works",
@@ -8802,7 +8883,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Open",
+        "category": "Open Source Projects",
         "title": "Datamuse",
         "url": "https://www.datamuse.com/api/",
         "description": "Word-finding query engine",
@@ -8811,7 +8892,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Source Projects",
         "title": "Drupal.org",
         "url": "https://www.drupal.org/drupalorg/docs/api",
         "description": "Drupal.org",
@@ -8820,7 +8901,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Open",
+        "category": "Open Source Projects",
         "title": "Evil Insult Generator",
         "url": "https://evilinsult.com/api",
         "description": "Evil Insults",
@@ -8829,7 +8910,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Open",
+        "category": "Open Source Projects",
         "title": "GitHub Contribution Chart Generator",
         "url": "https://github-contributions.vercel.app",
         "description": "Create an image of your GitHub contributions",
@@ -8838,7 +8919,16 @@
         "cors": "Yes"
     },
     {
-        "category": "Open",
+        "category": "Open Source Projects",
+        "title": "GitHub Profile README Generator",
+        "url": "https://github.com/Harman-Sandhu/github-profile-readme-generator",
+        "description": "Generate an image for your GitHub Profile README",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Open Source Projects",
         "title": "GitHub ReadMe Stats",
         "url": "https://github.com/anuraghazra/github-readme-stats",
         "description": "Add dynamically generated statistics to your GitHub profile ReadMe",
@@ -8847,7 +8937,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Open",
+        "category": "Open Source Projects",
         "title": "Metabase",
         "url": "https://www.metabase.com/",
         "description": "An open source Business Intelligence server to share data and analytics inside your company",
@@ -8856,7 +8946,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Open",
+        "category": "Open Source Projects",
         "title": "Shields",
         "url": "https://shields.io/",
         "description": "Concise, consistent, and legible badges in SVG and raster format",
@@ -8986,15 +9076,6 @@
         "title": "kanye.rest",
         "url": "https://kanye.rest",
         "description": "REST API for random Kanye West quotes",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Yes"
-    },
-    {
-        "category": "Personality",
-        "title": "kimiquotes",
-        "url": "https://kimiquotes.herokuapp.com/doc",
-        "description": "Team radio and interview quotes by Finnish F1 legend Kimi Räikkönen",
         "auth": "No",
         "https": "Yes",
         "cors": "Yes"
@@ -9136,6 +9217,15 @@
     },
     {
         "category": "Phone",
+        "title": "NumlookupAPI",
+        "url": "https://numlookupapi.com",
+        "description": "Worldwide Phone Number Lookup & Verification API",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Phone",
         "title": "Phone Specification",
         "url": "https://github.com/azharimm/phone-specs-api",
         "description": "Rest Api for Phone specifications",
@@ -9271,15 +9361,6 @@
     },
     {
         "category": "Photography",
-        "title": "Imsea",
-        "url": "https://imsea.herokuapp.com/",
-        "description": "Free image search",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Photography",
         "title": "Lorem Picsum",
         "url": "https://picsum.photos/",
         "description": "Images from Unsplash",
@@ -9405,6 +9486,42 @@
         "cors": "Unknown"
     },
     {
+        "category": "Podcasts",
+        "title": "iTunes",
+        "url": "https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html#//apple_ref/doc/uid/TP40017632-CH3-SW1",
+        "description": "Apple Podcasts Directory",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Podcasts",
+        "title": "PodcastIndex",
+        "url": "https://podcastindex-org.github.io/docs-api/",
+        "description": "Get details on podcasts & episodes, Podcast Search",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Podcasts",
+        "title": "Spotify",
+        "url": "https://developer.spotify.com/documentation/web-api/",
+        "description": "Get details on podcasts & episodes",
+        "auth": "OAuth",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Podcasts",
+        "title": "Taddy Podcasts",
+        "url": "https://taddy.org/developers/podcast-api",
+        "description": "Get details on podcasts & episodes, Podcast & Episode Search, Webhook notifications",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
         "category": "Programming",
         "title": "Codeforces",
         "url": "https://codeforces.com/apiHelp",
@@ -9442,15 +9559,15 @@
     },
     {
         "category": "Programming",
-        "title": "Mintlify",
-        "url": "https://docs.mintlify.com",
-        "description": "For programmatically generating documentation for code",
-        "auth": "apiKey",
+        "title": "Volca",
+        "url": "https://volca.io#api",
+        "description": "List of programming languages and technologies",
+        "auth": "No",
         "https": "Yes",
-        "cors": "Yes"
+        "cors": "Unknown"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "arcsecond.io",
         "url": "https://api.arcsecond.io/",
         "description": "Multiple astronomy data sources",
@@ -9459,7 +9576,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "arXiv",
         "url": "https://arxiv.org/help/api/user-manual",
         "description": "Curated research-sharing platform: physics, mathematics, quantitative finance, and economics",
@@ -9468,7 +9585,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "CORE",
         "url": "https://core.ac.uk/services#api",
         "description": "Access the world's Open Access research papers",
@@ -9477,7 +9594,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "GBIF",
         "url": "https://www.gbif.org/developer/summary",
         "description": "Global Biodiversity Information Facility",
@@ -9486,7 +9603,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "iDigBio",
         "url": "https://github.com/idigbio/idigbio-search-api/wiki",
         "description": "Access millions of museum specimens from organizations around the world",
@@ -9495,7 +9612,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "inspirehep.net",
         "url": "https://github.com/inspirehep/rest-api-doc",
         "description": "High Energy Physics info. system",
@@ -9504,7 +9621,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "isEven (humor)",
         "url": "humor",
         "description": "Check if a number is even",
@@ -9513,7 +9630,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "ISRO",
         "url": "https://isro.vercel.app",
         "description": "ISRO Space Crafts Information",
@@ -9522,7 +9639,16 @@
         "cors": "No"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
+        "title": "ISRO Statistics",
+        "url": "https://isrostats.in/apis",
+        "description": "ISRO Launches and Spacecrafts details",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Science & Math",
         "title": "ITIS",
         "url": "https://www.itis.gov/ws_description.html",
         "description": "Integrated Taxonomic Information System",
@@ -9531,7 +9657,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "Launch Library 2",
         "url": "https://thespacedevs.com/llapi",
         "description": "Spaceflight launches and events database",
@@ -9540,7 +9666,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "Materials Platform for Data Science",
         "url": "https://mpds.io",
         "description": "Curated experimental data for materials science",
@@ -9549,7 +9675,7 @@
         "cors": "No"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "Minor Planet Center",
         "url": "http://www.asterank.com/mpc",
         "description": "Asterank.com Information",
@@ -9558,7 +9684,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "NASA",
         "url": "https://api.nasa.gov",
         "description": "NASA data, including imagery",
@@ -9567,7 +9693,7 @@
         "cors": "No"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "NASA ADS",
         "url": "https://ui.adsabs.harvard.edu/help/api/api-docs.html",
         "description": "NASA Astrophysics Data System",
@@ -9576,7 +9702,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "Newton",
         "url": "https://newton.vercel.app",
         "description": "Symbolic and Arithmetic Math Calculator",
@@ -9585,7 +9711,7 @@
         "cors": "No"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "Noctua",
         "url": "https://api.noctuasky.com/api/v1/swaggerdoc/",
         "description": "REST API used to access NoctuaSky features",
@@ -9594,7 +9720,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "Numbers",
         "url": "https://math.tools/api/numbers/",
         "description": "Number of the day, random number, number facts and anything else you want to do with numbers",
@@ -9603,7 +9729,7 @@
         "cors": "No"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "Numbers",
         "url": "http://numbersapi.com",
         "description": "Facts about numbers",
@@ -9612,16 +9738,7 @@
         "cors": "No"
     },
     {
-        "category": "Science",
-        "title": "Ocean Facts",
-        "url": "https://oceanfacts.herokuapp.com/",
-        "description": "Facts pertaining to the physical science of Oceanography",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "Open Notify",
         "url": "http://open-notify.org/Open-Notify-API/",
         "description": "ISS astronauts, current location, etc",
@@ -9630,7 +9747,7 @@
         "cors": "No"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "Open Science Framework",
         "url": "https://developer.osf.io",
         "description": "Repository and archive for study designs, research materials, data, manuscripts, etc",
@@ -9639,7 +9756,16 @@
         "cors": "Unknown"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
+        "title": "Prime Number",
+        "url": "https://prime-number-api-docs.onrender.com/",
+        "description": "Check if a number(s) is prime, or query a list of prime numbers",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Science & Math",
         "title": "Purple Air",
         "url": "https://www2.purpleair.com/",
         "description": "Real Time Air Quality Monitoring",
@@ -9648,7 +9774,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "Remote Calc",
         "url": "https://github.com/elizabethadegbaju/remotecalc",
         "description": "Decodes base64 encoding and parses it to return a solution to the calculation in JSON",
@@ -9657,7 +9783,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "SHARE",
         "url": "https://share.osf.io/api/v2/",
         "description": "A free, open, dataset about research and scholarly activities",
@@ -9666,7 +9792,7 @@
         "cors": "No"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "SpaceX",
         "url": "https://github.com/r-spacex/SpaceX-API",
         "description": "Company, vehicle, launchpad and launch data",
@@ -9675,7 +9801,7 @@
         "cors": "No"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "SpaceX",
         "url": "https://api.spacex.land/graphql/",
         "description": "GraphQL, Company, Ships, launchpad and launch data",
@@ -9684,7 +9810,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "Sunrise and Sunset",
         "url": "https://sunrise-sunset.org/api",
         "description": "Sunset and sunrise times for a given latitude and longitude",
@@ -9693,7 +9819,7 @@
         "cors": "No"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "Times Adder",
         "url": "https://github.com/FranP-code/API-Times-Adder",
         "description": "With this API you can add each of the times introduced in the array sended",
@@ -9702,7 +9828,7 @@
         "cors": "No"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "TLE",
         "url": "https://tle.ivanstanojevic.me/#/docs",
         "description": "Satellite information",
@@ -9711,7 +9837,7 @@
         "cors": "No"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "USGS Earthquake Hazards Program",
         "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
         "description": "Earthquakes data real-time",
@@ -9720,7 +9846,7 @@
         "cors": "No"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "USGS Water Services",
         "url": "https://waterservices.usgs.gov/",
         "description": "Water quality and level info for rivers and lakes",
@@ -9729,22 +9855,13 @@
         "cors": "No"
     },
     {
-        "category": "Science",
+        "category": "Science & Math",
         "title": "World Bank",
         "url": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589",
         "description": "World Data",
         "auth": "No",
         "https": "Yes",
         "cors": "No"
-    },
-    {
-        "category": "Science",
-        "title": "xMath",
-        "url": "https://x-math.herokuapp.com/",
-        "description": "Random mathematical expressions",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Yes"
     },
     {
         "category": "Security",
@@ -9803,7 +9920,7 @@
     {
         "category": "Security",
         "title": "Classify",
-        "url": "https://classify-web.herokuapp.com/#/api",
+        "url": "https://github.com/cheatsnake/classify",
         "description": "Encrypting & decrypting text messages",
         "auth": "No",
         "https": "Yes",
@@ -9991,6 +10108,15 @@
     },
     {
         "category": "Security",
+        "title": "OWASP ZAP",
+        "url": "https://www.zaproxy.org/docs/api/",
+        "description": "Automated security testing API for web apps",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Security",
         "title": "Passwordinator",
         "url": "https://github.com/fawazsullia/password-generator/",
         "description": "Generate random passwords of varying complexities",
@@ -10105,15 +10231,6 @@
         "auth": "OAuth",
         "https": "Yes",
         "cors": "Unknown"
-    },
-    {
-        "category": "Shopping",
-        "title": "Dummy Products",
-        "url": "https://dummyproducts-api.herokuapp.com/",
-        "description": "An api to fetch dummy e-commerce products JSON data with placeholder images",
-        "auth": "apiKey",
-        "https": "Yes",
-        "cors": "Yes"
     },
     {
         "category": "Shopping",
@@ -10252,24 +10369,6 @@
     },
     {
         "category": "Social",
-        "title": "Cisco Spark",
-        "url": "https://developer.ciscospark.com",
-        "description": "Team Collaboration Software",
-        "auth": "OAuth",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Social",
-        "title": "Dangerous Discord Database",
-        "url": "https://discord.riverside.rocks/docs/index.php",
-        "description": "Database of malicious Discord accounts",
-        "auth": "apiKey",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Social",
         "title": "Discord",
         "url": "https://discord.com/developers/docs/intro",
         "description": "Make bots for Discord, integrate Discord onto an external platform",
@@ -10288,15 +10387,6 @@
     },
     {
         "category": "Social",
-        "title": "Doge-Meme",
-        "url": "https://api.doge-meme.lol/docs",
-        "description": "Top meme posts from r/dogecoin which include 'Meme' flair",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Yes"
-    },
-    {
-        "category": "Social",
         "title": "Facebook",
         "url": "https://developers.facebook.com/",
         "description": "Facebook Login, Share on FB, Social Plugins, Analytics and more",
@@ -10310,15 +10400,6 @@
         "url": "https://developer.foursquare.com/",
         "description": "Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc)",
         "auth": "OAuth",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Social",
-        "title": "Fuck Off as a Service",
-        "url": "https://www.foaas.com",
-        "description": "Asks someone to fuck off",
-        "auth": "No",
         "https": "Yes",
         "cors": "Unknown"
     },
@@ -10346,6 +10427,15 @@
         "url": "https://hashnode.com",
         "description": "A blogging platform built for developers",
         "auth": "No",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Social",
+        "title": "Hashtag",
+        "url": "https://mukeshsolanki.gitbook.io/hashtag-api/",
+        "description": "Generate Hashtags using a keyword or an Image",
+        "auth": "apiKey",
         "https": "Yes",
         "cors": "Unknown"
     },
@@ -10514,8 +10604,8 @@
     {
         "category": "Social",
         "title": "Telegraph",
-        "url": "https://telegra.ph/api",
-        "description": "Create attractive blogs easily, to share",
+        "url": "https://telegraph.org/api",
+        "description": "Create attractive blogs easily, to share [Other domain - [graph.org](https://graph.org/api)]",
         "auth": "apiKey",
         "https": "Yes",
         "cors": "Unknown"
@@ -10575,7 +10665,16 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Social",
+        "title": "Webex",
+        "url": "https://developer.webex.com",
+        "description": "Team collaboration software",
+        "auth": "OAuth",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Sports & Fitness",
         "title": "API-FOOTBALL",
         "url": "https://www.api-football.com/documentation-v3",
         "description": "Get information about Football Leagues & Cups",
@@ -10584,7 +10683,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "ApiMedic",
         "url": "https://apimedic.com/",
         "description": "ApiMedic offers a medical symptom checker API primarily for patients",
@@ -10593,7 +10692,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "balldontlie",
         "url": "https://www.balldontlie.io",
         "description": "Balldontlie provides access to stats data from the NBA",
@@ -10602,7 +10701,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Canadian Football League (CFL)",
         "url": "CFL",
         "description": "Official JSON API providing real-time league, team and player statistics about the CFL",
@@ -10611,7 +10710,7 @@
         "cors": "No"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "City Bikes",
         "url": "https://api.citybik.es/v2/",
         "description": "City Bikes around the world",
@@ -10620,7 +10719,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Cloudbet",
         "url": "https://www.cloudbet.com/api/",
         "description": "Official Cloudbet API provides real-time sports odds and betting API to place bets programmatically",
@@ -10629,7 +10728,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "CollegeFootballData.com",
         "url": "https://collegefootballdata.com",
         "description": "Unofficial detailed American college football statistics, records, and results API",
@@ -10638,7 +10737,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Ergast F1",
         "url": "http://ergast.com/mrd/",
         "description": "F1 data from the beginning of the world championships in 1950",
@@ -10647,7 +10746,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Fitbit",
         "url": "https://dev.fitbit.com/",
         "description": "Fitbit Information",
@@ -10656,7 +10755,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Football",
         "url": "https://rapidapi.com/GiulianoCrescimbeni/api/football98/",
         "description": "A simple Open Source Football API to get squads’ stats, best scorers and more",
@@ -10665,7 +10764,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Football (Soccer) Videos",
         "url": "Soccer",
         "description": "Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more",
@@ -10674,7 +10773,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Football Standings",
         "url": "https://github.com/azharimm/football-standings-api",
         "description": "Display football standings e.g epl, la liga, serie a etc. The data is based on espn site",
@@ -10683,7 +10782,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Football-Data",
         "url": "https://www.football-data.org",
         "description": "Football data with matches info, players, teams, and competitions",
@@ -10692,7 +10791,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "JCDecaux Bike",
         "url": "https://developer.jcdecaux.com/",
         "description": "JCDecaux's self-service bicycles",
@@ -10701,7 +10800,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "MLB Records and Stats",
         "url": "https://appac.github.io/mlb-data-api-docs/",
         "description": "Current and historical MLB statistics",
@@ -10710,7 +10809,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "NBA Data",
         "url": "https://rapidapi.com/api-sports/api/api-nba/",
         "description": "All NBA Stats DATA, Games, Livescore, Standings, Statistics",
@@ -10719,7 +10818,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "NBA Stats",
         "url": "https://any-api.com/nba_com/nba_com/docs/API_Description",
         "description": "Current and historical NBA Statistics",
@@ -10728,7 +10827,16 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
+        "title": "NBA Stats",
+        "url": "https://documenter.getpostman.com/view/24232555/2s93shzpR3",
+        "description": "NBA player statistics and data",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Sports & Fitness",
         "title": "NHL Records and Stats",
         "url": "https://gitlab.com/dword4/nhlapi",
         "description": "NHL historical data and statistics",
@@ -10737,7 +10845,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Oddsmagnet",
         "url": "https://data.oddsmagnet.com",
         "description": "Odds history from multiple UK bookmakers",
@@ -10746,7 +10854,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "OpenLigaDB",
         "url": "https://www.openligadb.de",
         "description": "Crowd sourced sports league results",
@@ -10755,7 +10863,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Premier League Standings ",
         "url": "https://rapidapi.com/heisenbug/api/premier-league-live-scores/",
         "description": "All Current Premier League Standings and Statistics",
@@ -10764,7 +10872,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Sport Data",
         "url": "https://sportdataapi.com",
         "description": "Get sports data from all over the world",
@@ -10773,7 +10881,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Sport List & Data",
         "url": "https://developers.decathlon.com/products/sports",
         "description": "List of and resources related to sports",
@@ -10782,7 +10890,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Sport Places",
         "url": "https://developers.decathlon.com/products/sport-places",
         "description": "Crowd-source sports places around the world",
@@ -10791,7 +10899,7 @@
         "cors": "No"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Sport Vision",
         "url": "https://developers.decathlon.com/products/sport-vision",
         "description": "Identify sport, brands and gear in an image. Also does image sports captioning",
@@ -10800,7 +10908,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Sportmonks Cricket",
         "url": "https://docs.sportmonks.com/cricket/",
         "description": "Live cricket score, player statistics and fantasy API",
@@ -10809,7 +10917,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Sportmonks Football",
         "url": "https://docs.sportmonks.com/football/",
         "description": "Football score/schedule, news api, tv channels, stats, history, display standing e.g. epl, la liga",
@@ -10818,7 +10926,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Squiggle",
         "url": "https://api.squiggle.com.au",
         "description": "Fixtures, results and predictions for Australian Football League matches",
@@ -10827,7 +10935,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Strava",
         "url": "https://strava.github.io/api/",
         "description": "Connect with athletes, activities and more",
@@ -10836,7 +10944,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "SuredBits",
         "url": "https://suredbits.com/api/",
         "description": "Query sports data, including teams, players, games, scores and statistics",
@@ -10845,7 +10953,7 @@
         "cors": "No"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "TheSportsDB",
         "url": "https://www.thesportsdb.com/api.php",
         "description": "Crowd-Sourced Sports Data and Artwork",
@@ -10854,7 +10962,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Tredict",
         "url": "https://www.tredict.com/blog/oauth_docs/",
         "description": "Get and set activities, health data and more",
@@ -10863,7 +10971,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Sports",
+        "category": "Sports & Fitness",
         "title": "Wger",
         "url": "https://wger.de/en/software/api",
         "description": "Workout manager data as exercises, muscles or equipment",
@@ -10872,7 +10980,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
         "title": "Bacon Ipsum",
         "url": "https://baconipsum.com/json-api/",
         "description": "A Meatier Lorem Ipsum Generator",
@@ -10881,7 +10989,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
         "title": "Dicebear Avatars",
         "url": "https://avatars.dicebear.com/",
         "description": "Generate random pixel-art avatars",
@@ -10890,7 +10998,7 @@
         "cors": "No"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
         "title": "English Random Words",
         "url": "https://random-words-api.vercel.app/word",
         "description": "Generate English Random Words with Pronunciation",
@@ -10899,7 +11007,7 @@
         "cors": "No"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
         "title": "FakeJSON",
         "url": "https://fakejson.com",
         "description": "Service to generate test and fake data",
@@ -10908,7 +11016,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
         "title": "FakerAPI",
         "url": "https://fakerapi.it/en",
         "description": "APIs collection to get fake data",
@@ -10917,7 +11025,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
         "title": "FakeStoreAPI",
         "url": "https://fakestoreapi.com/",
         "description": "Fake store rest API for your e-commerce or shopping website prototype",
@@ -10926,7 +11034,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
         "title": "GeneradorDNI",
         "url": "https://api.generadordni.es",
         "description": "Data generator API. Profiles, vehicles, banks and cards, etc",
@@ -10935,7 +11043,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
         "title": "ItsThisForThat",
         "url": "https://itsthisforthat.com/api.php",
         "description": "Generate Random startup ideas",
@@ -10944,7 +11052,7 @@
         "cors": "No"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
         "title": "JSONPlaceholder",
         "url": "http://jsonplaceholder.typicode.com/",
         "description": "Fake data for testing and prototyping",
@@ -10953,7 +11061,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
         "title": "Loripsum",
         "url": "http://loripsum.net/",
         "description": "The \"lorem ipsum\" generator that doesn't suck",
@@ -10962,7 +11070,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
         "title": "Mailsac",
         "url": "https://mailsac.com/docs/api",
         "description": "Disposable Email",
@@ -10971,7 +11079,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
         "title": "Metaphorsum",
         "url": "http://metaphorpsum.com/",
         "description": "Generate demo paragraphs giving number of words and sentences",
@@ -10980,7 +11088,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
         "title": "Mockaroo",
         "url": "https://www.mockaroo.com/docs",
         "description": "Generate fake data to JSON, CSV, TXT, SQL and XML",
@@ -10989,7 +11097,16 @@
         "cors": "Unknown"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
+        "title": "Mockyard",
+        "url": "https://mockyard.in/",
+        "description": "Realistic mock data for testing and prototyping",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Test Data",
         "title": "QuickMocker",
         "url": "https://quickmocker.com",
         "description": "API mocking tool to generate contextual, fake or random data",
@@ -10998,7 +11115,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
         "title": "Random Data",
         "url": "https://random-data-api.com",
         "description": "Random data generator",
@@ -11007,7 +11124,16 @@
         "cors": "Unknown"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
+        "title": "Random Identity",
+        "url": "https://rapidapi.com/edualc1018/api/random-identity-generator",
+        "description": "Random Identity Generator with custom response format",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Test Data",
         "title": "Randommer",
         "url": "https://randommer.io/randommer-api",
         "description": "Random data generator",
@@ -11016,7 +11142,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
         "title": "RandomUser",
         "url": "https://randomuser.me",
         "description": "Generates and list user data",
@@ -11025,7 +11151,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
         "title": "RoboHash",
         "url": "https://robohash.org/",
         "description": "Generate random robot/alien avatars",
@@ -11034,25 +11160,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Test",
-        "title": "Spanish random names",
-        "url": "https://random-names-api.herokuapp.com/public",
-        "description": "Generate spanish names (with gender) randomly",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Test",
-        "title": "Spanish random words",
-        "url": "https://palabras-aleatorias-public-api.herokuapp.com",
-        "description": "Generate spanish words randomly",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Test",
+        "category": "Test Data",
         "title": "This Person Does not Exist",
         "url": "https://thispersondoesnotexist.com",
         "description": "Generates real-life faces of people who do not exist",
@@ -11061,16 +11169,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Test",
-        "title": "Toolcarton",
-        "url": "https://testimonialapi.toolcarton.com/",
-        "description": "Generate random testimonial data",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Test",
+        "category": "Test Data",
         "title": "UUID Generator",
         "url": "https://www.uuidtools.com/docs",
         "description": "Generate UUIDs",
@@ -11079,7 +11178,7 @@
         "cors": "No"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
         "title": "What The Commit",
         "url": "http://whatthecommit.com/index.txt",
         "description": "Random commit message generator",
@@ -11088,7 +11187,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Test",
+        "category": "Test Data",
         "title": "Yes No",
         "url": "https://yesno.wtf/api",
         "description": "Generate yes or no randomly",
@@ -11097,16 +11196,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Text",
-        "title": "Code Detection API",
-        "url": "https://codedetectionapi.runtime.dev",
-        "description": "Detect, label, format and enrich the code in your app or in your data pipeline",
-        "auth": "OAuth",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Text",
+        "category": "Text Analysis",
         "title": "apilayer languagelayer",
         "url": "https://languagelayer.com/",
         "description": "Language Detection JSON API supporting 173 languages",
@@ -11115,7 +11205,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Text",
+        "category": "Text Analysis",
         "title": "Aylien Text Analysis",
         "url": "https://docs.aylien.com/textapi/#getting-started",
         "description": "A collection of information retrieval and natural language APIs",
@@ -11124,7 +11214,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Text",
+        "category": "Text Analysis",
         "title": "Cloudmersive Natural Language Processing",
         "url": "https://www.cloudmersive.com/nlp-api",
         "description": "Natural language processing and text analysis",
@@ -11133,7 +11223,16 @@
         "cors": "Yes"
     },
     {
-        "category": "Text",
+        "category": "Text Analysis",
+        "title": "Code Detection API",
+        "url": "https://codedetectionapi.runtime.dev",
+        "description": "Detect, label, format and enrich the code in your app or in your data pipeline",
+        "auth": "OAuth",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Text Analysis",
         "title": "Detect Language",
         "url": "https://detectlanguage.com/",
         "description": "Detects text language",
@@ -11142,7 +11241,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Text",
+        "category": "Text Analysis",
         "title": "ELI",
         "url": "https://nlp.insightera.co.th/docs/v1.0",
         "description": "Natural Language Processing Tools for Thai Language",
@@ -11151,7 +11250,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Text",
+        "category": "Text Analysis",
         "title": "Google Cloud Natural",
         "url": "https://cloud.google.com/natural-language/docs/",
         "description": "Natural language understanding technology, including sentiment, entity and syntax analysis",
@@ -11160,25 +11259,16 @@
         "cors": "Unknown"
     },
     {
-        "category": "Text",
-        "title": "Hirak OCR",
-        "url": "https://ocr.hirak.site/",
-        "description": "Image to text -text recognition- from image more than 100 language, accurate, unlimited requests",
-        "auth": "apiKey",
+        "category": "Text Analysis",
+        "title": "LanguageTool",
+        "url": "https://languagetool.org/http-api/",
+        "description": "Style and Grammar Checker for 25+ Languages",
+        "auth": "No",
         "https": "Yes",
         "cors": "Unknown"
     },
     {
-        "category": "Text",
-        "title": "Hirak Translation",
-        "url": "https://translate.hirak.site/",
-        "description": "Translate between 21 of most used languages, accurate, unlimited requests",
-        "auth": "apiKey",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Text",
+        "category": "Text Analysis",
         "title": "Lecto Translation",
         "url": "https://rapidapi.com/lecto-lecto-default/api/lecto-translation/",
         "description": "Translation API with free tier and reasonable prices",
@@ -11187,7 +11277,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Text",
+        "category": "Text Analysis",
         "title": "LibreTranslate",
         "url": "https://libretranslate.com/docs",
         "description": "Translation tool with 17 available languages",
@@ -11196,7 +11286,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Text",
+        "category": "Text Analysis",
         "title": "Semantria",
         "url": "https://semantria.readme.io/docs",
         "description": "Text Analytics with sentiment analysis, categorization & named entity extraction",
@@ -11205,7 +11295,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "Text",
+        "category": "Text Analysis",
         "title": "Sentiment Analysis",
         "url": "https://www.meaningcloud.com/developer/sentiment-analysis",
         "description": "Multilingual sentiment analysis of texts from different sources",
@@ -11214,7 +11304,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Text",
+        "category": "Text Analysis",
         "title": "Tisane",
         "url": "https://tisane.ai/",
         "description": "Text Analytics with focus on detection of abusive content and law enforcement applications",
@@ -11223,7 +11313,7 @@
         "cors": "Yes"
     },
     {
-        "category": "Text",
+        "category": "Text Analysis",
         "title": "Watson Natural Language Understanding",
         "url": "https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding",
         "description": "Natural language processing for advanced text analysis",
@@ -11449,6 +11539,15 @@
     },
     {
         "category": "Transportation",
+        "title": "facha",
+        "url": "https://docs.api.facha.dev/",
+        "description": "Aircraft Tracking, AIS Ship Tracking, Temporary Email Detection, IP GeoLocation, Package Tracking",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Transportation",
         "title": "Grab",
         "url": "https://developer.grab.com/docs/",
         "description": "Track deliveries, ride fares, payments and loyalty points",
@@ -11621,7 +11720,7 @@
     {
         "category": "Transportation",
         "title": "Transport for Berlin, Germany",
-        "url": "https://github.com/derhuerst/vbb-rest/blob/3/docs/index.md",
+        "url": "https://github.com/derhuerst/vbb-rest/blob/5/docs/api.md",
         "description": "Third-party VBB API",
         "auth": "No",
         "https": "Yes",
@@ -11675,16 +11774,16 @@
     {
         "category": "Transportation",
         "title": "Transport for Finland",
-        "url": "https://digitransit.fi/en/developers/ ",
+        "url": "https://digitransit.fi/en/developers/",
         "description": "Finnish transport API",
-        "auth": "No",
+        "auth": "apiKey",
         "https": "Yes",
         "cors": "Unknown"
     },
     {
         "category": "Transportation",
         "title": "Transport for Germany",
-        "url": "http://data.deutschebahn.com/dataset/api-fahrplan",
+        "url": "http://data.deutschebahn.com/dataset/api-fahrplan.html",
         "description": "Deutsche Bahn (DB) API",
         "auth": "apiKey",
         "https": "No",
@@ -11934,7 +12033,7 @@
         "cors": "No"
     },
     {
-        "category": "URL",
+        "category": "URL Shorteners",
         "title": "1pt",
         "url": "https://github.com/1pt-co/api/blob/main/README.md",
         "description": "A simple URL shortener",
@@ -11943,7 +12042,7 @@
         "cors": "Yes"
     },
     {
-        "category": "URL",
+        "category": "URL Shorteners",
         "title": "Bitly",
         "url": "http://dev.bitly.com/get_started.html",
         "description": "URL shortener and link management",
@@ -11952,7 +12051,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "URL",
+        "category": "URL Shorteners",
         "title": "CleanURI",
         "url": "https://cleanuri.com/docs",
         "description": "URL shortener service",
@@ -11961,7 +12060,7 @@
         "cors": "Yes"
     },
     {
-        "category": "URL",
+        "category": "URL Shorteners",
         "title": "ClickMeter",
         "url": "https://support.clickmeter.com/hc/en-us/categories/201474986",
         "description": "Monitor, compare and optimize your marketing links",
@@ -11970,7 +12069,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "URL",
+        "category": "URL Shorteners",
         "title": "Clico",
         "url": "https://cli.com/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config",
         "description": "URL shortener service",
@@ -11979,7 +12078,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "URL",
+        "category": "URL Shorteners",
         "title": "Cutt.ly",
         "url": "https://cutt.ly/api-documentation/cuttly-links-api",
         "description": "URL shortener service",
@@ -11988,7 +12087,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "URL",
+        "category": "URL Shorteners",
         "title": "Drivet URL Shortener",
         "url": "https://wiki.drivet.xyz/en/url-shortener/add-links",
         "description": "Shorten a long URL easily and fast",
@@ -11997,7 +12096,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "URL",
+        "category": "URL Shorteners",
         "title": "Free Url Shortener",
         "url": "https://ulvis.net/developer.html",
         "description": "Free URL Shortener offers a powerful API to interact with other sites",
@@ -12006,16 +12105,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "URL",
-        "title": "Git.io",
-        "url": "https://github.blog/2011-11-10-git-io-github-url-shortener/",
-        "description": "Git.io URL shortener",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "URL",
+        "category": "URL Shorteners",
         "title": "GoTiny",
         "url": "https://github.com/robvanbakel/gotiny-api",
         "description": "A lightweight URL shortener, focused on ease-of-use for the developer and end-user",
@@ -12024,7 +12114,7 @@
         "cors": "Yes"
     },
     {
-        "category": "URL",
+        "category": "URL Shorteners",
         "title": "Kutt",
         "url": "https://docs.kutt.it/",
         "description": "Free Modern URL Shortener",
@@ -12033,7 +12123,7 @@
         "cors": "Yes"
     },
     {
-        "category": "URL",
+        "category": "URL Shorteners",
         "title": "Mgnet.me",
         "url": "http://mgnet.me/api.html",
         "description": "Torrent URL shorten API",
@@ -12042,16 +12132,16 @@
         "cors": "No"
     },
     {
-        "category": "URL",
+        "category": "URL Shorteners",
         "title": "owo",
-        "url": "https://owo.vc/api",
+        "url": "https://owo.vc/api.html",
         "description": "A simple link obfuscator/shortener",
         "auth": "No",
         "https": "Yes",
         "cors": "Unknown"
     },
     {
-        "category": "URL",
+        "category": "URL Shorteners",
         "title": "Rebrandly",
         "url": "https://developers.rebrandly.com/v1/docs",
         "description": "Custom URL shortener for sharing branded links",
@@ -12060,7 +12150,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "URL",
+        "category": "URL Shorteners",
         "title": "Short Link",
         "url": "https://github.com/FayasNoushad/Short-Link-API",
         "description": "Short URLs support so many domains",
@@ -12069,7 +12159,7 @@
         "cors": "Unknown"
     },
     {
-        "category": "URL",
+        "category": "URL Shorteners",
         "title": "Shrtcode",
         "url": "https://shrtco.de/docs",
         "description": "URl Shortener with multiple Domains",
@@ -12078,7 +12168,7 @@
         "cors": "Yes"
     },
     {
-        "category": "URL",
+        "category": "URL Shorteners",
         "title": "Shrtlnk",
         "url": "https://shrtlnk.dev/developer",
         "description": "Simple and efficient short link creation",
@@ -12087,7 +12177,7 @@
         "cors": "Yes"
     },
     {
-        "category": "URL",
+        "category": "URL Shorteners",
         "title": "TinyURL",
         "url": "https://tinyurl.com/app/dev",
         "description": "Shorten long URLs",
@@ -12096,13 +12186,31 @@
         "cors": "No"
     },
     {
-        "category": "URL",
+        "category": "URL Shorteners",
         "title": "UrlBae",
         "url": "https://urlbae.com/developers",
         "description": "Simple and efficient short link creation",
         "auth": "apiKey",
         "https": "Yes",
         "cors": "Yes"
+    },
+    {
+        "category": "URL Shorteners",
+        "title": "url.dev",
+        "url": "https://autocode.com/url/api/temporary/0.3.0/create",
+        "description": "Create short, temporary, self-destructing links that expire anywhere from a minute to a week.",
+        "auth": "No",
+        "https": "Yes",
+        "cors": ""
+    },
+    {
+        "category": "URL Shorteners",
+        "title": "Urlmskr",
+        "url": "https://github.com/Axorax/urlmskr#urlmskr-api",
+        "description": "Easy and fast masked, shortened link creation",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Unknown"
     },
     {
         "category": "Vehicle",
@@ -12196,18 +12304,18 @@
     },
     {
         "category": "Video",
-        "title": "Catalogopolis",
-        "url": "https://api.catalogopolis.xyz/docs/",
-        "description": "Doctor Who API",
+        "title": "Buffy the Vampire Slayer and Angel",
+        "url": "https://github.com/Thatskat/btvs-angel-api",
+        "description": "Get episode, cast and crew data from Buffy the Vampire Slayer and Angel",
         "auth": "No",
         "https": "Yes",
-        "cors": "Unknown"
+        "cors": "Yes"
     },
     {
         "category": "Video",
-        "title": "Catch The Show",
-        "url": "https://catchtheshow.herokuapp.com/api/documentation",
-        "description": "REST API for next-episode.net",
+        "title": "Catalogopolis",
+        "url": "https://api.catalogopolis.xyz/docs/",
+        "description": "Doctor Who API",
         "auth": "No",
         "https": "Yes",
         "cors": "Unknown"
@@ -12259,8 +12367,17 @@
     },
     {
         "category": "Video",
-        "title": "Harry Potter Charactes",
-        "url": "https://hp-api.herokuapp.com/",
+        "title": "Gcore Streaming",
+        "url": "https://docs.gcore.com/streaming",
+        "description": "Scale to 100+ million viewers and beyond. Stream everything from online games to online events reliably in minutes instead of months.",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Yes"
+    },
+    {
+        "category": "Video",
+        "title": "Harry Potter Characters",
+        "url": "https://hp-api.onrender.com/",
         "description": "Harry Potter Characters Data with with imagery",
         "auth": "No",
         "https": "Yes",
@@ -12313,21 +12430,21 @@
     },
     {
         "category": "Video",
-        "title": "Motivational Quotes",
-        "url": "https://nodejs-quoteapp.herokuapp.com/",
-        "description": "Random Motivational Quotes",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Unknown"
-    },
-    {
-        "category": "Video",
         "title": "Movie Quote",
         "url": "https://github.com/F4R4N/movie-quote/",
         "description": "Random Movie and Series Quotes",
         "auth": "No",
         "https": "Yes",
         "cors": "Yes"
+    },
+    {
+        "category": "Video",
+        "title": "Mux",
+        "url": "https://www.mux.com/",
+        "description": "Mux Video is an API that enables developers to build unique live and on-demand video experiences",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Unknown"
     },
     {
         "category": "Video",
@@ -12340,19 +12457,19 @@
     },
     {
         "category": "Video",
-        "title": "Owen Wilson Wow",
-        "url": "https://owen-wilson-wow-api.herokuapp.com",
-        "description": "API for actor Owen Wilson's \"wow\" exclamations in movies",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "Yes"
-    },
-    {
-        "category": "Video",
         "title": "Ron Swanson Quotes",
         "url": "https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api",
         "description": "Television",
         "auth": "No",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Video",
+        "title": "Shotstack",
+        "url": "https://shotstack.io/",
+        "description": "Cloud-based video editing API",
+        "auth": "apiKey",
         "https": "Yes",
         "cors": "Unknown"
     },
@@ -12367,12 +12484,21 @@
     },
     {
         "category": "Video",
+        "title": "South Park Quotes",
+        "url": "https://github.com/Thatskat/southpark-quotes-api",
+        "description": "Get some quotes from South Park, mmkay!",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Video",
         "title": "STAPI",
-        "url": "http://stapi.co",
+        "url": "https://stapi.co",
         "description": "Information on all things Star Trek",
         "auth": "No",
-        "https": "No",
-        "cors": "No"
+        "https": "Yes",
+        "cors": "Yes"
     },
     {
         "category": "Video",
@@ -12397,6 +12523,15 @@
         "title": "Stromberg Quotes",
         "url": "https://www.stromberg-api.de/",
         "description": "Returns Stromberg quotes and more",
+        "auth": "No",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Video",
+        "title": "Supernatural Quotes",
+        "url": "https://lidiakovac.github.io/supernatural-api",
+        "description": "100+ Supernatural quotes",
         "auth": "No",
         "https": "Yes",
         "cors": "Unknown"
@@ -12655,19 +12790,28 @@
     },
     {
         "category": "Weather",
-        "title": "MetaWeather",
-        "url": "https://www.metaweather.com/api/",
-        "description": "Weather",
-        "auth": "No",
-        "https": "Yes",
-        "cors": "No"
-    },
-    {
-        "category": "Weather",
         "title": "Meteorologisk Institutt",
         "url": "https://api.met.no/weatherapi/documentation",
         "description": "Weather and climate data",
         "auth": "User-Agent",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Weather",
+        "title": "Meteosource",
+        "url": "https://www.meteosource.com/",
+        "description": "Global weather forecasts based on machine learning and historical data",
+        "auth": "apiKey",
+        "https": "Yes",
+        "cors": "Unknown"
+    },
+    {
+        "category": "Weather",
+        "title": "Met Office DataPoint",
+        "url": "https://www.metoffice.gov.uk/services/data/datapoint/",
+        "description": "Weather data for the UK",
+        "auth": "apiKey",
         "https": "Yes",
         "cors": "Unknown"
     },

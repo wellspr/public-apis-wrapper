@@ -5,11 +5,19 @@ const AboutPage = () => {
             <h1 className="about__heading">About this app</h1>
 
             <p>
-                It's always fun to look up and find a new api. In this search I found the <a href="https://github.com/public-apis/public-apis">public apis</a>  project, which is a wonderful help in the task of finding great free public apis.
+                It's always fun to look up and find a new api. 
+            </p>    
+            <p>
+                The <a href="https://github.com/public-apis-dev/public-apis">public apis</a>  project is the upmost source of free public apis.
             </p>
 
             <p>
-                Although the public apis project has an <a href="https://github.com/davemachado/public-api">api</a> for itself, I went on to create my own api and frontend implementation based on the public list of apis, using <a href="https://remix.run/">Remix</a> and <a href="https://sass-lang.com/">Sass</a>.
+                I was looking for any suitable and interesting api to use in a small project intended for me to learn about <a href="https://remix.run/">Remix</a>. 
+            </p>
+
+            <p>
+                To build this project I first cloned the public apis list to a json file and created a api for myself, to serve this app.
+                The api is publicly available at <a href="https://public-apis-wrapper.vercel.app/api">https://public-apis-wrapper.vercel.app/api</a>.
             </p>
         </div>
     );
