@@ -30,7 +30,7 @@ const CategoriesList: FC = () => {
                                     <span>{entry}</span>
                                     :
                                     <Link className="category__link"
-                                        to={`/${entry.toLowerCase().split(" ")[0]}`}>
+                                        to={`/${entry.toLowerCase().replace(/ /g, "_")}`}>
                                         {entry}
                                     </Link>
                             }
